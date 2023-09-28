@@ -3,7 +3,7 @@ import Head from 'next/head';
 import * as S from '../styles/home';
 import NavBar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { relative } from 'path';
+import {relative} from 'path';
 
 
 const Home = () => {
@@ -18,77 +18,142 @@ const Home = () => {
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>                
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
                 <link rel="icon" href="/LogoZunne.svg"/>
             </Head>
             <NavBar/>
-            <S.Main>   
+            <S.Main>
                 <S.ContainerPrincipal>
-                    <S.SpanTitulo>Polinizando o empreendedorismo de <br/>impacto positivo para transformar o futuro</S.SpanTitulo>
-                    <S.BotaoInvestir>Quero investir!</S.BotaoInvestir>
+                    <S.SpanTitulo style={
+                        {fontWeight: '400'}
+                    }>Polinizando o empreendedorismo de
+                        <br/><span style={
+                            {
+                                fontWeight: '700',
+                                color: '#ff6514'
+                            }
+                        }>impacto positivo para transformar o futuro</span>
+                    </S.SpanTitulo>
+                    <div style={
+                        {
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'end',
+                            alignItems: 'center',
+                            position: 'relative'
+                        }
+                    }>
+                        <S.BoxVideo></S.BoxVideo>
+                        <S.BotaoInvestir style={
+                            {
+                                position: 'absolute',
+                                top: '93%'
+                            }
+                        }>Quero investir!</S.BotaoInvestir>
+                    </div>
                     <S.SpanPrimeiroTexto>O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo
-                         liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
-                          reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanPrimeiroTexto>
-                    <S.BoxVideo></S.BoxVideo>
+                                                 liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
+                                                  reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanPrimeiroTexto>
                     <S.ContainerDuplo>
                         <img src='/abelha.svg'/>
-                        <S.SpanTextos>Nossa inspiração vem da conexão com a natureza: as abelhas e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextos>
+                        <S.SpanTextoAbelha>Nossa inspiração vem da conexão com a natureza: as
+                            <span style={
+                                {color: '#f2ae13'}
+                            }>abelhas</span>
+                            e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextoAbelha>
                     </S.ContainerDuplo>
-                    <S.ContainerDuplo>
-                        <S.BoxLaranja>
-                            <S.ImagemBoxLaranja src='/BoxLaranja.svg'/>
-                            <div style={{position: 'absolute', display: 'flex', flexDirection: 'column'}}>
-                                <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                                <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
-                            </div>
-                        </S.BoxLaranja>
-                        <S.BoxLaranja>
-                            <S.ImagemBoxLaranja src='/BoxLaranja.svg'/>
-                            <div style={{position: 'absolute', display: 'flex', flexDirection: 'column'}}>
-                                <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
-                                <S.SpanTextos style={{textAlign: 'center'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
-                            </div>
-                        </S.BoxLaranja>
-                    </S.ContainerDuplo>
-                    <S.ContainerDuplo style={{paddingLeft: '2rem'}}>
-                        <div style={{display: 'flex', flexDirection: 'column', height: '100%'}}>
-                            <S.SpanTextos>
+                    <S.ContainerTriplo>
+                        <div style={
+                            {
+                                display: 'flex',
+                                flexDirection: 'column',
+                                height: '100%'
+                            }
+                        }>
+                            <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
+                            <S.SpanTextos style={
+                                {textAlign: 'center'}
+                            }>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                        </div>
+                        <div style={
+                            {
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                width: '100%',
+                                height: '100%'
+                            }
+                        }>
+                            <div style={
+                                {
+                                    backgroundColor: '#ff6514',
+                                    width: '4px',
+                                    height: '70%'
+                                }
+                            }></div>
+                        </div>
+                        <div style={
+                            {
+                                display: 'flex',
+                                flexDirection: 'column',
+                                height: '100%'
+                            }
+                        }>
+                            <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
+                            <S.SpanTextos style={
+                                {textAlign: 'center'}
+                            }>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
+                        </div>
+                    </S.ContainerTriplo>
+                    <S.ContainerTriplo2 style={
+                        {paddingLeft: '2rem'}
+                    }>
+                        <S.BoxReferencias>
+                            <S.SpanTextosQuadrados>
                                 Um estudo feito pela CB Insights mostra que 38% das startups faliram por conta de falta de dinheiro ou dificuldade de conseguir investimentos.
-                            </S.SpanTextos>
+                            </S.SpanTextosQuadrados>
                             <S.SpanFonte>
                                 Fonte: gazeta do povo - 22/04/2022
                             </S.SpanFonte>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column', height: '100%'}}>
-                            <S.SpanTextos>
+                        </S.BoxReferencias>
+                        <S.BoxReferencias>
+                            <S.SpanTextosQuadrados>
                                 De acordo com o mapa de negócios de impacto socioambiental, negócios administrados apenas por um time feminino tendem a receber menos recursos financeiros e outros apoios para evoluir na jornada.
-                            </S.SpanTextos>
+                            </S.SpanTextosQuadrados>
                             <S.SpanFonte>
                                 Fonte: gazeta do povo – 22/04/2022
                             </S.SpanFonte>
-                        </div>
-                    </S.ContainerDuplo>
-                    <div style={{width: '72%', display: 'flex', flexDirection: 'column'}}>
-                        <S.SpanTextos>
-                            A maior parte das organizações com programas e iniciativas<br/> que apoiam e investem em negócios de impacto se concentram<br/> no sudeste, em especial no estado de são paulo.
-                        </S.SpanTextos>
-                        <S.SpanFonte>
-                            Fonte: guia 2.5 – quintessa
-                        </S.SpanFonte>
-                    </div>                    
-                    <S.BoxLaranja style={{width: '30%'}}>
-                        <S.ImagemBoxLaranja src='/BoxLaranja.svg'/>
-                        <div style={{position: 'absolute', display: 'flex', flexDirection: 'column'}}>
+                        </S.BoxReferencias>
+                        <S.BoxReferencias>
+                            <S.SpanTextosQuadrados>
+                                A maior parte das organizações com programas e iniciativas<br/>
+                                que apoiam e investem em negócios de impacto se concentram<br/>
+                                no sudeste, em especial no estado de são paulo.
+                            </S.SpanTextosQuadrados>
+                            <S.SpanFonte>
+                                Fonte: guia 2.5 – quintessa
+                            </S.SpanFonte>
+                        </S.BoxReferencias>
+                    </S.ContainerTriplo2>
+                    <S.BoxLaranja>
+                        <div style={{width: '35%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1rem'}}>
                             <S.SpanTituloLaranja>A Solução</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'center'}}>O Zunne propõe uma jornada transformadora para impulsionar negócios de impacto nas regiões Norte e Nordeste, com apoio financeiro, técnico e conexões estratégicas. Cada investimento será uma semente plantada, cultivada e geradora de frutos que alimentam comunidades inteiras.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'left'}}>O Zunne propõe uma jornada transformadora para impulsionar negócios de impacto nas regiões Norte e Nordeste, com apoio financeiro, técnico e conexões estratégicas. <span style={{color: '#ff6514'}}>Cada investimento será uma semente plantada, cultivada e geradora de frutos que alimentam comunidades inteiras.</span></S.SpanTextos>
+                            <S.BotaoInvestir>Quero investir!</S.BotaoInvestir>
                         </div>
+                        <S.ImagemMulher src='/mulher.svg'/>
                     </S.BoxLaranja>
-                    <S.BotaoInvestir>Quero investir!</S.BotaoInvestir>
                     <S.SpanTitulo>O que são negócios de impacto positivo?</S.SpanTitulo>
-                    <S.ContainerDuplo style={{gap: '0rem'}}>
+                    <S.ContainerDuplo style={
+                        {gap: '0rem'}
+                    }>
                         <img src='/imagemArcoIris.svg'/>
                         <S.SpanTextos>São negócios interessados aqueles que direcionam ou têm intenção de direcionar seus modelos de negócio para a resolução de problemas socioambientais.<br/><br/>
-                        Também nos orientamos pelos Objetivos de Desenvolvimento Sustentável até 2030 da ONU <a href='' style={{color: '#57575A'}}>(clique aqui para conhecer)</a>.
+                            Também nos orientamos pelos Objetivos de Desenvolvimento Sustentável até 2030 da ONU
+                            <a href=''
+                                style={
+                                    {color: '#57575A'}
+                            }>(clique aqui para conhecer)</a>.
                         </S.SpanTextos>
                     </S.ContainerDuplo>
                     <S.SpanTitulo>Esses são os negócios da nossa colmeia!</S.SpanTitulo>
@@ -116,4 +181,3 @@ const Home = () => {
 }
 
 export default Home;
-

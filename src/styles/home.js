@@ -15,7 +15,7 @@ export const ContainerPrincipal = styled.div`
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  padding: 0 3rem;
+  padding: 3rem 3rem;
 `;
 
 export const ContainerDuplo = styled.div`
@@ -24,6 +24,21 @@ export const ContainerDuplo = styled.div`
   justify-content: center;
   align-items: center;
   gap: 5rem;
+`;
+
+export const ContainerTriplo = styled.div`
+  display: grid;
+  grid-template-columns: 35% 10% 35%;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ContainerTriplo2 = styled.div`
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 `;
 
 export const ContainerCirculoCinza = styled.div`
@@ -43,8 +58,8 @@ export const CirculoCinza = styled.div`
 `;
 
 export const BoxVideo = styled.iframe`
-  width: 670px;
-  height: 379px;
+  width: 60rem;
+  height: 33rem;
   flex-shrink: 0;
   border-radius: 50px;
   background: #d9d9d9;
@@ -59,12 +74,28 @@ export const BoxLaranja = styled.div`
   align-items: center;
 `;
 
+export const BoxReferencias = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: start;
+  padding: 1rem;
+  background-color: #ff6514;
+  border: 7px solid #f2ae13;
+  border-radius: 2.5rem;
+  box-shadow: 2px 4px 20px 8px rgba(0, 0, 0, 0.25);
+`;
+
 export const ImagemBoxLaranja = styled.img`
   width: 115%;
 `;
 
+export const ImagemMulher = styled.img`
+  width: 45%;
+`;
+
 export const SpanTitulo = styled.span`
-  color: #57575a;
+  color: #606060;
   font-weight: 700;
   font-size: 2.8rem;
   text-align: center;
@@ -73,22 +104,37 @@ export const SpanTitulo = styled.span`
 export const SpanTituloLaranja = styled.span`
   color: #ff6514;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-align: center;
 `;
 
 export const SpanPrimeiroTexto = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   text-align: center;
-  width: 58%;
+  width: 80%;
+  margin-top: 2.5rem;
+`;
+
+export const SpanTextoAbelha = styled.span`
+  color: #57575a;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: start;
 `;
 
 export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+  text-align: start;
+`;
+
+export const SpanTextosQuadrados = styled.span`
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.3rem;
   text-align: start;
 `;
 
@@ -102,18 +148,19 @@ export const SpanTextosIdealizadores = styled.span`
 `;
 
 export const SpanFonte = styled.span`
-  color: #57575a;
+  color: #681d00;
   font-weight: 400;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: .95rem;
   text-align: start;
 `;
 
 export const BotaoInvestir = styled.button`
-  padding: 0.5rem 2.2rem;
+  padding: 1.1rem 2.2rem;
+  width: 20rem;
   border: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-weight: 700;
   border-radius: 50px;
   background: #ff6514;

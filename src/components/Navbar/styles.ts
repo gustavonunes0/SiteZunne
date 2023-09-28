@@ -20,6 +20,7 @@ export const HeaderBox = styled.div`
   display: flex; 
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 `;
 
 export const Menu = styled.nav`
@@ -33,9 +34,9 @@ export const Menu = styled.nav`
 }
 `;
 
-export const Logo = styled.image`
-  width: 10rem;
-  height: 100%;
+export const ImagemTopo = styled.img`
+  position: absolute;
+  top: -16rem;
 `;
 
 export const MenuItem = styled.div`

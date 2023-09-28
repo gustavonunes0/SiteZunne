@@ -13,47 +13,48 @@ const NavBar: React.FC = () => {
   
   return (
     <>
-      <S.HeaderContainer>
-        <S.HeaderBox>
-          <S.Menu>
-            <S.MenuItem>
-              <Image alt="" src="/LogoZunne.svg" width={400} height={110} />
-            </S.MenuItem>
-            <S.MenuToggle onClick={toggleMenu}>
-              <span></span>
-              <span></span>
-              <span></span>
-            </S.MenuToggle>
-            <S.MenuItems isOpen={isOpen} style={{paddingTop: '2rem'}}> 
+        <S.HeaderContainer>
+        <S.ImagemTopo alt="" src="/Ativo 1.svg" width={1100} height={500} />
+          <S.HeaderBox>
+            <S.Menu>
               <S.MenuItem>
+                <Image alt="" src="/LogoZunne.svg" width={300} height={80} />
+              </S.MenuItem>
+              <S.MenuToggle onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </S.MenuToggle>
+              <S.MenuItems isOpen={isOpen} style={{paddingTop: '2rem'}}> 
+                <S.MenuItem>
+                  <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                    <S.StyledLink>O que é o Programa</S.StyledLink>
+                  </Link>
+                </S.MenuItem>
+                <S.MenuItem>
                 <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
-                  <S.StyledLink>O que é o Programa</S.StyledLink>
-                </Link>
-              </S.MenuItem>
-              <S.MenuItem>
-              <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
-                  <S.StyledLink>Conheça os negócios</S.StyledLink>
-                </Link>
-              </S.MenuItem>
-              <S.MenuItem>
-              <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
-                  <S.StyledLink>Idealizadores</S.StyledLink>
-                </Link>
-              </S.MenuItem>
-              <S.MenuItem>
-              <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
-                  <S.StyledLink>Fluxo de recursos</S.StyledLink>
-                </Link>
-              </S.MenuItem>
-              <S.MenuItem>
-              <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
-                  <S.StyledLink>Invista!</S.StyledLink>
-                </Link>
-              </S.MenuItem>
-            </S.MenuItems>
-          </S.Menu>
-        </S.HeaderBox>
-      </S.HeaderContainer>
+                    <S.StyledLink>Conheça os negócios</S.StyledLink>
+                  </Link>
+                </S.MenuItem>
+                <S.MenuItem>
+                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                    <S.StyledLink>Idealizadores</S.StyledLink>
+                  </Link>
+                </S.MenuItem>
+                <S.MenuItem>
+                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                    <S.StyledLink>Fluxo de recursos</S.StyledLink>
+                  </Link>
+                </S.MenuItem>
+                <S.MenuItem>
+                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                    <S.StyledLink>Invista!</S.StyledLink>
+                  </Link>
+                </S.MenuItem>
+              </S.MenuItems>
+            </S.Menu>
+          </S.HeaderBox>
+        </S.HeaderContainer>
     </>
   );
 };
