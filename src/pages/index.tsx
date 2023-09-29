@@ -59,7 +59,7 @@ const Home = () => {
                         <S.SpanTextoAbelha>Nossa inspiração vem da conexão com a natureza: as
                             <span style={
                                 {color: '#f2ae13'}
-                            }>abelhas</span>
+                            }> abelhas </span>
                             e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextoAbelha>
                     </S.ContainerDuplo>
                     <S.ContainerTriplo>
@@ -143,36 +143,61 @@ const Home = () => {
                         </div>
                         <S.ImagemMulher src='/mulher.svg'/>
                     </S.BoxLaranja>
-                    <S.SpanTitulo>O que são negócios de impacto positivo?</S.SpanTitulo>
-                    <S.ContainerDuplo style={
-                        {gap: '0rem'}
-                    }>
-                        <img src='/imagemArcoIris.svg'/>
-                        <S.SpanTextos>São negócios interessados aqueles que direcionam ou têm intenção de direcionar seus modelos de negócio para a resolução de problemas socioambientais.<br/><br/>
-                            Também nos orientamos pelos Objetivos de Desenvolvimento Sustentável até 2030 da ONU
-                            <a href=''
-                                style={
-                                    {color: '#57575A'}
-                            }>(clique aqui para conhecer)</a>.
-                        </S.SpanTextos>
-                    </S.ContainerDuplo>
-                    <S.SpanTitulo>Esses são os negócios da nossa colmeia!</S.SpanTitulo>
+                    <div style={{width: '90%', border: '1px solid #ff6514', display: 'flex', gap: '4rem', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '2rem 0', borderRadius:'4rem'}}>
+                        <S.SpanTitulo>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTitulo>
+                        <S.ContainerDuplo style={{gridTemplateColumns: '40% 40%'}}>
+                            <div>
+                                <img src='/imagemArcoIris.svg'/>
+                                <div style={{backgroundColor: '#ff6514', width: '100%', display: 'flex', justifyContent: 'center'}}>
+                                    <S.SpanOnu>OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL &bull; ONU</S.SpanOnu>
+                                </div>
+                            </div>
+                            <S.SpanTextosNegocios>São negócios interessados aqueles que direcionam ou têm intenção de direcionar seus modelos de negócio para a resolução de problemas socioambientais.<br/><br/>
+                                Também nos orientamos pelos Objetivos de Desenvolvimento Sustentável até 2030 da ONU
+                                <a href=''
+                                    style={
+                                        {color: '#ff6514', textDecoration: 'none'}
+                                }>(clique aqui para conhecer)</a>.
+                            </S.SpanTextosNegocios>
+                        </S.ContainerDuplo>
+                    </div>
+                    <S.SpanTitulo>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
                     <S.ContainerCirculoCinza>
-                        <div>
-                            <S.CirculoCinza></S.CirculoCinza>
-                        </div>
-                        <div>
-                            <S.CirculoCinza></S.CirculoCinza>
-                        </div>
-                        <div>
-                            <S.CirculoCinza></S.CirculoCinza>
-                        </div>
-                        <div>
-                            <S.CirculoCinza></S.CirculoCinza>
-                        </div>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/Sucre.svg'/>
+                            <S.BotaoTransparente>Sucré</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção da mulher nomercado de trabalho</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/RomaNegra.svg'/>
+                            <S.BotaoTransparente>Roma Negra</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção no mercado de trabalho e impacto ambietal</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/MudaMeuMundo.svg' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>Muda Meu Mundo</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Agricultura de impacto</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
                     </S.ContainerCirculoCinza>
                     <S.SpanTitulo>Idealizadores</S.SpanTitulo>
                     <S.SpanTextosIdealizadores>O Programa Zunne é construído a muitas mãos a partir de um desejo em comum: sermos impulsionadores de uma economia mais justa e próspera para todos. Ele nasce da união e colaboração entre 3 organizações que são referência em incentivo a transformação social</S.SpanTextosIdealizadores>
+                    <S.ContainerEmpresas>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                            <S.LogosEmpresas src='somos-um.png'/>
+                            <S.SpanTextosDosIdealizadores>Somos uma articuladora de negócios de impacto que busca resolver problemas sociais e ambientais contribuindo para a construção de uma nova economia, mais justa e equilibrada, com pessoas conscientes, atuando em rede. Existimos para reduzir desigualdades e gerar oportunidades por meio dos negócios de impacto.</S.SpanTextosDosIdealizadores>
+                        </div>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                            <S.LogosEmpresas src='yunus.png'/>
+                            <S.SpanTextosDosIdealizadores>Aproveitamos o poder dos negócios sociais para resolver problemas urgentes do mundo, por meio da inovação social corporativa e da oferta de financiamento para pequenas e médias empresas de impacto. Temos um portfólio de crédito ativo com mais de 60 negócios sociais em 5 países – Brasil, Colômbia, Uganda, Quênia e Índia. No Brasil, já financiamos diversos projetos, com mais de R$ 22 milhões sob gestão.</S.SpanTextosDosIdealizadores>
+                        </div>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                            <S.LogosEmpresas src='tre.png'/>
+                            <S.SpanTextosDosIdealizadores>Viabilizamos investimentos com causa por meio de programas e soluções financeiras que desenvolvemos para nutrir negócios que geram impacto positivo e impulsionam transformações socioambientais. Já mobilizamos mais de R$ 15 milhões para 63 negócios com causa, por meio de uma engajada comunidade de +700 investidores!</S.SpanTextosDosIdealizadores>
+                        </div>
+                    </S.ContainerEmpresas>                
                 </S.ContainerPrincipal>
             </S.Main>
             <Footer/>

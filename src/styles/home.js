@@ -5,8 +5,7 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding: 0;
-  padding-top: 6.5rem;
+  padding: 6.5rem 3rem;
 `;
 
 export const ContainerPrincipal = styled.div`
@@ -33,6 +32,14 @@ export const ContainerTriplo = styled.div`
   align-items: center;
 `;
 
+export const ContainerEmpresas = styled.div`
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const ContainerTriplo2 = styled.div`
   display: grid;
   grid-template-columns: 25% 25% 25%;
@@ -42,19 +49,34 @@ export const ContainerTriplo2 = styled.div`
 `;
 
 export const ContainerCirculoCinza = styled.div`
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  place-items: center;
+  padding: 0 5%;
   align-items: center;
-  flex-wrap: wrap;
   gap: 2%;
   width: 100%;
+  margin-bottom: 4rem;
 `;
 
-export const CirculoCinza = styled.div`
-  width: 15rem;
-  height: 15rem;
-  background-color: #D9D9D9;
+export const CirculoCinza = styled.img`
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #ff6514;
   border-radius: 100%;
+`;
+
+export const DivCirculoCinza = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: 2rem 1rem;
+  width: 20rem;
+  height: 25rem;
+  background-color: #D9D9D9;
+  border-radius: 3rem;
 `;
 
 export const BoxVideo = styled.iframe`
@@ -94,6 +116,10 @@ export const ImagemMulher = styled.img`
   width: 45%;
 `;
 
+export const LogosEmpresas = styled.img`
+  width: 60%;
+`;
+
 export const SpanTitulo = styled.span`
   color: #606060;
   font-weight: 700;
@@ -131,6 +157,20 @@ export const SpanTextos = styled.span`
   text-align: start;
 `;
 
+export const SpanTextosNegocios = styled.span`
+  color: #57575a;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: start;
+`;
+
+export const SpanOnu = styled.span`
+  color: #fff;
+  font-weight: 500;
+  font-size: .9rem;
+  text-align: start;
+`;
+
 export const SpanTextosQuadrados = styled.span`
   color: #fff;
   font-weight: 500;
@@ -141,10 +181,17 @@ export const SpanTextosQuadrados = styled.span`
 export const SpanTextosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
-  width: 60%;
+  width: 70%;
   margin-top: -2.5rem;
+`;
+
+export const SpanTextosDosIdealizadores = styled.span`
+  color: #57575a;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
 `;
 
 export const SpanFonte = styled.span`
@@ -171,5 +218,69 @@ export const BotaoInvestir = styled.button`
     background: #ff6014;
     box-shadow: 6px 8px 8px 4px rgba(0, 0, 0, 0.25);
     transition: all 400ms ease-in-out;
+  }
+`;
+
+export const BotaoSaberMais = styled.button`
+  padding: .4rem 2rem;
+  width: 90%;
+  border: none;
+  color: #fff;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 50px;
+  background: #ff6514;
+cursor: pointer;
+
+  &:hover {
+    background: #ff6014;
+    box-shadow: 6px 8px 8px 4px rgba(0, 0, 0, 0.25);
+    transition: all 400ms ease-in-out;
+  }
+`;
+
+export const BotaoTransparente = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem 2.2rem;
+  width: 90%;
+  height: 3.5rem;
+  border: 2px solid #ff6514;
+  color: #57575a;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ff6014;
+    color: #fff;
+    transition: all 400ms ease-in-out;
+  }
+`;
+
+export const BotaoTransparente2 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem 2.2rem;
+  width: 90%;
+  height: 3.5rem;
+  border: 2px solid #ff6514;
+  color: #57575a;
+  font-size: .9rem;
+  line-height: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ff6014;
+    color: #fff;
+    transition: all 40ms ease-in-out;
   }
 `;
