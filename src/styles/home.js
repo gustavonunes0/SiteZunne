@@ -127,6 +127,12 @@ export const SpanTitulo = styled.span`
   text-align: center;
 `;
 
+export const SpanNomes = styled.span`
+  color: #57575a;
+  font-size: 1rem;
+  font-weight: 400;
+`;
+
 export const SpanTituloLaranja = styled.span`
   color: #ff6514;
   font-weight: 700;
@@ -191,7 +197,17 @@ export const SpanTextosDosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.1rem;
-  text-align: center;
+  text-align: justify;
+`;
+
+export const IconeLinkedin = styled.div`
+  background-color: #d4d4d4;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const SpanFonte = styled.span`

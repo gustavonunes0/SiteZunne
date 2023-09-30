@@ -185,17 +185,65 @@ const Home = () => {
                     <S.SpanTitulo>Idealizadores</S.SpanTitulo>
                     <S.SpanTextosIdealizadores>O Programa Zunne é construído a muitas mãos a partir de um desejo em comum: sermos impulsionadores de uma economia mais justa e próspera para todos. Ele nasce da união e colaboração entre 3 organizações que são referência em incentivo a transformação social</S.SpanTextosIdealizadores>
                     <S.ContainerEmpresas>
-                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='somos-um.png'/>
                             <S.SpanTextosDosIdealizadores>Somos uma articuladora de negócios de impacto que busca resolver problemas sociais e ambientais contribuindo para a construção de uma nova economia, mais justa e equilibrada, com pessoas conscientes, atuando em rede. Existimos para reduzir desigualdades e gerar oportunidades por meio dos negócios de impacto.</S.SpanTextosDosIdealizadores>
+                            <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Ticiana.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Ticiana Queiroz</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Andreia.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Andreia Cardoso</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>                            
+                            </div>
                         </div>
-                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='yunus.png'/>
                             <S.SpanTextosDosIdealizadores>Aproveitamos o poder dos negócios sociais para resolver problemas urgentes do mundo, por meio da inovação social corporativa e da oferta de financiamento para pequenas e médias empresas de impacto. Temos um portfólio de crédito ativo com mais de 60 negócios sociais em 5 países – Brasil, Colômbia, Uganda, Quênia e Índia. No Brasil, já financiamos diversos projetos, com mais de R$ 22 milhões sob gestão.</S.SpanTextosDosIdealizadores>
+                            <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Mauricio.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Mauricio Coutinho</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Francisco.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Francisco Vicente</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>  
+                            </div>
                         </div>
-                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'start', alignItems: 'center', height: '100%', gap: '2rem'}}>
+                        <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='tre.png'/>
                             <S.SpanTextosDosIdealizadores>Viabilizamos investimentos com causa por meio de programas e soluções financeiras que desenvolvemos para nutrir negócios que geram impacto positivo e impulsionam transformações socioambientais. Já mobilizamos mais de R$ 15 milhões para 63 negócios com causa, por meio de uma engajada comunidade de +700 investidores!</S.SpanTextosDosIdealizadores>
+                            <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Marcos.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Marcos Pedote</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>  
+                                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                                    <img src='/Aline.png' style={{height: '120px', width: '120px'}}/>
+                                    <S.SpanNomes>Aline Cristina Cano</S.SpanNomes>
+                                    <S.IconeLinkedin>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
+                                    </S.IconeLinkedin>
+                                </div>  
+                            </div>
                         </div>
                     </S.ContainerEmpresas>                
                 </S.ContainerPrincipal>
