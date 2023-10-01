@@ -14,7 +14,6 @@ const NavBar: React.FC = () => {
   return (
     <>
         <S.HeaderContainer>
-        <S.ImagemTopo alt="" src="/Ativo 1.svg" width={1100} height={500} />
           <S.HeaderBox>
             <S.Menu>
               <S.MenuItem>
@@ -25,7 +24,7 @@ const NavBar: React.FC = () => {
                 <span></span>
                 <span></span>
               </S.MenuToggle>
-              <S.MenuItems isOpen={isOpen} style={{paddingTop: '2rem'}}> 
+              <S.MenuItems isOpen={isOpen}> 
                 <S.MenuItem>
                   <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
                     <S.StyledLink>O que é o Programa</S.StyledLink>

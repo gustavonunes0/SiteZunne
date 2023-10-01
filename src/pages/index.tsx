@@ -24,90 +24,37 @@ const Home = () => {
             <NavBar/>
             <S.Main>
                 <S.ContainerPrincipal>
-                    <S.SpanTitulo style={
-                        {fontWeight: '400'}
-                    }>Polinizando o empreendedorismo de
-                        <br/><span style={
-                            {
-                                fontWeight: '700',
-                                color: '#ff6514'
-                            }
-                        }>impacto positivo para transformar o futuro</span>
+                    <S.SpanTitulo style={{fontWeight: '400'}}>Polinizando o empreendedorismo de
+                        <br/><span style={{fontWeight: '700',color: '#ff6514'}}>impacto positivo para transformar o futuro</span>
                     </S.SpanTitulo>
-                    <div style={
-                        {
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'end',
-                            alignItems: 'center',
-                            position: 'relative'
-                        }
-                    }>
+                    <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'end',alignItems: 'center',position: 'relative'}}>
                         <S.BoxVideo></S.BoxVideo>
-                        <S.BotaoInvestir style={
-                            {
-                                position: 'absolute',
-                                top: '93%'
-                            }
-                        }>Quero investir!</S.BotaoInvestir>
+                        <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>Quero investir!</S.BotaoInvestir>
                     </div>
                     <S.SpanPrimeiroTexto>O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo
                                                  liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
                                                   reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanPrimeiroTexto>
                     <S.ContainerDuplo>
-                        <img src='/abelha.svg'/>
+                        <S.ImagemAbelha src='/abelha.svg'/>
                         <S.SpanTextoAbelha>Nossa inspiração vem da conexão com a natureza: as
-                            <span style={
-                                {color: '#f2ae13'}
-                            }> abelhas </span>
+                            <span style={{color: '#f2ae13'}}> abelhas </span>
                             e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextoAbelha>
                     </S.ContainerDuplo>
                     <S.ContainerTriplo>
-                        <div style={
-                            {
-                                display: 'flex',
-                                flexDirection: 'column',
-                                height: '100%'
-                            }
-                        }>
+                        <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={
-                                {textAlign: 'center'}
-                            }>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
                         </div>
                         <div style={
-                            {
-                                display: 'flex',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                                width: '100%',
-                                height: '100%'
-                            }
-                        }>
-                            <div style={
-                                {
-                                    backgroundColor: '#ff6514',
-                                    width: '4px',
-                                    height: '70%'
-                                }
-                            }></div>
+                            {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
+                            <div style={{backgroundColor: '#ff6514', width: '4px', height: '70%'}}></div>
                         </div>
-                        <div style={
-                            {
-                                display: 'flex',
-                                flexDirection: 'column',
-                                height: '100%'
-                            }
-                        }>
+                        <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
-                            <S.SpanTextos style={
-                                {textAlign: 'center'}
-                            }>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
                         </div>
                     </S.ContainerTriplo>
-                    <S.ContainerTriplo2 style={
-                        {paddingLeft: '2rem'}
-                    }>
+                    <S.ContainerTriplo2>
                         <S.BoxReferencias>
                             <S.SpanTextosQuadrados>
                                 Um estudo feito pela CB Insights mostra que 38% das startups faliram por conta de falta de dinheiro ou dificuldade de conseguir investimentos.
@@ -136,16 +83,16 @@ const Home = () => {
                         </S.BoxReferencias>
                     </S.ContainerTriplo2>
                     <S.BoxLaranja>
-                        <div style={{width: '35%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1rem'}}>
+                        <S.DivtextoMulher>
                             <S.SpanTituloLaranja>A Solução</S.SpanTituloLaranja>
                             <S.SpanTextos style={{textAlign: 'left'}}>O Zunne propõe uma jornada transformadora para impulsionar negócios de impacto nas regiões Norte e Nordeste, com apoio financeiro, técnico e conexões estratégicas. <span style={{color: '#ff6514'}}>Cada investimento será uma semente plantada, cultivada e geradora de frutos que alimentam comunidades inteiras.</span></S.SpanTextos>
                             <S.BotaoInvestir>Quero investir!</S.BotaoInvestir>
-                        </div>
+                        </S.DivtextoMulher>
                         <S.ImagemMulher src='/mulher.svg'/>
                     </S.BoxLaranja>
-                    <div style={{width: '90%', border: '1px solid #ff6514', display: 'flex', gap: '4rem', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '2rem 0', borderRadius:'4rem'}}>
-                        <S.SpanTitulo>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTitulo>
-                        <S.ContainerDuplo style={{gridTemplateColumns: '40% 40%'}}>
+                    <S.DivImpacto>
+                        <S.SpanTitulo style={{width: '100%'}}>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTitulo>
+                        <S.ContainerDuploImpacto>
                             <div>
                                 <img src='/imagemArcoIris.svg'/>
                                 <div style={{backgroundColor: '#ff6514', width: '100%', display: 'flex', justifyContent: 'center'}}>
@@ -159,8 +106,8 @@ const Home = () => {
                                         {color: '#ff6514', textDecoration: 'none'}
                                 }>(clique aqui para conhecer)</a>.
                             </S.SpanTextosNegocios>
-                        </S.ContainerDuplo>
-                    </div>
+                        </S.ContainerDuploImpacto>
+                    </S.DivImpacto>
                     <S.SpanTitulo>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
                     <S.ContainerCirculoCinza>
                         <S.DivCirculoCinza>
@@ -184,7 +131,7 @@ const Home = () => {
                     </S.ContainerCirculoCinza>
                     <S.SpanTitulo>Idealizadores</S.SpanTitulo>
                     <S.SpanTextosIdealizadores>O Programa Zunne é construído a muitas mãos a partir de um desejo em comum: sermos impulsionadores de uma economia mais justa e próspera para todos. Ele nasce da união e colaboração entre 3 organizações que são referência em incentivo a transformação social</S.SpanTextosIdealizadores>
-                    <S.ContainerEmpresas>
+                    <S.ContainerEmpresa>
                         <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='somos-um.png'/>
                             <S.SpanTextosDosIdealizadores>Somos uma articuladora de negócios de impacto que busca resolver problemas sociais e ambientais contribuindo para a construção de uma nova economia, mais justa e equilibrada, com pessoas conscientes, atuando em rede. Existimos para reduzir desigualdades e gerar oportunidades por meio dos negócios de impacto.</S.SpanTextosDosIdealizadores>
@@ -245,7 +192,84 @@ const Home = () => {
                                 </div>  
                             </div>
                         </div>
-                    </S.ContainerEmpresas>                
+                    </S.ContainerEmpresa>   
+                    <div style={{display: 'flex', flexDirection: 'column', marginTop: '5rem'}}>
+                        <S.SpanTitulo style={{fontWeight: '400', width: '100%'}}>Filantropia Potencializado Investimento
+                            <br/><span style={{fontWeight: '700',color: '#ff6514'}}>Estrutura Blended Finance</span>
+                        </S.SpanTitulo> 
+                    </div>
+                    <S.ContainerInvestimento>
+                        <S.FormaLaranja2 src='/BoxLaranja2.svg' style={{zIndex: '98'}}/>
+                        <S.FormaLaranja1 src='/BoxLaranja.svg'/>
+                        <S.FormaLaranja2 src='/BoxLaranja2.svg' style={{zIndex: '98'}}/>
+                        <S.SpanTituloInvestimento>Doação</S.SpanTituloInvestimento>
+                        <S.SpanTituloTextoInvestimento>R$ 500mil</S.SpanTituloTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '40%', color: '#ff6514'}}>+</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento>apoio técnico às organizações que desenvolvam o programa</S.SpanTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '63%'}}>R$ 1mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{left: '63%'}}>fundo garantidor para casos de inadimplência</S.SpanTextoInvestimento>
+                        <S.SpanTituloInvestimento style={{top: '83%'}}>Total</S.SpanTituloInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#ff6514', fontWeight: '500'}}>R$ 1.5mi</S.SpanTituloTextoInvestimento>
+                    </S.ContainerInvestimento>             
+                    <S.ContainerInvestimento style={{marginTop: '12rem'}}>
+                        <S.FormaLaranja2 src='/BoxLaranja.svg' style={{zIndex: '98'}}/>
+                        <S.FormaLaranja1 src='/BoxLaranja2.svg' style={{zIndex: '97'}}/>
+                        <S.FormaLaranja2 src='/BoxLaranja.svg' style={{zIndex: '98'}}/>
+                        <S.SpanTituloInvestimento style={{color: '#681d00', width: '40%', top: '-10%', fontSize: '1.7rem'}}>Investimento direcionado aos negócios</S.SpanTituloInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{color: '#ff6514'}}>R$ 3mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '40%', color: '#fff'}}>+</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{color: '#606060', fontSize: '1.7rem', width: '50%', left: '-6%'}}>Grandes Investidores</S.SpanTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{color: '#ff6514', fontWeight: '400', top: '50%', fontSize: '1.2rem'}}>Distribuido em 3 cotas de R$ 500mil e o restante em cotas acima de R$ 100mil</S.SpanTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '63%', color: '#ff6514'}}>R$ 2mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{color: '#606060', fontSize: '1.7rem', width: '40%', left: '60.5%'}}>Pequenos Investidores</S.SpanTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{color: '#ff6514', fontWeight: '400', top: '63%', fontSize: '1.2rem',left: '63%'}}>Cotas a partir de R$ 1mil</S.SpanTextoInvestimento>
+                        <S.SpanTituloInvestimento style={{top: '83%',color: '#681d00'}}>Total</S.SpanTituloInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#fff', fontWeight: '500'}}>R$ 5mi</S.SpanTituloTextoInvestimento>
+                    </S.ContainerInvestimento> 
+                    <div style={{display: 'flex', flexDirection: 'column', marginTop: '4rem'}}>
+                        <S.SpanTitulo style={{fontWeight: '700', color: '#681d00'}}>=
+                        </S.SpanTitulo> 
+                    </div>            
+                    <div style={{display: 'flex', flexDirection: 'column', marginTop: '-2rem'}}>
+                        <S.SpanTitulo style={{fontWeight: '400', width: '100%'}}>Recursos disponíveis para <br/>o programa:
+                            <span style={{fontWeight: '700',color: '#ff6514'}}> R$ 6.5mi</span>
+                        </S.SpanTitulo> 
+                    </div>   
+                    <div style={{width: '145%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
+                        <S.AsaLaranja src='/AsaLaranja.svg'/>
+                        <S.SpanTitulo style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTitulo>         
+                        <S.BotaoInvestir2>Quero Investir!</S.BotaoInvestir2>
+                        <S.SpanTitulo style={{position: 'absolute', color: '#fff', top: '35%', fontSize: '2rem'}}>Entenda a sequência do programa</S.SpanTitulo>         
+                        <S.LinhaDoTempo>
+                            <div style={{width: '130%', height: '.4rem', backgroundColor: '#fff', position: 'relative'}}>
+                                <S.Ponto left="8%">
+                                    <S.Data>Mar/2023</S.Data>
+                                    <S.BolaPonto src='/PontoBranco.svg'/>
+                                    {/* <S.Data>chamada para doadores e grandes investidores</S.Data> */}
+                                </S.Ponto>
+                                <S.Ponto left="18%">
+                                    <S.Data style={{marginTop: '-6rem'}}>Maio a<br/> Jun/2023</S.Data>
+                                    <S.BolaPonto src='/PontoBranco.svg'/>
+                                </S.Ponto>
+                                <S.Ponto left="28%">
+                                    <S.Data style={{marginTop: '-6rem'}}>Jul a<br/> Set/2023</S.Data>
+                                    <S.BolaPonto src='/PontoBranco.svg'/>
+                                </S.Ponto>
+                                <S.Ponto left="38%">
+                                    <S.Data style={{marginTop: '-6rem'}}>Out a<br/> Nov/2023</S.Data>
+                                    <S.BolaPonto src='/PontoMarrom.svg'/>
+                                </S.Ponto>
+                                <S.Ponto left="48%">
+                                    <S.Data>Contínuo</S.Data>
+                                    <S.BolaPonto src='/PontoMarrom.svg'/>
+                                </S.Ponto>
+                                <S.Ponto left="58%">
+                                    <S.Data style={{marginTop: '-6rem'}}>Após 6 meses<br/> desembolso</S.Data>
+                                    <S.BolaPonto src='/PontoMarrom.svg'/>
+                                </S.Ponto>
+                            </div>
+                        </S.LinhaDoTempo>
+                    </div>
                 </S.ContainerPrincipal>
             </S.Main>
             <Footer/>

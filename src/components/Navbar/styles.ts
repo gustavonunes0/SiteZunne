@@ -37,6 +37,10 @@ export const Menu = styled.nav`
 export const ImagemTopo = styled.img`
   position: absolute;
   top: -16rem;
+  
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
 `;
 
 export const MenuItem = styled.div`
