@@ -5,12 +5,13 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 6.5rem 3rem;
+  margin: 6.5rem 0;
+  padding: 0 2%;
   overflow: hidden;
 
   
   @media screen and (max-width: 550px) {
-    padding: 9.5rem 3rem;
+    padding: 9.5rem 5rem;
     margin: 0;
   }
 `;
@@ -22,8 +23,30 @@ export const ContainerPrincipal = styled.div`
   align-items: center;
   gap: 4rem;
   padding: 3rem 3rem;
+
+  @media screen and (max-width: 550px) {
+    gap:2rem;
+  }
 `;
 
+export const ContainerInicio = styled.div`
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+
+  @media screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+    place-items: center;   
+    padding: 5%;
+  }
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 1fr;
+    place-items: center;   
+    padding: 15% 5%;
+  }
+`;
 export const ContainerDuplo = styled.div`
   display: grid;
   grid-template-columns: 35% 35%;
@@ -39,60 +62,49 @@ export const ContainerDuplo = styled.div`
   }
 `;
 
-export const ContainerDuploImpacto = styled.div`
-  display: grid;
-  grid-template-columns: 40% 40%;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-
-  @media screen and (max-width: 550px) {
-    gap: 0rem;  
-    grid-template-columns: 80%;
-    place-items: center;    
-    text-align: justify !important;
-  }
-`;
-
-export const ContainerTriplo = styled.div`
-  display: grid;
-  grid-template-columns: 35% 10% 35%;
-  justify-content: center;
-  align-items: center;
-
-  @media screen and (max-width: 550px) {
-    grid-template-columns: 1fr;
-  }
-`;
-
-export const ContainerEmpresa = styled.div`
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 5%;
-  justify-content: center;
-  align-items: center;
-
-  @media screen and (max-width: 550px) {
-    grid-template-columns: 100%;
-    margin-bottom: 5rem;
-  }
-`;
-
-export const ContainerTriplo2 = styled.div`
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
+export const ContainerTopicos = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   padding-left: 2rem;
+  margin-top: 4rem;
 
+  @media screen and (max-width: 850px) {
+      gap: 0;
+  }
   @media screen and (max-width: 550px) {
-      grid-template-columns: 1fr;
-      justify-items: center;
       text-align: justify !important;
       padding: 0;
   }
 `;
+
+export const Etapa = styled.img`
+  width: 13rem;
+  
+  @media screen and (max-width: 850px) {
+    width: 8rem;
+    
+  }
+  
+  @media screen and (max-width: 550px) {
+    width: 6rem;
+    
+  }
+`;
+
+export const Etapa2 = styled.img`
+    width: 9.5rem;
+  
+    @media screen and (max-width: 850px) {
+      width: 6rem;
+    }
+    @media screen and (max-width: 550px) {
+      width: 4.4rem;
+    }
+`;
+
 
 export const ContainerCirculoCinza = styled.div`
   display: grid;
@@ -110,65 +122,58 @@ export const ContainerCirculoCinza = styled.div`
   }
 `;
 
-export const ContainerInvestimento = styled.div`
-  display: flex;
-  position: relative;
-  align-items: center;
-  gap: 5rem;
-  justify-content: center;
-  margin-top: 6rem;
+export const Emprestimo = styled.img`
+  width: 60vw;
+  
+  @media screen and (max-width: 550px) {
+    width: 100vw;
+  }
 `;
 
-export const CirculoCinza = styled.img`
-  width: 10rem;
-  height: 10rem;
-  border: 3px solid #ff6514;
-  border-radius: 100%;
+export const ImagemFlorHomem = styled.img`
+  width: 100%;
+  
 `;
 
-export const DivCirculoCinza = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 2rem 1rem;
-  width: 20rem;
-  height: 25rem;
-  background-color: #d9d9d9;
-  border-radius: 3rem;
-`;
+export const ImagemFlorMulher = styled.img`
+  width: 100%;
+  margin-top: -8rem;
 
-export const DivImpacto = styled.div`
-    width: 90%;
-    border: 1px solid #ff6514;
-    display: flex;
-    gap: 4rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
-    border-radius: 4rem;
-
-    @media screen and (max-width: 550px) {
-      width: 100%;
-      border-radius: 2rem;
-    }
+  @media screen and (max-width: 850px) {
+    margin-top: -3rem;
+  }
+  @media screen and (max-width: 550px) {
+    margin-top: -2rem;
+  }
 `;
 
 export const BoxVideo = styled.iframe`
-  width: 60rem;
-  height: 33rem;
+  width: 100%;
+  height: 100%;
   flex-shrink: 0;
   border-radius: 50px;
   background: #d9d9d9;
   border: none;
 
   
-  @media screen and (max-width: 550px) {
-    width: 22rem;
-    height: 14rem;
+  @media screen and (max-width: 850px) {
+    width: 100%;
+    height: 34rem;
     border-radius: 30px;
+  }
+`;
+
+export const BoxVideo2 = styled.iframe`
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #d9d9d9;
+  border: none;
+
+  
+  @media screen and (max-width: 850px) {
   }
 `;
 
@@ -185,56 +190,59 @@ export const BoxLaranja = styled.div`
   }
 `;
 
-export const DivtextoMulher = styled.div`
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-
-  
-  @media screen and (max-width: 550px) {
-    width: 100%;
-    align-items: center;
-    text-align: justify;
-  }
-`;
-
-export const FormaLaranja1 = styled.img`
-  position: absolute;
-  width: 78%;
-  
-  @media screen and (max-width: 550px) {
-    width: 68%;    
-  }
-`;
-
-export const FormaLaranja2 = styled.img`
-  width: 50%;
-
-  @media screen and (max-width: 550px) {
-    width: 40%;     
-  }
-`;
-
 export const BoxReferencias = styled.div`
+  position: relative;
   display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  text-align: center;
+  font-size: 1.2rem;
   height: 100%;
+  color: #fff;
   justify-content: start;
-  padding: 1rem;
+  padding: 2.5rem 1.5rem;
+  height: 13rem;
   background-color: #ff6514;
-  border: 7px solid #f2ae13;
-  border-radius: 2.5rem;
-  box-shadow: 2px 4px 20px 8px rgba(0, 0, 0, 0.25);
+  border: 2px solid #f2ae13;
+  border-radius: 2.1rem;
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
 
   
-  @media screen and (max-width: 550px) {
-    width: 80%;
+  @media screen and (max-width: 1050px) {
+    width: 35%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
     word-break: break-all;
+    font-size: 1.1rem;
   }
+  @media screen and (max-width: 850px) {
+    width: 45%;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
+    text-align: justify !important;
+    word-break: break-all;
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 750px) {
+    width: 75%;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
+    text-align: justify !important;
+    word-break: break-all;
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 650px) {
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
+    text-align: justify !important;
+    word-break: break-all;
+    height: 9.5rem;
+  }
+`;
+
+export const SimboloAbelhaPequeno = styled.img`
+  width: 3.5rem;
+  position: absolute;
+  top: -15%;
 `;
 
 export const ImagemBoxLaranja = styled.img`
@@ -263,26 +271,13 @@ export const AsaLaranja = styled.img`
 export const SpanTitulo = styled.span`
   color: #606060;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   text-align: center;
 
   
   @media screen and (max-width: 550px) {
     font-size: 1.3rem;
     width: 100%;
-  }
-`;
-
-export const SpanTituloImpacto = styled.span`
-  color: #606060;
-  font-weight: 700;
-  font-size: 2.8rem;
-  text-align: center;
-
-  
-  @media screen and (max-width: 550px) {
-    font-size: 1.3rem;
-    width: 80% !important;
   }
 `;
 
@@ -472,6 +467,47 @@ export const SpanTextos = styled.span`
     width: 100%;
   }
 `;
+export const SpanTextos2 = styled.span`
+  color: #57575a;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: start;
+
+  @media screen and (max-width: 850px) {
+    font-size: .9rem;    
+    width: 100%;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: .8rem;    
+    width: 100%;
+  }
+`;
+
+interface SpanProps {
+  left?: string; 
+}
+
+export const SpanTextosEmprestimo = styled.span<SpanProps>`
+  position: absolute;
+  width: 25%;
+  color: #57575a;
+  font-weight: 500;
+  font-size: 1.4rem;
+  top: 19%;
+  text-align: center;
+  left: ${props => props.left || '0'};
+
+
+  @media screen and (max-width: 850px) {
+    font-size: .9rem !important;    
+    top: 17%;
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: .7rem !important;    
+    top: 17%;
+  }
+`;
 
 export const SpanTextosNegocios = styled.span`
   color: #57575a;
@@ -618,6 +654,44 @@ export const BotaoInvestir = styled.button`
     border: none;
     color: #fff;
     font-size: .8rem; 
+  }
+`;
+
+export const BotaoInvestir3 = styled.button`
+  padding: 1.1rem 2.2rem;
+  width: 20rem;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 50px;
+  background: #ff6514;
+  box-shadow: 3px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  &:hover {
+    background: #ff6014;
+    box-shadow: 6px 8px 8px 4px rgba(0, 0, 0, 0.25);
+    transition: all 400ms ease-in-out;
+  }
+
+  
+  @media screen and (max-width: 850px) {
+    padding: .7rem 1rem;
+    width: 11rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: .8rem; 
+  }
+
+  @media screen and (max-width: 550px) {
+    padding: .3rem .5rem;
+    wireth: 7rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: .5rem; 
   }
 `;
 

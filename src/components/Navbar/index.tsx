@@ -15,6 +15,7 @@ const NavBar: React.FC = () => {
     <>
         <S.HeaderContainer>
           <S.HeaderBox>
+            <S.ImagemTopo src="Ativo 1.svg"/>
             <S.Menu>
               <S.MenuItem>
                 <Image alt="" src="/LogoZunne.svg" width={300} height={80} />
@@ -46,7 +47,7 @@ const NavBar: React.FC = () => {
                   </Link>
                 </S.MenuItem>
                 <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href={{ pathname: "/Invista" }} style={{textDecoration: "none"}}>
                     <S.StyledLink>Invista!</S.StyledLink>
                   </Link>
                 </S.MenuItem>

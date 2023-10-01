@@ -91,7 +91,7 @@ const Home = () => {
                         <S.ImagemMulher src='/mulher.svg'/>
                     </S.BoxLaranja>
                     <S.DivImpacto>
-                        <S.SpanTitulo style={{width: '100%'}}>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTitulo>
+                        <S.SpanTituloImpacto style={{width: '100%'}}>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTituloImpacto>
                         <S.ContainerDuploImpacto>
                             <div>
                                 <img src='/imagemArcoIris.svg'/>
@@ -211,20 +211,20 @@ const Home = () => {
                         <S.SpanTituloInvestimento style={{top: '83%'}}>Total</S.SpanTituloInvestimento>
                         <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#ff6514', fontWeight: '500'}}>R$ 1.5mi</S.SpanTituloTextoInvestimento>
                     </S.ContainerInvestimento>             
-                    <S.ContainerInvestimento style={{marginTop: '12rem'}}>
+                    <S.ContainerInvestimento style={{marginTop: '10rem'}}>
                         <S.FormaLaranja2 src='/BoxLaranja.svg' style={{zIndex: '98'}}/>
                         <S.FormaLaranja1 src='/BoxLaranja2.svg' style={{zIndex: '97'}}/>
                         <S.FormaLaranja2 src='/BoxLaranja.svg' style={{zIndex: '98'}}/>
-                        <S.SpanTituloInvestimento style={{color: '#681d00', width: '40%', top: '-10%', fontSize: '1.7rem'}}>Investimento direcionado aos negócios</S.SpanTituloInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{color: '#ff6514'}}>R$ 3mi</S.SpanTituloTextoInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '40%', color: '#fff'}}>+</S.SpanTituloTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{color: '#606060', fontSize: '1.7rem', width: '50%', left: '-6%'}}>Grandes Investidores</S.SpanTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{color: '#ff6514', fontWeight: '400', top: '50%', fontSize: '1.2rem'}}>Distribuido em 3 cotas de R$ 500mil e o restante em cotas acima de R$ 100mil</S.SpanTextoInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{left: '63%', color: '#ff6514'}}>R$ 2mi</S.SpanTituloTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{color: '#606060', fontSize: '1.7rem', width: '40%', left: '60.5%'}}>Pequenos Investidores</S.SpanTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{color: '#ff6514', fontWeight: '400', top: '63%', fontSize: '1.2rem',left: '63%'}}>Cotas a partir de R$ 1mil</S.SpanTextoInvestimento>
-                        <S.SpanTituloInvestimento style={{top: '83%',color: '#681d00'}}>Total</S.SpanTituloInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#fff', fontWeight: '500'}}>R$ 5mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTituloInvestimento2>Investimento direcionado aos negócios</S.SpanTituloInvestimento2>
+                        <S.SpanTituloTextoInvestimento2 style={{color: '#ff6514'}}>R$ 3mi</S.SpanTituloTextoInvestimento2>
+                        <S.SpanTituloTextoInvestimento2 style={{left: '32.5%', top: '40%', color: '#fff'}}>+</S.SpanTituloTextoInvestimento2>
+                        <S.SpanTextoInvestimento2 style={{color: '#606060', width: '50%', left: '-6%'}}>Grandes Investidores</S.SpanTextoInvestimento2>
+                        <S.SpanTextoInvestimento3 style={{color: '#ff6514', fontWeight: '400', fontSize: '1.2rem'}}>Distribuido em 3 cotas de R$ 500mil e o restante em cotas acima de R$ 100mil</S.SpanTextoInvestimento3>
+                        <S.SpanTituloTextoInvestimento2 style={{left: '63%', color: '#ff6514'}}>R$ 2mi</S.SpanTituloTextoInvestimento2>
+                        <S.SpanTextoInvestimento2 style={{color: '#606060', fontSize: '1.5rem', width: '40%', left: '62%', whiteSpace: 'nowrap'}}>Pequenos Investidores</S.SpanTextoInvestimento2>
+                        <S.SpanTextoInvestimento3 style={{color: '#ff6514', fontWeight: '400', fontSize: '1.2rem',left: '63%'}}>Cotas a partir de R$ 1mil</S.SpanTextoInvestimento3>
+                        <S.SpanTituloInvestimento2 style={{top: '83%',color: '#681d00'}}>Total</S.SpanTituloInvestimento2>
+                        <S.SpanTituloTextoInvestimento2 style={{left: '32.5%', top: '95%', color: '#fff', fontWeight: '500'}}>R$ 5mi</S.SpanTituloTextoInvestimento2>
                     </S.ContainerInvestimento> 
                     <div style={{display: 'flex', flexDirection: 'column', marginTop: '4rem'}}>
                         <S.SpanTitulo style={{fontWeight: '700', color: '#681d00'}}>=
@@ -237,26 +237,26 @@ const Home = () => {
                     </div>   
                     <div style={{width: '145%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
                         <S.AsaLaranja src='/AsaLaranja.svg'/>
-                        <S.SpanTitulo style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTitulo>         
-                        <S.BotaoInvestir2>Quero Investir!</S.BotaoInvestir2>
-                        <S.SpanTitulo style={{position: 'absolute', color: '#fff', top: '35%', fontSize: '2rem'}}>Entenda a sequência do programa</S.SpanTitulo>         
+                        <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTituloPrograma>         
+                        <S.BotaoInvestir2Programa>Quero Investir!</S.BotaoInvestir2Programa>
+                        <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '35%'}}>Entenda a sequência do programa</S.SpanTituloPrograma>         
                         <S.LinhaDoTempo>
-                            <div style={{width: '130%', height: '.4rem', backgroundColor: '#fff', position: 'relative'}}>
+                            <div style={{width: '130%', height: '.3rem', backgroundColor: '#fff', position: 'relative'}}>
                                 <S.Ponto left="8%">
                                     <S.Data>Mar/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
                                     {/* <S.Data>chamada para doadores e grandes investidores</S.Data> */}
                                 </S.Ponto>
                                 <S.Ponto left="18%">
-                                    <S.Data style={{marginTop: '-6rem'}}>Maio a<br/> Jun/2023</S.Data>
+                                    <S.Data>Maio a<br/> Jun/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
                                 </S.Ponto>
                                 <S.Ponto left="28%">
-                                    <S.Data style={{marginTop: '-6rem'}}>Jul a<br/> Set/2023</S.Data>
+                                    <S.Data>Jul a<br/> Set/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
                                 </S.Ponto>
                                 <S.Ponto left="38%">
-                                    <S.Data style={{marginTop: '-6rem'}}>Out a<br/> Nov/2023</S.Data>
+                                    <S.Data>Out a<br/> Nov/2023</S.Data>
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
                                 </S.Ponto>
                                 <S.Ponto left="48%">
@@ -264,7 +264,7 @@ const Home = () => {
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
                                 </S.Ponto>
                                 <S.Ponto left="58%">
-                                    <S.Data style={{marginTop: '-6rem'}}>Após 6 meses<br/> desembolso</S.Data>
+                                    <S.Data>Após 6 meses<br/> desembolso</S.Data>
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
                                 </S.Ponto>
                             </div>

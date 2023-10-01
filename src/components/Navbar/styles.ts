@@ -21,6 +21,10 @@ export const HeaderBox = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+
+  @media screen and (max-width: 850px) {
+    margin-top: 0;
+  }
 `;
 
 export const Menu = styled.nav`
@@ -31,6 +35,7 @@ export const Menu = styled.nav`
 
 @media screen and (max-width: 850px) {
   width: 100%;
+  flex-direction: row;
 }
 `;
 
@@ -40,6 +45,7 @@ export const ImagemTopo = styled.img`
   
   @media screen and (max-width: 750px) {
     display: none;
+    top: 0;
   }
 `;
 
@@ -100,7 +106,7 @@ export const MenuItems = styled.div<{ isOpen: boolean }>`
   @media screen and (max-width: 850px) {
     flex-direction: column;
     position: absolute;
-    top: 6.8rem;
+    top: 7.8rem;
     left: 0;
     width: 100%;
     height: ${({ isOpen }) => (isOpen ? "calc(50vh - 7rem)" : "0")};
