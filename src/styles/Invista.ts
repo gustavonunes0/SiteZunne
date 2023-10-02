@@ -13,7 +13,7 @@ export const Main = styled.main`
   @media screen and (max-width: 850px) {
     margin: 6.5rem 0rem 28.5rem 0rem
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     padding: 3.5rem 5rem 19rem 5rem;
     margin: 0;
   }
@@ -27,7 +27,7 @@ export const ContainerPrincipal = styled.div`
   gap: 4rem;
   padding: 3rem 3rem;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     gap:2rem;
   }
 `;
@@ -39,7 +39,7 @@ export const ContainerInicio = styled.div`
   align-items: center;
   gap: 5%;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     grid-template-columns: 1fr;
     place-items: center;   
     padding: 5%;
@@ -57,7 +57,7 @@ export const ContainerDuplo = styled.div`
   align-items: center;
   gap: 5rem;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     gap: 0rem;  
     grid-template-columns: 1fr;
     place-items: center;    
@@ -77,7 +77,7 @@ export const ContainerTopicos = styled.div`
   @media screen and (max-width: 850px) {
       gap: 0;
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
       text-align: justify !important;
       padding: 0;
   }
@@ -91,7 +91,7 @@ export const Etapa = styled.img`
     
   }
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     width: 6rem;
     
   }
@@ -103,7 +103,7 @@ export const Etapa2 = styled.img`
     @media screen and (max-width: 850px) {
       width: 6rem;
     }
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 580px) {
       width: 4.4rem;
     }
 `;
@@ -119,7 +119,7 @@ export const ContainerCirculoCinza = styled.div`
   width: 100%;
   margin-bottom: 4rem;
     
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     grid-template-columns: 100%;
     justify-content: center;
   }
@@ -128,7 +128,7 @@ export const ContainerCirculoCinza = styled.div`
 export const Emprestimo = styled.img`
   width: 60vw;
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     width: 100vw;
   }
 `;
@@ -145,7 +145,7 @@ export const ImagemFlorMulher = styled.img`
   @media screen and (max-width: 850px) {
     margin-top: -3rem;
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     margin-top: -2rem;
   }
 `;
@@ -188,7 +188,7 @@ export const BoxLaranja = styled.div`
   align-items: center;
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     flex-direction: column-reverse;    
   }
 `;
@@ -256,7 +256,7 @@ export const ImagemMulher = styled.img`
   width: 45%;
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
    width: 18rem   
   }
 `;
@@ -278,7 +278,7 @@ export const SpanTitulo = styled.span`
   text-align: center;
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.3rem;
     width: 100%;
   }
@@ -291,7 +291,7 @@ export const SpanTituloPrograma = styled.span`
   text-align: center;
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .8rem;
     width: 100%;
   }
@@ -306,7 +306,7 @@ export const SpanTituloInvestimento = styled.span`
   top: -5%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.1rem !important;
   }
 `;
@@ -320,7 +320,7 @@ export const SpanTituloInvestimento2 = styled.span`
   top: -10%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1rem !important;
     top: -15%;
   }
@@ -337,7 +337,7 @@ export const SpanTituloTextoInvestimento = styled.span`
   left: 2%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
    font-size: 1.2rem !important;
   }
 `;
@@ -353,7 +353,7 @@ export const SpanTituloTextoInvestimento2 = styled.span`
   left: 0%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
    font-size: 1.2rem !important;
    top: 15%;
   }
@@ -370,7 +370,7 @@ export const SpanTextoInvestimento = styled.span`
   left: 2%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .7rem  !important;
   }
 `;
@@ -386,7 +386,7 @@ export const SpanTextoInvestimento2 = styled.span`
   left: 2%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .65rem  !important;
     top: 30%;
   }
@@ -403,7 +403,7 @@ export const SpanTextoInvestimento3 = styled.span`
   left: 1%;
   z-index: 99;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .65rem  !important;
     top: 40%;
   }
@@ -421,7 +421,7 @@ export const SpanTituloLaranja = styled.span`
   font-size: 1.9rem;
   text-align: center;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.3rem;    
     text-align: left;
   }
@@ -435,14 +435,14 @@ export const SpanPrimeiroTexto = styled.span`
   width: 80%;
   margin-top: 2.5rem;
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.1rem;
     width: 100%;
   }
 `;
 
 export const ImagemAbelha = styled.img`
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     width: 15rem;
   }
 `;
@@ -453,7 +453,7 @@ export const SpanTextoAbelha = styled.span`
   font-size: 1.8rem;
   text-align: start;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.1rem;
     width: 100%;
     text-align: center;
@@ -465,7 +465,7 @@ export const SpanTextos = styled.span`
   font-weight: 500;
   font-size: 1.7rem;
   text-align: start;
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.1rem;    
     width: 100%;
   }
@@ -480,7 +480,7 @@ export const SpanTextos2 = styled.span`
     font-size: .9rem;    
     width: 100%;
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .8rem;    
     width: 100%;
   }
@@ -506,7 +506,7 @@ export const SpanTextosEmprestimo = styled.span<SpanProps>`
     top: 17%;
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .7rem !important;    
     top: 17%;
   }
@@ -541,7 +541,7 @@ export const SpanTextosIdealizadores = styled.span`
   width: 70%;
   margin-top: -2.5rem;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: 1.1rem;
     width: 100%;
     text-align: justify;
@@ -590,7 +590,7 @@ export const Ponto = styled.div<PontoProps>`
   align-items: center;
   left: ${props => props.left || '0'};
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     left: calc(${props => props.left || '0'} - 18%);
   }
 `;
@@ -598,7 +598,7 @@ export const Ponto = styled.div<PontoProps>`
 export const BolaPonto = styled.img<PontoProps>`
   width: 10%;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .8rem;
     width: 6%;
   }
@@ -617,7 +617,7 @@ export const Data = styled.span`
   justify-content: center;
   align-items: end;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     font-size: .6rem;
     margin-top: -6rem !important;
   }
@@ -650,7 +650,7 @@ export const BotaoInvestir = styled.button`
   }
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     padding: .7rem 1.6rem;
     width: 10rem;
     border-radius: 20px;
@@ -688,7 +688,7 @@ export const BotaoInvestir3 = styled.button`
     font-size: .8rem; 
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     padding: .3rem .5rem;
     width: 7rem;
     border-radius: 20px;
@@ -717,7 +717,7 @@ export const BotaoInvestir2 = styled.button`
   }
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     padding: .7rem 1.6rem;
     width: 10rem;
     border-radius: 20px;
@@ -745,7 +745,7 @@ export const BotaoInvestir2Programa = styled.button`
   }
 
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 580px) {
     padding: .3rem 1.2rem;
     width: 8rem;
     border-radius: 20px;
