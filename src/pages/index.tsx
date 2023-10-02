@@ -151,13 +151,13 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/YanTech.svg' style={{objectFit: 'contain'}}/>
+                            <S.CirculoCinza src='/yantech.svg' style={{objectFit: 'contain'}}/>
                             <S.BotaoTransparente>Yan Tecnologia</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Software de Gestão escolar</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/grauMeio.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/graumeio.png' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Um grau e meio</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Tecnologia contra incêndios florestais</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
@@ -181,7 +181,7 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/giardinoBuffet.png' style={{objectFit: 'contain'}}/>
+                            <S.CirculoCinza src='/giardinobuffet.png' style={{objectFit: 'contain'}}/>
                             <S.BotaoTransparente>Giordino Buffet</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção no mercado de trabalho</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
