@@ -29,7 +29,11 @@ const Invista = () => {
                             <S.SpanTitulo>Seja protagonista da transformação do Norte & Nordeste!<span style={{fontWeight: '700',color: '#ff6514'}}>Invista em Impacto!</span> </S.SpanTitulo><br/><br/>
                             <S.SpanTextos>O Zunne é um programa de investimento de impacto, que prioriza mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e reduzir desigualdades
                              no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanTextos><br/><br/>
-                             <S.BotaoInvestir>Quero Investir!</S.BotaoInvestir><br/><br/>
+                             <S.BotaoInvestir>
+                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
+                                    Quero investir!
+                                </a>
+                             </S.BotaoInvestir><br/><br/>
                              <S.SpanTextosNegocios style={{color: '#ff6514'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!</S.SpanTextosNegocios>
                         </div>
                         <S.BoxVideo/>
@@ -82,7 +86,11 @@ const Invista = () => {
                     <div style={{width: '100%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
                         <img src='/Flor.svg' style={{width: '70%'}}/>
                         <S.BoxVideo2/>
-                        <S.BotaoInvestir3 style={{position: 'absolute', top: '95%'}}>Saiba como Investir</S.BotaoInvestir3>
+                        <S.BotaoInvestir3 style={{position: 'absolute', top: '95%'}}>
+                            <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
+                                Quero investir!
+                            </a>
+                        </S.BotaoInvestir3>
                     </div>
                     <S.ContainerTopicos>
                         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
@@ -111,7 +119,11 @@ const Invista = () => {
                         <S.SpanTextos style={{textAlign: 'center'}}>Você pode fazer parte do programa Zunne, direcionando recursos para negócios de impacto nas regiões
                         Norte e Nordeste do Brasil. Invista nessa causa e venha polinizar impacto com a gente!
                         </S.SpanTextos>
-                        <S.BotaoInvestir>Quero Investir!</S.BotaoInvestir>
+                        <S.BotaoInvestir>
+                            <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
+                                Quero investir!
+                            </a>
+                        </S.BotaoInvestir>
                         <S.SpanTextos style={{color: '#ff6514', textAlign: 'center'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!
                         </S.SpanTextos>
                     </div>
