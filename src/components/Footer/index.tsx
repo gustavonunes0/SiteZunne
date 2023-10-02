@@ -43,20 +43,20 @@ const Footer = () => {
                     <S.FooterSubmenuTitle>contatos</S.FooterSubmenuTitle>
 
                     <S.FooterSubmenuItem>
-                        <Link href="/"
+                        <Link href=""
                             style={{textDecoration: "none", color: "#606060"}}>
                             Av. Endereço, 2345<br/>
 • BR 116 • Fortaleza
                         </Link>
                     </S.FooterSubmenuItem>
                     <S.FooterSubmenuItem>
-                        <Link href="/"
+                        <Link href=""
                             style={{textDecoration: "none", color: "#606060"}}>
-                            (85) 9999-9999
+                            (85) 99218 3350
                         </Link>
                     </S.FooterSubmenuItem>
                     <S.FooterSubmenuItem>
-                        <Link href="/"
+                        <Link href=""
                             style={{textDecoration: "none", color: "#606060"}}>
                             administrativo@zunne.com.br
                         </Link>
