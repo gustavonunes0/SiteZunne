@@ -5,7 +5,7 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 6.5rem 3rem;
+  margin: 6.5rem 0rem;
   overflow: hidden;
 
   
