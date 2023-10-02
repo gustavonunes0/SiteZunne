@@ -13,6 +13,10 @@ export const HeaderContainer = styled.header`
   @media screen and (max-width: 850px) {
     position: absolute;
   }
+  @media screen and (max-width: 850px) {
+    position: absolute;
+    margin-top: 0rem;
+  }
   `;
 
 export const HeaderBox = styled.div`
@@ -71,6 +75,20 @@ export const StyledLink = styled.span`
 
   &:hover{
     border: none;
+    color: #ff6514;
+  }
+`;
+export const StyledLink2 = styled.span`
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6514;
+  border-radius: 1.2rem;
+  padding: .1rem .7rem;
+
+  &:hover{
+    border: none;
+    color: #ff6514;
+    background-color: #fff;
   }
 `;
 export const MenuToggle = styled.div`

@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import {relative} from 'path';
 
 
+
 const Home = () => {
 
     return (
@@ -24,8 +25,8 @@ const Home = () => {
             <NavBar/>
             <S.Main>
                 <S.ContainerPrincipal>
-                    <S.SpanTitulo style={{fontWeight: '400'}}>Polinizando o empreendedorismo de
-                        <br/><span style={{fontWeight: '700',color: '#ff6514'}}>impacto positivo para transformar o futuro</span>
+                    <S.SpanTitulo style={{fontWeight: '400', width: '80%'}}>Polinizando o empreendedorismo de
+                        <span style={{fontWeight: '700',color: '#ff6514'}}> impacto positivo para transformar o futuro</span>
                     </S.SpanTitulo>
                     <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'end',alignItems: 'center',position: 'relative'}}>
                         <S.BoxVideo></S.BoxVideo>
@@ -108,7 +109,7 @@ const Home = () => {
                             </S.SpanTextosNegocios>
                         </S.ContainerDuploImpacto>
                     </S.DivImpacto>
-                    <S.SpanTitulo>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
+                    <S.SpanTitulo id='ConhecaOsNegocios'>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
                     <S.ContainerCirculoCinza>
                         <S.DivCirculoCinza>
                             <S.CirculoCinza src='/Sucre.svg'/>
@@ -129,7 +130,7 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                     </S.ContainerCirculoCinza>
-                    <S.SpanTitulo>Idealizadores</S.SpanTitulo>
+                    <S.SpanTitulo id='Idealizadores'>Idealizadores</S.SpanTitulo>
                     <S.SpanTextosIdealizadores>O Programa Zunne é construído a muitas mãos a partir de um desejo em comum: sermos impulsionadores de uma economia mais justa e próspera para todos. Ele nasce da união e colaboração entre 3 organizações que são referência em incentivo a transformação social</S.SpanTextosIdealizadores>
                     <S.ContainerEmpresa>
                         <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
@@ -177,14 +178,14 @@ const Home = () => {
                             <S.SpanTextosDosIdealizadores>Viabilizamos investimentos com causa por meio de programas e soluções financeiras que desenvolvemos para nutrir negócios que geram impacto positivo e impulsionam transformações socioambientais. Já mobilizamos mais de R$ 15 milhões para 63 negócios com causa, por meio de uma engajada comunidade de +700 investidores!</S.SpanTextosDosIdealizadores>
                             <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
                                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
-                                    <img src='/Marcos.png' style={{height: '120px', width: '120px'}}/>
+                                    <img src='/marcos.png' style={{height: '120px', width: '120px'}}/>
                                     <S.SpanNomes>Marcos Pedote</S.SpanNomes>
                                     <S.IconeLinkedin>
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
                                     </S.IconeLinkedin>
                                 </div>  
                                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
-                                    <img src='/Aline.png' style={{height: '120px', width: '120px'}}/>
+                                    <img src='/aline.png' style={{height: '120px', width: '120px'}}/>
                                     <S.SpanNomes>Aline Cristina Cano</S.SpanNomes>
                                     <S.IconeLinkedin>
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512" style={{fill:'#fff'}}><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>                                    
@@ -194,7 +195,7 @@ const Home = () => {
                         </div>
                     </S.ContainerEmpresa>   
                     <div style={{display: 'flex', flexDirection: 'column', marginTop: '5rem'}}>
-                        <S.SpanTitulo style={{fontWeight: '400', width: '100%'}}>Filantropia Potencializado Investimento
+                        <S.SpanTitulo id='Fluxo' style={{fontWeight: '400', width: '100%'}}>Filantropia Potencializado Investimento
                             <br/><span style={{fontWeight: '700',color: '#ff6514'}}>Estrutura Blended Finance</span>
                         </S.SpanTitulo> 
                     </div>
@@ -235,41 +236,46 @@ const Home = () => {
                             <span style={{fontWeight: '700',color: '#ff6514'}}> R$ 6.5mi</span>
                         </S.SpanTitulo> 
                     </div>   
-                    <div style={{width: '145%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
+                    <S.DivAsa>
                         <S.AsaLaranja src='/AsaLaranja.svg'/>
                         <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTituloPrograma>         
                         <S.BotaoInvestir2Programa>Quero Investir!</S.BotaoInvestir2Programa>
                         <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '35%'}}>Entenda a sequência do programa</S.SpanTituloPrograma>         
                         <S.LinhaDoTempo>
                             <div style={{width: '130%', height: '.3rem', backgroundColor: '#fff', position: 'relative'}}>
-                                <S.Ponto left="8%">
+                                <S.Ponto left="9%">
                                     <S.Data>Mar/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
-                                    {/* <S.Data>chamada para doadores e grandes investidores</S.Data> */}
+                                    <S.Data2>chamada para doadores e grandes investidores</S.Data2>
                                 </S.Ponto>
-                                <S.Ponto left="18%">
+                                <S.Ponto left="20%">
                                     <S.Data>Maio a<br/> Jun/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
+                                    <S.Data2>chamada de negócios</S.Data2>
                                 </S.Ponto>
-                                <S.Ponto left="28%">
+                                <S.Ponto left="27.5%">
                                     <S.Data>Jul a<br/> Set/2023</S.Data>
                                     <S.BolaPonto src='/PontoBranco.svg'/>
+                                    <S.Data2>seleção de negócios</S.Data2>
                                 </S.Ponto>
-                                <S.Ponto left="38%">
+                                <S.Ponto2 left="28.5%">
                                     <S.Data>Out a<br/> Nov/2023</S.Data>
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
-                                </S.Ponto>
-                                <S.Ponto left="48%">
+                                    <S.Data2>publicação das rodadas e chamada de investidores</S.Data2>
+                                </S.Ponto2>
+                                <S.Ponto left="35%">
                                     <S.Data>Contínuo</S.Data>
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
+                                    <S.Data2>acompanhamento com mentoria nos proximos 4 anos</S.Data2>
                                 </S.Ponto>
-                                <S.Ponto left="58%">
+                                <S.Ponto left="41%">
                                     <S.Data>Após 6 meses<br/> desembolso</S.Data>
                                     <S.BolaPonto src='/PontoMarrom.svg'/>
+                                    <S.Data2>início do repagamento do empréstimo com parcelas mensais</S.Data2>
                                 </S.Ponto>
                             </div>
                         </S.LinhaDoTempo>
-                    </div>
+                    </S.DivAsa>
                 </S.ContainerPrincipal>
             </S.Main>
             <Footer/>

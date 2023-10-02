@@ -25,6 +25,10 @@ export const ContainerPrincipal = styled.div`
   align-items: center;
   gap: 4rem;
   padding: 3rem 3rem;
+  
+  @media screen and (max-width: 550px) {
+    padding: 0rem 3rem;
+  }
 `;
 
 export const ContainerDuplo = styled.div`
@@ -285,6 +289,16 @@ export const BoxReferencias = styled.div`
     word-break: break-all;
   }
 `;
+export const DivAsa = styled.div`
+    width: 145%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+  @media screen and (max-width: 550px) {
+    width: 200%;
+  }
+`;
 
 export const ImagemBoxLaranja = styled.img`
   width: 115%;
@@ -307,6 +321,10 @@ export const AsaLaranja = styled.img`
   width: 100%;
   position: relative;
   overflow: hidden;
+
+  @media screen and (max-width: 550px) {
+    width: 120%;
+  }
 `;
 
 export const SpanTitulo = styled.span`
@@ -323,7 +341,7 @@ export const SpanTitulo = styled.span`
   
   @media screen and (max-width: 550px) {
     font-size: 1.3rem;
-    width: 100%;
+    width: 100% !important;
   }
 `;
 
@@ -347,6 +365,10 @@ export const SpanTituloPrograma = styled.span`
   text-align: center;
 
   
+  @media screen and (max-width: 850px) {
+    font-size: 1.4rem;
+    width: 100%;
+  }
   @media screen and (max-width: 550px) {
     font-size: .8rem;
     width: 100%;
@@ -622,19 +644,49 @@ export const Ponto = styled.div<PontoProps>`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: ${props => props.left || '0'};
+  left: calc(${props => props.left || '0'} + 3.5%);
 
+  @media screen and (max-width: 850px) {
+    left: calc(${props => props.left || '0'} + 4%);
+    top: 1.3rem;
+  }
   @media screen and (max-width: 550px) {
-    left: calc(${props => props.left || '0'} - 18%);
+    left: calc(${props => props.left || '0'} + 4%);
+    top: 1.6rem;
+  }
+`;
+export const Ponto2 = styled.div<PontoProps>`
+  position: absolute;
+  top: 1.2rem;
+  margin-left: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: calc(${props => props.left || '0'} + 3.5%);
+
+  @media screen and (max-width: 850px) {
+    left: calc(${props => props.left || '0'} + 3.5%);
+    margin-left: 0rem;
+    top: 1.3rem;
+  }
+  @media screen and (max-width: 550px) {
+    left: calc(${props => props.left || '0'} + 4%);
+    top: 1.6rem;
+    margin-left: 0rem;
   }
 `;
 
 export const BolaPonto = styled.img<PontoProps>`
-  width: 10%;
+  width: 2rem;
 
+  @media screen and (max-width: 850px) {
+    font-size: .8rem !important;
+    width: 1.4rem;
+  }
   @media screen and (max-width: 550px) {
-    font-size: .8rem;
-    width: 6%;
+    font-size: .8rem !important;
+    width: .9rem;
   }
 `;
 
@@ -651,9 +703,35 @@ export const Data = styled.span`
   justify-content: center;
   align-items: end;
 
-  @media screen and (max-width: 550px) {
-    font-size: .6rem;
+  @media screen and (max-width: 850px) {
+    font-size: .8rem;
     margin-top: -6rem !important;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: .5rem;
+    margin-top: -6rem !important;
+  }
+`;
+
+export const Data2 = styled.span`
+  font-size: 1rem;
+  width: 25%;
+  height: 4rem;
+  margin-top: 0rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  @media screen and (max-width: 850px) {
+    font-size: .7rem;
+    margin-top: 0rem !important;
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: .4rem;
+    margin-top: 0rem !important;
   }
 `;
 
@@ -753,6 +831,13 @@ export const BotaoInvestir2Programa = styled.button`
   }
 
   
+  @media screen and (max-width: 850px) {
+    padding: .3rem 1.2rem;
+    width: 12rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem; 
+  }
   @media screen and (max-width: 550px) {
     padding: .3rem 1.2rem;
     width: 8rem;

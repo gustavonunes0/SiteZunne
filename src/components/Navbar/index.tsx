@@ -1,7 +1,7 @@
 import * as S from "./styles";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 const NavBar: React.FC = () => {
@@ -10,6 +10,7 @@ const NavBar: React.FC = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   
   return (
     <>
@@ -32,23 +33,23 @@ const NavBar: React.FC = () => {
                   </Link>
                 </S.MenuItem>
                 <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href='/#ConhecaOsNegocios' style={{textDecoration: "none"}}>
                     <S.StyledLink>Conheça os negócios</S.StyledLink>
                   </Link>
                 </S.MenuItem>
                 <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href='/#Idealizadores' style={{textDecoration: "none"}}>
                     <S.StyledLink>Idealizadores</S.StyledLink>
                   </Link>
                 </S.MenuItem>
                 <S.MenuItem>
-                <Link href={{ pathname: "/" }} style={{textDecoration: "none"}}>
+                <Link href='/#Fluxo' style={{textDecoration: "none"}}>
                     <S.StyledLink>Fluxo de recursos</S.StyledLink>
                   </Link>
                 </S.MenuItem>
                 <S.MenuItem>
                 <Link href={{ pathname: "/Invista" }} style={{textDecoration: "none"}}>
-                    <S.StyledLink>Invista!</S.StyledLink>
+                    <S.StyledLink2>Invista!</S.StyledLink2>
                   </Link>
                 </S.MenuItem>
               </S.MenuItems>
