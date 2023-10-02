@@ -46,6 +46,10 @@ export const Menu = styled.nav`
 export const ImagemTopo = styled.img`
   position: absolute;
   top: -11rem;
+
+  @media screen and (min-width: 1600px) {
+    top: -13rem;
+  }
   
   @media screen and (max-width: 750px) {
     display: none;
