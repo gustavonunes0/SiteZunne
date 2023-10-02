@@ -14,7 +14,7 @@ export const Main = styled.main`
     margin: 6.5rem 0;
   }
   @media screen and (max-width: 550px) {
-    padding: 9.5rem 5rem;
+    padding: 3.5rem 5rem 19rem 5rem;
     margin: 0;
   }
 `;

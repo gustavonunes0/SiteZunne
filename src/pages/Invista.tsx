@@ -3,7 +3,7 @@ import Head from 'next/head';
 import * as S from '../styles/Invista';
 import NavBar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import {relative} from 'path';
+import Zunne from '@/components/Zunnir';
 
 
 const Invista = () => {
@@ -117,6 +117,7 @@ const Invista = () => {
                     </div>
                 </S.ContainerPrincipal>
             </S.Main>
+            <Zunne/>
             <Footer/>
         </>
     );
