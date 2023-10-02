@@ -5,11 +5,14 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 6.5rem 0;
+  margin: 6.5rem;
   padding: 0 2%;
   overflow: hidden;
 
   
+  @media screen and (max-width: 850px) {
+    margin: 6.5rem 0;
+  }
   @media screen and (max-width: 550px) {
     padding: 9.5rem 5rem;
     margin: 0;

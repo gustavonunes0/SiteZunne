@@ -43,7 +43,7 @@ const Home = () => {
                     <S.ContainerTriplo>
                         <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center', marginBottom: '2rem'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
                         </div>
                         <div style={
                             {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
@@ -93,7 +93,7 @@ const Home = () => {
                     <S.DivImpacto>
                         <S.SpanTituloImpacto style={{width: '100%'}}>O que são negócios de <span style={{color: '#ff6514'}}>impacto positivo?</span></S.SpanTituloImpacto>
                         <S.ContainerDuploImpacto>
-                            <div>
+                            <div style={{width: '100%'}}>
                                 <img src='/imagemArcoIris.svg'/>
                                 <div style={{backgroundColor: '#ff6514', width: '100%', display: 'flex', justifyContent: 'center'}}>
                                     <S.SpanOnu>OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL &bull; ONU</S.SpanOnu>
@@ -114,19 +114,19 @@ const Home = () => {
                             <S.CirculoCinza src='/Sucre.svg'/>
                             <S.BotaoTransparente>Sucré</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção da mulher nomercado de trabalho</span></S.BotaoTransparente2> 
-                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
                             <S.CirculoCinza src='/RomaNegra.svg'/>
                             <S.BotaoTransparente>Roma Negra</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção no mercado de trabalho e impacto ambietal</span></S.BotaoTransparente2> 
-                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
                             <S.CirculoCinza src='/MudaMeuMundo.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Muda Meu Mundo</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Agricultura de impacto</span></S.BotaoTransparente2> 
-                            <S.BotaoSaberMais>Quero investir!</S.BotaoSaberMais>
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                     </S.ContainerCirculoCinza>
                     <S.SpanTitulo>Idealizadores</S.SpanTitulo>

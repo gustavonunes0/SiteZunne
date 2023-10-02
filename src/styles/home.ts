@@ -9,6 +9,9 @@ export const Main = styled.main`
   overflow: hidden;
 
   
+  @media screen and (max-width: 850px) {
+    margin: 11.5rem 3rem;
+  }
   @media screen and (max-width: 550px) {
     padding: 9.5rem 3rem;
     margin: 0;
@@ -31,6 +34,9 @@ export const ContainerDuplo = styled.div`
   align-items: center;
   gap: 5rem;
 
+  @media screen and (max-width: 850px) {
+    gap: 1rem;  
+  }
   @media screen and (max-width: 550px) {
     gap: 0rem;  
     grid-template-columns: 1fr;
@@ -46,6 +52,13 @@ export const ContainerDuploImpacto = styled.div`
   align-items: center;
   gap: 5rem;
 
+  @media screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 2rem;
+  }
+
   @media screen and (max-width: 550px) {
     gap: 0rem;  
     grid-template-columns: 80%;
@@ -60,6 +73,9 @@ export const ContainerTriplo = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 30% 5% 30%;
+  }
   @media screen and (max-width: 550px) {
     grid-template-columns: 1fr;
   }
@@ -86,6 +102,9 @@ export const ContainerTriplo2 = styled.div`
   gap: 2rem;
   padding-left: 2rem;
 
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 35% 35%;
+  }
   @media screen and (max-width: 550px) {
       grid-template-columns: 1fr;
       justify-items: center;
@@ -104,6 +123,10 @@ export const ContainerCirculoCinza = styled.div`
   width: 100%;
   margin-bottom: 4rem;
     
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+  }
   @media screen and (max-width: 550px) {
     grid-template-columns: 100%;
     justify-content: center;
@@ -124,6 +147,11 @@ export const CirculoCinza = styled.img`
   height: 10rem;
   border: 3px solid #ff6514;
   border-radius: 100%;
+
+  @media screen and (max-width: 850px) {
+    width: 8rem;
+    height: 8rem;
+  }
 `;
 
 export const DivCirculoCinza = styled.div`
@@ -136,7 +164,16 @@ export const DivCirculoCinza = styled.div`
   width: 20rem;
   height: 25rem;
   background-color: #d9d9d9;
-  border-radius: 3rem;
+  border-radius: 2.5rem;
+
+  @media screen and (max-width: 850px) {
+    width: 15rem;
+    height: 24rem;
+  }
+  @media screen and (max-width: 550px) {
+    width: 18rem;
+    height: 25rem;
+  }
 `;
 
 export const DivImpacto = styled.div`
@@ -150,6 +187,10 @@ export const DivImpacto = styled.div`
     padding: 2rem 0;
     border-radius: 4rem;
 
+    @media screen and (max-width: 850px) {
+      width: 70%;
+      border-radius: 2rem;
+    }
     @media screen and (max-width: 550px) {
       width: 100%;
       border-radius: 2rem;
@@ -165,6 +206,11 @@ export const BoxVideo = styled.iframe`
   border: none;
 
   
+  @media screen and (max-width: 850px) {
+    width: 42rem;
+    height: 24rem;
+    border-radius: 30px;
+  }
   @media screen and (max-width: 550px) {
     width: 22rem;
     height: 14rem;
@@ -180,6 +226,9 @@ export const BoxLaranja = styled.div`
   align-items: center;
 
   
+  @media screen and (max-width: 850px) {
+    width: 82%;
+  }
   @media screen and (max-width: 550px) {
     flex-direction: column-reverse;    
   }
@@ -226,7 +275,7 @@ export const BoxReferencias = styled.div`
   background-color: #ff6514;
   border: 7px solid #f2ae13;
   border-radius: 2.5rem;
-  box-shadow: 2px 4px 20px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
 
   
   @media screen and (max-width: 550px) {
@@ -266,6 +315,11 @@ export const SpanTitulo = styled.span`
   font-size: 2.8rem;
   text-align: center;
 
+   
+  @media screen and (max-width: 850px) {
+    font-size: 1.85rem;
+    width: 100%;
+  }
   
   @media screen and (max-width: 550px) {
     font-size: 1.3rem;
@@ -437,6 +491,10 @@ export const SpanPrimeiroTexto = styled.span`
   width: 80%;
   margin-top: 2.5rem;
   
+  @media screen and (max-width: 850px) {
+    font-size: 1.3rem;
+    width: 60%;
+  }
   @media screen and (max-width: 550px) {
     font-size: 1.1rem;
     width: 100%;
@@ -455,6 +513,11 @@ export const SpanTextoAbelha = styled.span`
   font-size: 1.8rem;
   text-align: start;
 
+  @media screen and (max-width: 850px) {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+  }
   @media screen and (max-width: 550px) {
     font-size: 1.1rem;
     width: 100%;
@@ -467,6 +530,10 @@ export const SpanTextos = styled.span`
   font-weight: 500;
   font-size: 1.7rem;
   text-align: start;
+  @media screen and (max-width: 850px) {
+    font-size: 1.1rem;    
+    width: 100%;
+  }
   @media screen and (max-width: 550px) {
     font-size: 1.1rem;    
     width: 100%;
@@ -492,6 +559,12 @@ export const SpanTextosQuadrados = styled.span`
   font-weight: 500;
   font-size: 1.3rem;
   text-align: start;
+
+  
+  @media screen and (max-width: 850px) {
+    font-size: .9rem;    
+    width: 100%;
+  }
 `;
 
 export const SpanTextosIdealizadores = styled.span`
@@ -590,6 +663,11 @@ export const SpanFonte = styled.span`
   font-style: italic;
   font-size: 0.95rem;
   text-align: start;
+
+  
+  @media screen and (max-width: 850px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const BotaoInvestir = styled.button`
@@ -610,6 +688,13 @@ export const BotaoInvestir = styled.button`
     transition: all 400ms ease-in-out;
   }
 
+  @media screen and (max-width: 850px) {
+    padding: .7rem 1rem;
+    width: 12rem;
+    border-radius: 20px;
+    border: none;
+    font-size: .9rem; 
+  }
   
   @media screen and (max-width: 550px) {
     padding: .7rem 1.6rem;
@@ -683,7 +768,7 @@ export const BotaoSaberMais = styled.button`
   border: none;
   color: #fff;
   height: 3.5rem;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 700;
   border-radius: 50px;
   background: #ff6514;
@@ -691,8 +776,12 @@ export const BotaoSaberMais = styled.button`
 
   &:hover {
     background: #ff6014;
-    box-shadow: 6px 8px 8px 4px rgba(0, 0, 0, 0.25);
-    transition: all 400ms ease-in-out;
+  }
+
+  @media screen and (max-width: 850px) {
+    height: 3rem;
+    font-size: .8rem;
+    border-radius: 40px;
   }
 `;
 
@@ -710,11 +799,19 @@ export const BotaoTransparente = styled.div`
   border-radius: 50px;
   background: transparent;
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover {
     background-color: #ff6014;
     color: #fff;
     transition: all 400ms ease-in-out;
+  }
+
+  
+  @media screen and (max-width: 850px) {
+    height: 2.5rem;
+    font-size: .95rem;
+    border-radius: 40px;
   }
 `;
 
@@ -738,5 +835,13 @@ export const BotaoTransparente2 = styled.div`
     background-color: #ff6014;
     color: #fff;
     transition: all 40ms ease-in-out;
+  }
+  
+  @media screen and (max-width: 850px) {
+    height: 3.5rem;
+    font-size: .8rem;
+    padding: .3rem .1rem;
+    border-radius: 30px;
+    text-align: center;
   }
 `;
