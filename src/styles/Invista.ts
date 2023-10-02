@@ -690,7 +690,7 @@ export const BotaoInvestir3 = styled.button`
 
   @media screen and (max-width: 550px) {
     padding: .3rem .5rem;
-    wireth: 7rem;
+    width: 7rem;
     border-radius: 20px;
     border: none;
     color: #fff;

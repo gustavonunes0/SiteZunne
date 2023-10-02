@@ -144,6 +144,10 @@ export const ContainerInvestimento = styled.div`
   gap: 5rem;
   justify-content: center;
   margin-top: 6rem;
+
+  @media screen and (max-width: 850px) {
+    padding: 0 5%;
+  }
 `;
 
 export const CirculoCinza = styled.img`
@@ -257,6 +261,9 @@ export const FormaLaranja1 = styled.img`
   position: absolute;
   width: 78%;
   
+  @media screen and (max-width: 850px) {
+    width: 68%;    
+  }
   @media screen and (max-width: 550px) {
     width: 68%;    
   }
@@ -415,6 +422,9 @@ export const SpanTituloTextoInvestimento = styled.span`
   left: 2%;
   z-index: 99;
 
+  @media screen and (max-width: 850px) {
+    
+  }
   @media screen and (max-width: 550px) {
    font-size: 1.2rem !important;
   }
@@ -431,6 +441,9 @@ export const SpanTituloTextoInvestimento2 = styled.span`
   left: 0%;
   z-index: 99;
 
+  @media screen and (max-width: 850px) {
+   left: 4%;
+  }
   @media screen and (max-width: 550px) {
    font-size: 1.2rem !important;
    top: 15%;
@@ -464,6 +477,9 @@ export const SpanTextoInvestimento2 = styled.span`
   left: 2%;
   z-index: 99;
 
+  @media screen and (max-width: 850px) {
+    
+  }
   @media screen and (max-width: 550px) {
     font-size: .65rem  !important;
     top: 30%;
@@ -491,6 +507,7 @@ export const SpanNomes = styled.span`
   color: #57575a;
   font-size: 1rem;
   font-weight: 400;
+  text-align: center;
 `;
 
 export const SpanTituloLaranja = styled.span`

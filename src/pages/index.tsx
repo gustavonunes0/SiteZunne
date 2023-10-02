@@ -4,6 +4,7 @@ import * as S from '../styles/home';
 import NavBar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import {relative} from 'path';
+import Zunne from '@/components/Zunnir';
 
 
 
@@ -278,6 +279,7 @@ const Home = () => {
                     </S.DivAsa>
                 </S.ContainerPrincipal>
             </S.Main>
+            <Zunne/>
             <Footer/>
         </>
     );
