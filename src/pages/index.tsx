@@ -205,7 +205,7 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/atelie.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/atelie.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Ateliê da Sil</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
