@@ -167,7 +167,7 @@ export const BoxVideo = styled.iframe`
 `;
 
 export const BoxVideo2 = styled.iframe`
-  width: 40%;
+  width: 37%;
   height: 100%;
   position: absolute;
   flex-shrink: 0;

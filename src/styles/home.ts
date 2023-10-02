@@ -206,11 +206,11 @@ export const DivImpacto = styled.div`
 `;
 
 export const BoxVideo = styled.iframe`
-  width: 60rem;
+  width: 58.5rem;
   height: 33rem;
   flex-shrink: 0;
   border-radius: 50px;
-  background: #d9d9d9;
+  background: #000;
   border: none;
 
   
@@ -377,7 +377,7 @@ export const SpanTituloPrograma = styled.span`
     width: 100%;
   }
   @media screen and (max-width: 550px) {
-    font-size: .8rem;
+    font-size: .6rem;
     width: 100%;
   }
 `;
@@ -393,21 +393,6 @@ export const SpanTituloInvestimento = styled.span`
 
   @media screen and (max-width: 550px) {
     font-size: 1.1rem !important;
-  }
-`;
-export const SpanTituloInvestimento2 = styled.span`
-  color: #681d00;
-  width: 40%;
-  font-weight: 500;
-  font-size: 1.7rem;
-  text-align: center;
-  position: absolute;
-  top: -10%;
-  z-index: 99;
-
-  @media screen and (max-width: 550px) {
-    font-size: .9rem !important;
-    top: -15%;
   }
 `;
 
@@ -450,21 +435,6 @@ export const SpanTituloTextoInvestimento2 = styled.span`
   }
 `;
 
-export const SpanTextoInvestimento = styled.span`
-  color: #fff;
-  font-weight: 500;
-  font-size: 1.6rem;
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  width: 35%;
-  left: 2%;
-  z-index: 99;
-
-  @media screen and (max-width: 550px) {
-    font-size: .7rem  !important;
-  }
-`;
 
 export const SpanTextoInvestimento2 = styled.span`
   color: #606060;
@@ -478,7 +448,7 @@ export const SpanTextoInvestimento2 = styled.span`
   z-index: 99;
 
   @media screen and (max-width: 850px) {
-    font-size: 1.4rem !important;
+      font-size: 1.4rem !important;
   }
   @media screen and (max-width: 550px) {
     font-size: .6rem  !important;
@@ -508,6 +478,39 @@ export const SpanTextoInvestimento3 = styled.span`
     width: 30% !important;
   }
   `;
+
+
+export const SpanTituloInvestimento2 = styled.span`
+  color: #681d00;
+  width: 40%;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-align: center;
+  position: absolute;
+  top: -10%;
+  z-index: 99;
+
+  @media screen and (max-width: 550px) {
+    font-size: .9rem !important;
+    top: -15%;
+  }
+`;
+
+export const SpanTextoInvestimento = styled.span`
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  width: 35%;
+  left: 2%;
+  z-index: 99;
+
+  @media screen and (max-width: 550px) {
+    font-size: .7rem  !important;
+  }
+`;
 
 export const SpanNomes = styled.span`
   color: #57575a;
@@ -677,6 +680,11 @@ export const Ponto = styled.div<PontoProps>`
     left: calc(${props => props.left || '0'} + 4%);
     top: 1.6rem;
   }
+  @media screen and (min-width: 1750px) {
+    left: calc(${props => props.left || '0'} + 6%);
+    margin-left: 0rem;
+    top: 1.3rem;
+  }
 `;
 export const Ponto2 = styled.div<PontoProps>`
   position: absolute;
@@ -688,6 +696,11 @@ export const Ponto2 = styled.div<PontoProps>`
   align-items: center;
   left: calc(${props => props.left || '0'} + 3.5%);
 
+  @media screen and (min-width: 1750px) {
+    left: calc(${props => props.left || '0'} + 7%);
+    margin-left: 0rem;
+    top: 1.3rem;
+  }
   @media screen and (max-width: 850px) {
     left: calc(${props => props.left || '0'} + 3.5%);
     margin-left: 0rem;
@@ -866,6 +879,7 @@ export const BotaoInvestir2Programa = styled.button`
     width: 8rem;
     border-radius: 20px;
     border: none;
+    top: 24%;
     font-size: .6rem; 
   }
 `;
@@ -935,6 +949,7 @@ export const BotaoTransparente2 = styled.div`
   line-height: 1rem;
   font-weight: 500;
   border-radius: 50px;
+  text-align: center;
   background: transparent;
   cursor: pointer;
 
@@ -949,6 +964,5 @@ export const BotaoTransparente2 = styled.div`
     font-size: .8rem;
     padding: .3rem .1rem;
     border-radius: 30px;
-    text-align: center;
   }
 `;

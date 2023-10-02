@@ -1,15 +1,27 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useRef } from 'react';
 import Head from 'next/head';
 import * as S from '../styles/home';
 import NavBar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import {relative} from 'path';
 import Zunne from '@/components/Zunnir';
 
 
 
 const Home = () => {
 
+    const videoRef = useRef<HTMLVideoElement | null>(null);
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const togglePlay = () => {
+        if (videoRef.current?.paused) {
+        videoRef.current?.play();
+        setIsPlaying(true);
+        } else {
+        videoRef.current?.pause();
+        setIsPlaying(false);
+        }
+    };
+    
     return (
         <>
             <Head>
@@ -136,6 +148,66 @@ const Home = () => {
                             <S.CirculoCinza src='/MudaMeuMundo.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Muda Meu Mundo</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Agricultura de impacto</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/YanTech.svg' style={{objectFit: 'contain'}}/>
+                            <S.BotaoTransparente>Yan Tecnologia</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Software de Gestão escolar</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/grauMeio.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>Um grau e meio</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Tecnologia contra incêndios florestais</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/oikos.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>OIKOS</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Moradia Digna</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/refazenda.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>REFAZENDA</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/catarina.png' style={{objectFit: 'contain'}}/>
+                            <S.BotaoTransparente>Catarina Mina</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/giardinoBuffet.png' style={{objectFit: 'contain'}}/>
+                            <S.BotaoTransparente>Giordino Buffet</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção no mercado de trabalho</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/nakau.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>NAKAU</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Agricultura de impacto</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/sdw.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>SDW</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Moradia Digna</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/poranduba.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>Poranduba</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Turismo</span></S.BotaoTransparente2> 
+                            <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
+                        </S.DivCirculoCinza>
+                        <S.DivCirculoCinza>
+                            <S.CirculoCinza src='/atelie.png' style={{objectFit: 'cover'}}/>
+                            <S.BotaoTransparente>Ateliê da Sil</S.BotaoTransparente>
+                            <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                     </S.ContainerCirculoCinza>
