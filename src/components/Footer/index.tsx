@@ -65,7 +65,7 @@ const Footer = () => {
                 <S.FooterSubmenu>
                     <S.FooterSubmenuTitle>sociais</S.FooterSubmenuTitle>
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'start', gap: '1.4rem'}}>
-                        <a href="" target="_blank" style={{display: 'flex', justifyContent: "start", gap: '1rem', textDecoration: 'none', alignItems: 'center', color: "#606060"}}>
+                        <a href="https://www.instagram.com/programazunne/" target="_blank" style={{display: 'flex', justifyContent: "start", gap: '1rem', textDecoration: 'none', alignItems: 'center', color: "#606060"}}>
                             <S.FooterSubmenuSocialMedia src={"/insta.svg"}/>
                             programazunne
                         </a>
