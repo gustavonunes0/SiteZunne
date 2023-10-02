@@ -157,37 +157,37 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/graumeio.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/graumeio.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Um grau e meio</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Tecnologia contra incêndios florestais</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/oikos.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/oikos.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>OIKOS</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Moradia Digna</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/refazenda.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/refazenda.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>REFAZENDA</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/catarina.png' style={{objectFit: 'contain'}}/>
+                            <S.CirculoCinza src='/catarina.svg' style={{objectFit: 'contain'}}/>
                             <S.BotaoTransparente>Catarina Mina</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/giardinobuffet.png' style={{objectFit: 'contain'}}/>
+                            <S.CirculoCinza src='/giardinobuffet.svg' style={{objectFit: 'contain'}}/>
                             <S.BotaoTransparente>Giordino Buffet</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Inserção no mercado de trabalho</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/nakau.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/nakau.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>NAKAU</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Agricultura de impacto</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
@@ -199,7 +199,7 @@ const Home = () => {
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
                         <S.DivCirculoCinza>
-                            <S.CirculoCinza src='/poranduba.png' style={{objectFit: 'cover'}}/>
+                            <S.CirculoCinza src='/poranduba.svg' style={{objectFit: 'cover'}}/>
                             <S.BotaoTransparente>Poranduba</S.BotaoTransparente>
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Turismo</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
