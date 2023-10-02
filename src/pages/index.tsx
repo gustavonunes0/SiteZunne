@@ -42,7 +42,12 @@ const Home = () => {
                         <span style={{fontWeight: '700',color: '#ff6514'}}> impacto positivo para transformar o futuro</span>
                     </S.SpanTitulo>
                     <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'end',alignItems: 'center',position: 'relative'}}>
-                        <S.BoxVideo></S.BoxVideo>
+                        <S.BoxVideo
+                            src='https://www.youtube.com/embed/1VQD0nBZRhA'
+                            title='YouTube Video'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowFullScreen
+                            />
                             <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>
                                 <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
                                     Quero investir!
