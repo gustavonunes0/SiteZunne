@@ -875,7 +875,6 @@ export const BotaoSaberMais = styled.button`
   width: 90%;
   border: none;
   color: #fff;
-  height: 3.5rem;
   font-size: 1.05rem;
   font-weight: 700;
   border-radius: 50px;
