@@ -31,9 +31,11 @@ const Home = () => {
                     </S.SpanTitulo>
                     <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'end',alignItems: 'center',position: 'relative'}}>
                         <S.BoxVideo></S.BoxVideo>
-                        <a href='https://treinvestimentos.mova.vc/' style={{textDecoration: 'none'}}>
-                            <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>Quero investir!</S.BotaoInvestir>
-                        </a>
+                            <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>
+                                <a href='https://treinvestimentos.mova.vc/' style={{textDecoration: 'none'}}>
+                                    Quero investir!
+                                </a>
+                            </S.BotaoInvestir>
                     </div>
                     <S.SpanPrimeiroTexto>O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo
                                                  liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
