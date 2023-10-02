@@ -130,10 +130,12 @@ export const ContainerCirculoCinza = styled.div`
   @media screen and (max-width: 850px) {
     grid-template-columns: 40% 40%;
     justify-content: center;
+    padding-bottom: 20rem;
   }
   @media screen and (max-width: 550px) {
     grid-template-columns: 100%;
     justify-content: center;
+    padding-bottom: 80rem;
   }
 `;
 

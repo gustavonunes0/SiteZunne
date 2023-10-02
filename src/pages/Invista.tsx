@@ -37,7 +37,12 @@ const Invista = () => {
                              </S.BotaoInvestir><br/><br/>
                              <S.SpanTextosNegocios style={{color: '#ff6514'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!</S.SpanTextosNegocios>
                         </div>
-                        <S.BoxVideo/>
+                        <S.BoxVideo
+                            src='https://www.youtube.com/embed/gYJsuIhHmaA'
+                            title='YouTube Video'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowFullScreen
+                            />
                     </S.ContainerInicio>
                     <div style={{padding: '5%', width: '100%'}}>
                         <div style={{position: 'relative', width: '100%'}}>
