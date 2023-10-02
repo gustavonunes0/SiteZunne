@@ -10,7 +10,7 @@ export const Main = styled.main`
 
   
   @media screen and (max-width: 850px) {
-    margin: 11.5rem 3rem;
+    margin: 11.5rem 0rem;
   }
   @media screen and (max-width: 550px) {
     padding: 9.5rem 3rem;
@@ -406,7 +406,7 @@ export const SpanTituloInvestimento2 = styled.span`
   z-index: 99;
 
   @media screen and (max-width: 550px) {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
     top: -15%;
   }
 `;
@@ -478,10 +478,10 @@ export const SpanTextoInvestimento2 = styled.span`
   z-index: 99;
 
   @media screen and (max-width: 850px) {
-    
+    font-size: 1.4rem !important;
   }
   @media screen and (max-width: 550px) {
-    font-size: .65rem  !important;
+    font-size: .6rem  !important;
     top: 30%;
   }
 `;
@@ -497,9 +497,15 @@ export const SpanTextoInvestimento3 = styled.span`
   left: 1%;
   z-index: 99;
 
+  @media screen and (max-width: 850px) {
+    left: 5.5%;
+    width: 30% !important;
+  }
   @media screen and (max-width: 550px) {
-    font-size: .65rem  !important;
+    font-size: .6rem  !important;
     top: 40%;
+    left: 4.5%;
+    width: 30% !important;
   }
   `;
 
