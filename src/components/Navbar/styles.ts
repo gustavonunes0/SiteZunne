@@ -60,7 +60,7 @@ export const ImagemTopo = styled.img`
 export const MenuItem = styled.div`
   font-size: 1.1rem;
   font-weight: 500;
-  padding: .5rem 3.5rem;
+  padding: 1rem 3.5rem;
   text-decoration: none;
   @media screen and (max-width: 850px) {
     font-size: 1.4rem;
