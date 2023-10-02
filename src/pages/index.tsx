@@ -32,7 +32,7 @@ const Home = () => {
                     <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'end',alignItems: 'center',position: 'relative'}}>
                         <S.BoxVideo></S.BoxVideo>
                             <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>
-                                <a href='https://treinvestimentos.mova.vc/' style={{textDecoration: 'none', color:'#fff'}}>
+                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
                                     Quero investir!
                                 </a>
                             </S.BotaoInvestir>
@@ -93,7 +93,7 @@ const Home = () => {
                             <S.SpanTituloLaranja>A Solução</S.SpanTituloLaranja>
                             <S.SpanTextos style={{textAlign: 'left'}}>O Zunne propõe uma jornada transformadora para impulsionar negócios de impacto nas regiões Norte e Nordeste, com apoio financeiro, técnico e conexões estratégicas. <span style={{color: '#ff6514'}}>Cada investimento será uma semente plantada, cultivada e geradora de frutos que alimentam comunidades inteiras.</span></S.SpanTextos>
                             <S.BotaoInvestir>
-                                <a href='https://treinvestimentos.mova.vc/' style={{textDecoration: 'none', color:'#fff'}}>
+                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
                                     Quero investir!
                                 </a>
                             </S.BotaoInvestir>                        
@@ -249,7 +249,7 @@ const Home = () => {
                         <S.AsaLaranja src='/AsaLaranja.svg'/>
                         <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTituloPrograma>         
                         <S.BotaoInvestir2Programa>
-                                <a href='https://treinvestimentos.mova.vc/' style={{textDecoration: 'none', color:'#fff'}}>
+                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#ff6514'}}>
                                     Quero investir!
                                 </a>
                         </S.BotaoInvestir2Programa>                        
