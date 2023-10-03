@@ -284,6 +284,27 @@ export const SpanTitulo = styled.span`
   }
 `;
 
+export const SpanDepoimento = styled.span`
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  left: 10%;
+  width: 40%;
+  top: 35%;
+  
+  @media screen and (max-width: 850px) {
+    font-size: .75rem;
+    left: 9.1%;
+    top: 35%;
+  }
+  
+  @media screen and (max-width: 580px) {
+    font-size: .45rem;
+  }
+`;
+
 export const SpanTituloPrograma = styled.span`
   color: #606060;
   font-weight: 700;
