@@ -288,11 +288,11 @@ export const SpanDepoimento = styled.span`
   color: #fff;
   font-weight: 500;
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   left: 10%;
   width: 40%;
-  top: 35%;
+  top: 40%;
   
   @media screen and (max-width: 850px) {
     font-size: .75rem;
@@ -301,7 +301,7 @@ export const SpanDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .45rem;
+    font-size: .42rem;
   }
 `;
 
