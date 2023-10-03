@@ -37,11 +37,17 @@ const Invista = () => {
                              </S.BotaoInvestir><br/><br/>
                              <S.SpanTextosNegocios style={{color: '#ff6514'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!</S.SpanTextosNegocios>
                         </div>
-                        <S.BoxVideo/>
+                        <S.BoxVideo
+                            src='https://www.youtube.com/embed/gYJsuIhHmaA'
+                            title='YouTube Video'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowFullScreen
+                            />
                     </S.ContainerInicio>
                     <div style={{padding: '5%', width: '100%'}}>
                         <div style={{position: 'relative', width: '100%'}}>
                             <S.ImagemFlorHomem src='/FloresHomem.svg'/>
+                            <S.SpanDepoimento>Tenho a consciência de que todos os negócios devem, de forma autêntica, gerar impacto em seu ecossistema. Até que esse cenário seja realidade, cabe a todos, dentro de suas possibilidades, fomentar e apoiar iniciativas que se dedicam inteiramente a essa jornada e ao desenvolvimento desse modelo mais sustentável e próspero. O programa Zunne surge pela união de pessoas preparadas, com um desafio claro e um plano consistente. Certamente fará a diferença!</S.SpanDepoimento>
                         </div>
                         <div style={{position: 'relative', width: '100%'}}>
                             <S.ImagemFlorMulher src='/FloresMulher.svg'/>
