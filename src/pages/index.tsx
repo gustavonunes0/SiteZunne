@@ -136,7 +136,7 @@ const Home = () => {
                         </S.ContainerDuploImpacto>
                     </S.DivImpacto>
                     <S.SpanTitulo id='ConhecaOsNegocios'>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
-                    {/* <S.ContainerCirculoCinza>
+                    <S.ContainerCirculoCinza>
                         <S.DivCirculoCinza>
                             <S.CirculoCinza src='/Sucre.svg'/>
                             <S.BotaoTransparente>Sucré</S.BotaoTransparente>
@@ -215,7 +215,7 @@ const Home = () => {
                             <S.BotaoTransparente2><span style={{width: '100%'}}>Moda consciente</span></S.BotaoTransparente2> 
                             <S.BotaoSaberMais>CLIQUE AQUI PARA SABER MAIS</S.BotaoSaberMais>
                         </S.DivCirculoCinza>
-                    </S.ContainerCirculoCinza> */}
+                    </S.ContainerCirculoCinza>
                     <S.SpanTitulo id='Idealizadores'>Idealizadores</S.SpanTitulo>
                     <S.SpanTextosIdealizadores>O Programa Zunne é construído a muitas mãos a partir de um desejo em comum: sermos impulsionadores de uma economia mais justa e próspera para todos. Ele nasce da união e colaboração entre 3 organizações que são referência em incentivo a transformação social</S.SpanTextosIdealizadores>
                     <S.ContainerEmpresa>
