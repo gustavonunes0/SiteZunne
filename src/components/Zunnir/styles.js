@@ -8,8 +8,8 @@ export const HeaderContainer = styled.header`
   align-items: center;
   text-align: center;
   padding: 5%;
-  margin-top: -40rem;
-  gap: 4rem;
+  margin-top: -45rem;
+  gap: 2rem;
 
   @media screen and (max-width: 850px) {
     margin-top: -30rem;
@@ -22,7 +22,7 @@ export const HeaderContainer = styled.header`
 
 export const SpanZunne = styled.span`
   width: 100%;
-  font-size: 1rem;
+  font-size: .8rem;
   color: #C4C4C4;
   text-align: justify;
 
@@ -36,25 +36,25 @@ export const SpanZunne = styled.span`
 
 export const Titulo = styled.span`
   width: 80%;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #606060;
   line-height: 4rem;
   @media screen and (max-width: 850px) {
 
   }
   @media screen and (max-width: 850px) {
-    
+    font-size: 2rem;
   }
 `;
 
 export const ImagemZunne = styled.img`
-  width: 10%;
+  width: 8%;
 
   @media screen and (max-width: 850px) {
     width: 30%;
 
   }
   @media screen and (max-width: 850px) {
-    
+    width: 20%;
   }
 `;

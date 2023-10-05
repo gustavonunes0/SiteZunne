@@ -49,7 +49,7 @@ const Home = () => {
                             allowFullScreen
                             />
                             <S.BotaoInvestir style={{position: 'absolute',top: '93%'}}>
-                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
+                                <a href='/Invista' style={{textDecoration: 'none', color:'#fff'}}>
                                     Quero investir!
                                 </a>
                             </S.BotaoInvestir>
@@ -64,15 +64,15 @@ const Home = () => {
                             e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextoAbelha>
                     </S.ContainerDuplo>
                     <S.ContainerTriplo>
-                        <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
+                        <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'center', marginBottom: '2rem'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
                         </div>
                         <div style={
                             {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
                             <div style={{backgroundColor: '#ff6514', width: '4px', height: '70%'}}></div>
                         </div>
-                        <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center'}}>
+                        <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
                             <S.SpanTextos style={{textAlign: 'center'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
                         </div>
@@ -110,7 +110,7 @@ const Home = () => {
                             <S.SpanTituloLaranja>A Solução</S.SpanTituloLaranja>
                             <S.SpanTextos style={{textAlign: 'left'}}>O Zunne propõe uma jornada transformadora para impulsionar negócios de impacto nas regiões Norte e Nordeste, com apoio financeiro, técnico e conexões estratégicas. <span style={{color: '#ff6514'}}>Cada investimento será uma semente plantada, cultivada e geradora de frutos que alimentam comunidades inteiras.</span></S.SpanTextos>
                             <S.BotaoInvestir>
-                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
+                                <a href='/Invista' style={{textDecoration: 'none', color:'#fff'}}>
                                     Quero investir!
                                 </a>
                             </S.BotaoInvestir>                        
@@ -131,11 +131,12 @@ const Home = () => {
                                 <a href=''
                                     style={
                                         {color: '#ff6514', textDecoration: 'none'}
-                                }>(clique aqui para conhecer)</a>.
+                                }> (clique aqui para conhecer)</a>.
                             </S.SpanTextosNegocios>
                         </S.ContainerDuploImpacto>
                     </S.DivImpacto>
                     <S.SpanTitulo id='ConhecaOsNegocios'>Esses são os <span style={{color: '#ff6514'}}>negócios da nossa colmeia!</span></S.SpanTitulo>
+                    <S.SpanTitulo5>Estamos selecionando os negócios e em breve estarão disponíveis.</S.SpanTitulo5>
                     {/* <S.ContainerCirculoCinza>
                         <S.DivCirculoCinza>
                             <S.CirculoCinza src='/Sucre.svg'/>
@@ -293,11 +294,12 @@ const Home = () => {
                         <S.SpanTituloTextoInvestimento>R$ 500mil</S.SpanTituloTextoInvestimento>
                         <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '40%', color: '#ff6514'}}>+</S.SpanTituloTextoInvestimento>
                         <S.SpanTextoInvestimento>apoio técnico às organizações que desenvolvam o programa</S.SpanTextoInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{left: '63%'}}>R$ 1mi</S.SpanTituloTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{left: '63%'}}>fundo garantidor para casos de inadimplência</S.SpanTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '59%'}}>R$ 1mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{left: '60%'}}>fundo garantidor para casos de inadimplência</S.SpanTextoInvestimento>
                         <S.SpanTituloInvestimento style={{top: '83%'}}>Total</S.SpanTituloInvestimento>
                         <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#ff6514', fontWeight: '500'}}>R$ 1.5mi</S.SpanTituloTextoInvestimento>
-                    </S.ContainerInvestimento>             
+                    </S.ContainerInvestimento>     
+                    <S.SpanTitulo style={{color:'#681d00', zIndex: '100', margin: '3rem 0 -7rem 0' }}>+</S.SpanTitulo>        
                     <S.ContainerInvestimento style={{marginTop: '10rem'}}>
                         <S.FormaLaranja2 src='/BoxLaranja.svg' style={{zIndex: '98'}}/>
                         <S.FormaLaranja1 src='/BoxLaranja2.svg' style={{zIndex: '97'}}/>
@@ -305,11 +307,11 @@ const Home = () => {
                         <S.SpanTituloInvestimento2>Investimento direcionado aos negócios</S.SpanTituloInvestimento2>
                         <S.SpanTituloTextoInvestimento2 style={{color: '#ff6514'}}>R$ 3mi</S.SpanTituloTextoInvestimento2>
                         <S.SpanTituloTextoInvestimento2 style={{left: '32.5%', top: '40%', color: '#fff'}}>+</S.SpanTituloTextoInvestimento2>
-                        <S.SpanTextoInvestimento2 style={{color: '#606060', width: '50%', left: '-6%'}}>Grandes Investidores</S.SpanTextoInvestimento2>
+                        <S.SpanTextoInvestimento2 style={{color: '#606060', width: '50%', left: '-2.5%'}}>Grandes Investidores</S.SpanTextoInvestimento2>
                         <S.SpanTextoInvestimento3 style={{color: '#ff6514', fontWeight: '400', fontSize: '1.2rem'}}>Distribuido em 3 cotas de R$ 500mil e o restante em cotas acima de R$ 100mil</S.SpanTextoInvestimento3>
-                        <S.SpanTituloTextoInvestimento2 style={{left: '63%', color: '#ff6514'}}>R$ 2mi</S.SpanTituloTextoInvestimento2>
-                        <S.SpanTextoInvestimento2 style={{color: '#606060', fontSize: '1.5rem', width: '40%', left: '60%', whiteSpace: 'nowrap'}}>Pequenos Investidores</S.SpanTextoInvestimento2>
-                        <S.SpanTextoInvestimento3 style={{color: '#ff6514', fontWeight: '400', fontSize: '1.2rem',left: '63%'}}>Cotas a partir de R$ 1mil</S.SpanTextoInvestimento3>
+                        <S.SpanTituloTextoInvestimento3 style={{left: '58%', color: '#ff6514'}}>R$ 2mi</S.SpanTituloTextoInvestimento3>
+                        <S.SpanTextoInvestimento4 style={{color: '#606060', fontSize: '1.5rem', width: '40%', left: '56%', whiteSpace: 'nowrap', marginLeft: '2%'}}>Pequenos Investidores</S.SpanTextoInvestimento4>
+                        <S.SpanTextoInvestimento5 style={{color: '#ff6514', fontWeight: '400', fontSize: '1.2rem',left: '61%', marginLeft: '-2%'}}>Cotas a partir de R$ 1mil</S.SpanTextoInvestimento5>
                         <S.SpanTituloInvestimento2 style={{top: '83%',color: '#681d00'}}>Total</S.SpanTituloInvestimento2>
                         <S.SpanTituloTextoInvestimento2 style={{left: '32.5%', top: '95%', color: '#fff', fontWeight: '500'}}>R$ 5mi</S.SpanTituloTextoInvestimento2>
                     </S.ContainerInvestimento> 
@@ -326,7 +328,7 @@ const Home = () => {
                         <S.AsaLaranja src='/AsaLaranja.svg'/>
                         <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTituloPrograma>         
                         <S.BotaoInvestir2Programa>
-                                <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#ff6514'}}>
+                                <a href='/Investir' style={{textDecoration: 'none', color:'#ff6514'}}>
                                     Quero investir!
                                 </a>
                         </S.BotaoInvestir2Programa>                        

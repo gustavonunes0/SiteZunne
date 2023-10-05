@@ -10,10 +10,14 @@ export const HeaderContainer = styled.header`
   z-index: 100;
   margin-top: 4rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (min-width: 1900px) {
+    padding-bottom: 20rem;
+  }
+  
+  @media screen and (max-width: 1050px) {
     position: absolute;
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     position: absolute;
     margin-top: 0rem;
   }
@@ -26,7 +30,7 @@ export const HeaderBox = styled.div`
   align-items: center;
   margin-top: 10%;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     margin-top: 0;
   }
 `;
@@ -37,7 +41,7 @@ export const Menu = styled.nav`
   justify-content: center;
   align-items: center;
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px) {
   width: 100%;
   flex-direction: row;
 }
@@ -46,6 +50,11 @@ export const Menu = styled.nav`
 export const ImagemTopo = styled.img`
   position: absolute;
   top: -11rem;
+
+  @media screen and (min-width: 1900px) {
+    top: -18rem;
+    width: 70%;
+  }
 
   @media screen and (min-width: 1600px) {
     top: -13rem;
@@ -62,7 +71,12 @@ export const MenuItem = styled.div`
   font-weight: 500;
   padding: 1rem 3.5rem;
   text-decoration: none;
-  @media screen and (max-width: 850px) {
+
+  @media screen and (min-width: 1900px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 1050px) {
     font-size: 1.4rem;
     font-weight: 700;
     
@@ -113,7 +127,7 @@ export const MenuToggle = styled.div`
     }
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     display: flex;
     margin-left: auto;
     margin-right: 1rem;
@@ -125,7 +139,7 @@ export const MenuItems = styled.div<{ isOpen: boolean }>`
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     flex-direction: column;
     position: absolute;
     top: 7.8rem;

@@ -9,7 +9,7 @@ export const Main = styled.main`
   overflow: hidden;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     margin: 11.5rem 0rem;
   }
   @media screen and (max-width: 580px) {
@@ -38,7 +38,7 @@ export const ContainerDuplo = styled.div`
   align-items: center;
   gap: 5rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     gap: 1rem;  
   }
   @media screen and (max-width: 580px) {
@@ -56,7 +56,7 @@ export const ContainerDuploImpacto = styled.div`
   align-items: center;
   gap: 5rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -73,11 +73,11 @@ export const ContainerDuploImpacto = styled.div`
 
 export const ContainerTriplo = styled.div`
   display: grid;
-  grid-template-columns: 35% 10% 35%;
+  grid-template-columns: 30% 10% 30%;
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 30% 5% 30%;
   }
   @media screen and (max-width: 580px) {
@@ -106,7 +106,7 @@ export const ContainerTriplo2 = styled.div`
   gap: 2rem;
   padding-left: 2rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 35% 35%;
   }
   @media screen and (max-width: 580px) {
@@ -127,7 +127,7 @@ export const ContainerCirculoCinza = styled.div`
   width: 100%;
   margin-bottom: 4rem;
     
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 40% 40%;
     justify-content: center;
     padding-bottom: 20rem;
@@ -147,7 +147,7 @@ export const ContainerInvestimento = styled.div`
   justify-content: center;
   margin-top: 6rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     padding: 0 5%;
   }
 `;
@@ -158,7 +158,7 @@ export const CirculoCinza = styled.img`
   border: 3px solid #ff6514;
   border-radius: 100%;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 8rem;
     height: 8rem;
   }
@@ -176,7 +176,7 @@ export const DivCirculoCinza = styled.div`
   background-color: #d9d9d9;
   border-radius: 2.5rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 15rem;
     height: 24rem;
   }
@@ -197,7 +197,7 @@ export const DivImpacto = styled.div`
     padding: 2rem 0;
     border-radius: 4rem;
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1050px) {
       width: 70%;
       border-radius: 2rem;
     }
@@ -216,7 +216,7 @@ export const BoxVideo = styled.iframe`
   border: none;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 42rem;
     height: 24rem;
     border-radius: 30px;
@@ -236,7 +236,7 @@ export const BoxLaranja = styled.div`
   align-items: center;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 82%;
   }
   @media screen and (max-width: 580px) {
@@ -261,9 +261,9 @@ export const DivtextoMulher = styled.div`
 
 export const FormaLaranja1 = styled.img`
   position: absolute;
-  width: 78%;
+  width: 68%;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 68%;    
   }
   @media screen and (max-width: 580px) {
@@ -272,7 +272,7 @@ export const FormaLaranja1 = styled.img`
 `;
 
 export const FormaLaranja2 = styled.img`
-  width: 50%;
+  width: 44%;
 
   @media screen and (max-width: 580px) {
     width: 40%;     
@@ -343,13 +343,31 @@ export const SpanTitulo = styled.span`
   text-align: center;
 
    
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 1.85rem;
     width: 100%;
   }
   
   @media screen and (max-width: 580px) {
     font-size: 1.3rem;
+    width: 100% !important;
+  }
+`;
+
+export const SpanTitulo5 = styled.span`
+  color: #606060;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+
+   
+  @media screen and (max-width: 1050px) {
+    font-size: 1.45rem;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 580px) {
+    font-size: 1rem;
     width: 100% !important;
   }
 `;
@@ -374,7 +392,7 @@ export const SpanTituloPrograma = styled.span`
   text-align: center;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 1.4rem;
     width: 100%;
   }
@@ -406,14 +424,16 @@ export const SpanTituloTextoInvestimento = styled.span`
   position: absolute;
   top: 25%;
   width: 35%;
-  left: 2%;
+  left: 4.5%;
   z-index: 99;
 
-  @media screen and (max-width: 850px) {
-    
+  @media screen and (max-width: 1050px) {
+    left: 6.5%;
   }
   @media screen and (max-width: 580px) {
    font-size: 1.2rem !important;
+   left: 4.5%;
+   top: 22%;
   }
 `;
 
@@ -428,12 +448,34 @@ export const SpanTituloTextoInvestimento2 = styled.span`
   left: 0%;
   z-index: 99;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
    left: 4%;
   }
   @media screen and (max-width: 580px) {
    font-size: 1.2rem !important;
    top: 15%;
+   left: 3%;
+  }
+`;
+
+export const SpanTituloTextoInvestimento3 = styled.span`
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  width: 35%;
+  left: 0%;
+  z-index: 99;
+
+  @media screen and (max-width: 1050px) {
+   left: 4%;
+  }
+  @media screen and (max-width: 580px) {
+   font-size: 1.2rem !important;
+   top: 15%;
+   left: 61.7% !important;
   }
 `;
 
@@ -449,12 +491,36 @@ export const SpanTextoInvestimento2 = styled.span`
   left: 2%;
   z-index: 99;
 
-  @media screen and (max-width: 850px) {
-      font-size: 1.4rem !important;
+  @media screen and (max-width: 1050px) {
+    font-size: 1.2rem !important;
+    margin: 0 !important;
   }
   @media screen and (max-width: 580px) {
     font-size: .6rem  !important;
     top: 30%;
+    left: -4% !important;
+  }
+`;
+
+export const SpanTextoInvestimento4 = styled.span`
+  color: #606060;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  width: 35%;
+  left: 2%;
+  z-index: 99;
+
+  @media screen and (max-width: 1050px) {
+    font-size: 1.2rem !important;
+    margin: 0 !important;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: .6rem  !important;
+    top: 30%;
+    left: 59.5% !important;
   }
 `;
 
@@ -465,13 +531,15 @@ export const SpanTextoInvestimento3 = styled.span`
   text-align: center;
   position: absolute;
   top: 50%;
-  width: 35%;
-  left: 1%;
+  width: 40%;
+  left: 2%;
   z-index: 99;
 
-  @media screen and (max-width: 850px) {
-    left: 5.5%;
-    width: 30% !important;
+  @media screen and (max-width: 1050px) {
+    left: 8.5%;
+    font-size: 1.1rem !important;
+    width: 28% !important;
+    margin: 0 !important;
   }
   @media screen and (max-width: 580px) {
     font-size: .6rem  !important;
@@ -481,12 +549,37 @@ export const SpanTextoInvestimento3 = styled.span`
   }
   `;
 
+export const SpanTextoInvestimento5 = styled.span`
+  color: #ff6514;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  left: 2%;
+  z-index: 99;
+
+  @media screen and (max-width: 1050px) {
+    left: 8.5%;
+    font-size: 1.1rem !important;
+    width: 28% !important;
+    margin: 0 !important;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: .6rem  !important;
+    top: 40%;
+    left: 63.5% !important;
+    width: 30% !important;
+  }
+  `;
+
 
 export const SpanTituloInvestimento2 = styled.span`
   color: #681d00;
   width: 40%;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
   top: -10%;
@@ -501,16 +594,23 @@ export const SpanTituloInvestimento2 = styled.span`
 export const SpanTextoInvestimento = styled.span`
   color: #fff;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
   top: 40%;
   width: 35%;
-  left: 2%;
+  left: 4%;
   z-index: 99;
 
+  @media screen and (max-width: 1050px) {
+    font-size: 1.3rem  !important;
+    left: 8.5%;
+    width: 30%;
+  }
   @media screen and (max-width: 580px) {
     font-size: .7rem  !important;
+    left: 4%;
+    width: 35%;
   }
 `;
 
@@ -541,7 +641,7 @@ export const SpanPrimeiroTexto = styled.span`
   width: 80%;
   margin-top: 2.5rem;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 1.3rem;
     width: 60%;
   }
@@ -563,7 +663,7 @@ export const SpanTextoAbelha = styled.span`
   font-size: 1.8rem;
   text-align: start;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 1.3rem;
     width: 100%;
     text-align: center;
@@ -578,9 +678,9 @@ export const SpanTextoAbelha = styled.span`
 export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-align: start;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 1.1rem;    
     width: 100%;
   }
@@ -611,7 +711,7 @@ export const SpanTextosQuadrados = styled.span`
   text-align: start;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .9rem;    
     width: 100%;
   }
@@ -674,7 +774,7 @@ export const Ponto = styled.div<PontoProps>`
   align-items: center;
   left: calc(${props => props.left || '0'} + 3.5%);
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     left: calc(${props => props.left || '0'} + 4%);
     top: 1.3rem;
   }
@@ -703,7 +803,7 @@ export const Ponto2 = styled.div<PontoProps>`
     margin-left: 0rem;
     top: 1.3rem;
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     left: calc(${props => props.left || '0'} + 3.5%);
     margin-left: 0rem;
     top: 1.3rem;
@@ -718,7 +818,7 @@ export const Ponto2 = styled.div<PontoProps>`
 export const BolaPonto = styled.img<PontoProps>`
   width: 2rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .8rem !important;
     width: 1.4rem;
   }
@@ -741,7 +841,7 @@ export const Data = styled.span`
   justify-content: center;
   align-items: end;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .8rem;
     margin-top: -6rem !important;
   }
@@ -762,7 +862,7 @@ export const Data2 = styled.span`
   display: flex;
   justify-content: center;
   align-items: start;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .7rem;
     margin-top: 0rem !important;
   }
@@ -781,7 +881,7 @@ export const SpanFonte = styled.span`
   text-align: start;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: 0.7rem;
   }
 `;
@@ -804,7 +904,7 @@ export const BotaoInvestir = styled.button`
     transition: all 400ms ease-in-out;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     padding: .7rem 1rem;
     width: 12rem;
     border-radius: 20px;
@@ -869,7 +969,7 @@ export const BotaoInvestir2Programa = styled.button`
   }
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     padding: .3rem 1.2rem;
     width: 12rem;
     border-radius: 20px;
@@ -901,7 +1001,7 @@ export const BotaoSaberMais = styled.button`
     background: #ff6014;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     height: 3rem;
     font-size: .8rem;
     border-radius: 40px;
@@ -931,7 +1031,7 @@ export const BotaoTransparente = styled.div`
   }
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     height: 2.5rem;
     font-size: .95rem;
     border-radius: 40px;
@@ -961,7 +1061,7 @@ export const BotaoTransparente2 = styled.div`
     transition: all 40ms ease-in-out;
   }
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     height: 3.5rem;
     font-size: .8rem;
     padding: .3rem .1rem;

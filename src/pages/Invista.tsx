@@ -27,7 +27,7 @@ const Invista = () => {
                 <S.ContainerPrincipal>
                     <S.ContainerInicio>
                         <div>
-                            <S.SpanTitulo>Seja protagonista da transformação do Norte & Nordeste!<span style={{fontWeight: '700',color: '#ff6514'}}>Invista em Impacto!</span> </S.SpanTitulo><br/><br/>
+                            <S.SpanTitulo>Seja protagonista da transformação do Norte & Nordeste!<span style={{fontWeight: '700',color: '#ff6514'}}><br/>Invista em Impacto!</span> </S.SpanTitulo><br/><br/>
                             <S.SpanTextos>O Zunne é um programa de investimento de impacto, que prioriza mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e reduzir desigualdades
                              no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanTextos><br/><br/>
                              <S.BotaoInvestir>
@@ -44,10 +44,11 @@ const Invista = () => {
                             allowFullScreen
                             />
                     </S.ContainerInicio>
-                    <div style={{padding: '5%', width: '100%'}}>
+                    <div style={{padding: '8%', width: '100%'}}>
                         <div style={{position: 'relative', width: '100%'}}>
                             <S.ImagemFlorHomem src='/FloresHomem.svg'/>
                             <S.SpanDepoimento>Tenho a consciência de que todos os negócios devem, de forma autêntica, gerar impacto em seu ecossistema. Até que esse cenário seja realidade, cabe a todos, dentro de suas possibilidades, fomentar e apoiar iniciativas que se dedicam inteiramente a essa jornada e ao desenvolvimento desse modelo mais sustentável e próspero. O programa Zunne surge pela união de pessoas preparadas, com um desafio claro e um plano consistente. Certamente fará a diferença!</S.SpanDepoimento>
+                            <S.SpanNomeDepoimento>Gustavo Assis</S.SpanNomeDepoimento>
                         </div>
                         <div style={{position: 'relative', width: '100%'}}>
                             <S.ImagemFlorMulher src='/FloresMulher.svg'/>
@@ -75,19 +76,19 @@ const Invista = () => {
                             Protagonismo: Você seleciona o negócio que melhor se conecta contigo!
                         </S.BoxReferencias>
                     </S.ContainerTopicos>
-                    <div style={{display: 'flex', flexDirection: 'column', gap:'.9rem', padding: '5%'}}>
-                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.8rem'}}><span style={{fontWeight: '700',color: '#ff6514'}}>Como funciona</span> o investimento?</S.SpanTitulo>
+                    <div style={{display: 'flex', flexDirection: 'column', gap:'.9rem', padding: '8%'}}>
+                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.7rem'}}><span style={{fontWeight: '700',color: '#ff6514'}}>Como funciona</span> o investimento?</S.SpanTitulo>
                         <S.SpanTextos style={{textAlign: 'center'}}>Você poderá investir pela plataforma Trê-MOVA, na modalidade peer-to-peer ou empréstimo direto coletivo na qual vários investidores
                             podem reunir esforços, em forma de capital para financiar diretamente empréstimos solicitados por empresas.
                         </S.SpanTextos>
                         <S.SpanTextos style={{textAlign: 'center'}}>As operações não tem custos para os investidores e seu retorno financeiro conta com juros prefixados.
-                        Além disso, os investidores podem alocar recursos nos negócios a partir de R$ 1000!
+                        Além disso, os investidores podem alocar recursos nos negócios a partir de R$ 10!
                         </S.SpanTextos>
                     </div>
-                    <div style={{position: 'relative'}}>
-                        <S.SpanTextosEmprestimo left='1.5%' style={{top: '25%'}}>Investidores (PF e PJ)</S.SpanTextosEmprestimo>
-                        <S.SpanTextosEmprestimo left='37.5%' style={{color: '#fff'}}>Plataforma de empréstimo coletivo Trê-MOVA</S.SpanTextosEmprestimo>
-                        <S.SpanTextosEmprestimo left='73.5%' style={{top: '25%'}}>Negócios de Impacto</S.SpanTextosEmprestimo>
+                    <div style={{position: 'relative', padding: '8%'}}>
+                        <S.SpanTextosEmprestimo left='-1%' style={{top: '17%'}}>Investidores (PF e PJ)</S.SpanTextosEmprestimo>
+                        <S.SpanTextosEmprestimo left='37.5% !important' style={{color: '#fff'}}>Plataforma de empréstimo coletivo Trê-MOVA</S.SpanTextosEmprestimo>
+                        <S.SpanTextosEmprestimo left='75.5%' style={{top: '75%'}}>Negócios de Impacto</S.SpanTextosEmprestimo>
                         <S.Emprestimo src='/ProcessoEmprestimo.svg'/>
                     </div>
                     <div style={{width: '100%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
@@ -104,30 +105,46 @@ const Invista = () => {
                             </a>
                         </S.BotaoInvestir3>
                     </div>
-                    <S.ContainerTopicos>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                    <S.ContainerTopicos2>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>
                             <S.Etapa src='/Etapa1.svg'/>     
-                            <S.SpanTextos2 style={{textAlign: 'center'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos2>                       
+                            <S.SpanTextos3 style={{textAlign: 'center'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                            <S.Etapa2 src='/seta.svg'/>  
+                            <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
+                        </div>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>
                             <S.Etapa src='/Etapa2.svg'/>     
-                            <S.SpanTextos2 style={{textAlign: 'center'}}>Escolha a causa, o<br/> negócio e o valor que <br/>deseja investir</S.SpanTextos2>                       
+                            <S.SpanTextos3 style={{textAlign: 'center'}}>Escolha a causa, o<br/> negócio e o valor que <br/>deseja investir</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                            <S.Etapa2 src='/seta.svg'/>  
+                            <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
+                        </div>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>
                             <S.Etapa src='/Etapa3.svg'/>     
-                            <S.SpanTextos2 style={{textAlign: 'center'}}>faça uma simulação<br/> do valor que <br/>deseja investir</S.SpanTextos2>                       
+                            <S.SpanTextos3 style={{textAlign: 'center'}}>Faça uma simulação<br/> do valor que <br/>deseja investir</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                            <S.Etapa2 src='/seta.svg'/>  
+                            <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
+                        </div>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>
                             <S.Etapa src='/Etapa3.svg'/>     
-                            <S.SpanTextos2 style={{textAlign: 'center'}}>Transfira o<br/> dinheiro via <br/>boleto ou PIX</S.SpanTextos2>                       
+                            <S.SpanTextos3 style={{textAlign: 'center'}}>Transfira o<br/> dinheiro via <br/>boleto ou PIX</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                            <S.Etapa2 src='/Etapa5.svg'/>     
-                            <S.SpanTextos2 style={{textAlign: 'center'}}>Receba o retorno<br/> financeiro e contribua <br/> com a sua causa!</S.SpanTextos2>                       
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                            <S.Etapa2 src='/seta.svg'/>  
+                            <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
                         </div>
-                    </S.ContainerTopicos>
-                    <div style={{display: 'flex', flexDirection: 'column', gap:'1.8rem', alignItems: 'center', padding: '5%'}}>
-                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.8rem'}}>Seja protagonista da próxima economia!</S.SpanTitulo>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>
+                            <S.Etapa src='/Etapa5.svg'/>     
+                            <S.SpanTextos3 style={{textAlign: 'center'}}>Receba o retorno<br/> financeiro e contribua <br/> com a sua causa!</S.SpanTextos3>                       
+                        </div>
+                    </S.ContainerTopicos2>
+                    <div style={{display: 'flex', flexDirection: 'column', gap:'1.8rem', alignItems: 'center', padding: '8%'}}>
+                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.6rem'}}>Seja protagonista da próxima economia!</S.SpanTitulo>
                         <S.SpanTextos style={{textAlign: 'center'}}>Você pode fazer parte do programa Zunne, direcionando recursos para negócios de impacto nas regiões
                         Norte e Nordeste do Brasil. Invista nessa causa e venha polinizar impacto com a gente!
                         </S.SpanTextos>
@@ -142,6 +159,7 @@ const Invista = () => {
                 </S.ContainerPrincipal>
             </S.Main>
             <Zunne/>
+            {/* <S.BolaLaranja src='/BolaFooterLaranja.svg'/> */}
             <Footer/>
         </>
     );

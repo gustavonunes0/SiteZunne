@@ -13,7 +13,7 @@ export const Footer = styled.footer`
     padding: 0 0 10rem 0;
   }
   @media screen and (max-width: 550px) {
-    padding: 115rem 0 10rem 0;
+    padding: 65rem 0 10rem 0;
   }
 `;
 

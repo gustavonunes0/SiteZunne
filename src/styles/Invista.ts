@@ -28,7 +28,7 @@ export const ContainerPrincipal = styled.div`
   padding: 3rem 3rem;
 
   @media screen and (max-width: 580px) {
-    gap:2rem;
+    gap:4rem;
   }
 `;
 
@@ -47,7 +47,7 @@ export const ContainerInicio = styled.div`
   @media screen and (max-width: 850px) {
     grid-template-columns: 1fr;
     place-items: center;   
-    padding: 15% 5%;
+    padding: 15% 8%;
   }
 `;
 export const ContainerDuplo = styled.div`
@@ -83,28 +83,47 @@ export const ContainerTopicos = styled.div`
   }
 `;
 
+export const ContainerTopicos2 = styled.div`
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+
+  @media screen and (max-width: 850px) {
+      gap: 0;
+      padding: 0 15%;
+  }
+  @media screen and (max-width: 580px) {
+      text-align: justify !important;
+      padding: 0 8%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+`;
+
 export const Etapa = styled.img`
-  width: 13rem;
+  width: 6rem;
   
   @media screen and (max-width: 850px) {
-    width: 8rem;
+    width: 5rem;
     
   }
   
   @media screen and (max-width: 580px) {
-    width: 6rem;
+    width: 3rem;
     
   }
 `;
 
 export const Etapa2 = styled.img`
-    width: 9.5rem;
+    width: 2rem;
   
     @media screen and (max-width: 850px) {
-      width: 6rem;
+      width: 1.5rem;
     }
     @media screen and (max-width: 580px) {
-      width: 4.4rem;
+      width: 1.5rem;
     }
 `;
 
@@ -129,7 +148,17 @@ export const Emprestimo = styled.img`
   width: 60vw;
   
   @media screen and (max-width: 580px) {
-    width: 100vw;
+    width: 80vw;
+  }
+`;
+
+export const BolaLaranja = styled.img`
+  width: 140%;
+  z-index: -5;
+  bottom: -990%;
+  position: absolute;
+  @media screen and (max-width: 580px) {
+    width: 80vw;
   }
 `;
 
@@ -295,13 +324,34 @@ export const SpanDepoimento = styled.span`
   top: 40%;
   
   @media screen and (max-width: 850px) {
-    font-size: .75rem;
+    font-size: .69rem;
     left: 9.1%;
     top: 35%;
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .42rem;
+    font-size: .39rem;
+  }
+`;
+
+export const SpanNomeDepoimento = styled.span`
+  color: #681d00;
+  font-weight: 500;
+  position: absolute;
+  font-size: .9rem;
+  text-align: center;
+  left: -3%;
+  width: 40%;
+  top: 78%;
+  
+  @media screen and (max-width: 850px) {
+    font-size: .65rem;
+    left: 20.5%;
+    top: 90%;
+  }
+  
+  @media screen and (max-width: 580px) {
+    font-size: .32rem;
   }
 `;
 
@@ -507,6 +557,21 @@ export const SpanTextos2 = styled.span`
   }
 `;
 
+export const SpanTextos3 = styled.span`
+  color: #57575a;
+  font-weight: 500;
+  font-size: .8rem;
+  text-align: start;
+
+  @media screen and (max-width: 850px) {
+    font-size: .6rem;   
+    height: 2rem;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: .45rem;    
+  }
+`;
+
 interface SpanProps {
   left?: string; 
 }
@@ -517,19 +582,25 @@ export const SpanTextosEmprestimo = styled.span<SpanProps>`
   color: #57575a;
   font-weight: 500;
   font-size: 1.4rem;
-  top: 19%;
+  top: 40%;
   text-align: center;
   left: ${props => props.left || '0'};
 
 
+  @media screen and (min-width: 1850px) {
+    top: 45%;
+    font-size: 2rem;
+  }
+
   @media screen and (max-width: 850px) {
     font-size: .9rem !important;    
-    top: 17%;
+    top: 40%;
   }
 
   @media screen and (max-width: 580px) {
-    font-size: .7rem !important;    
-    top: 17%;
+    font-size: .6rem !important;   
+    left: calc(${props => props.left || '0'} + -2%); 
+    top: 37%;
   }
 `;
 
