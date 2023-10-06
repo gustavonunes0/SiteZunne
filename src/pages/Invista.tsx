@@ -4,6 +4,8 @@ import * as S from '../styles/Invista';
 import NavBar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Zunne from '@/components/Zunnir';
+import Zunne2 from '@/components/Zunnir copy';
+import Footer2 from '@/components/Footer copy';
 
 
 const Invista = () => {
@@ -158,9 +160,9 @@ const Invista = () => {
                     </div>
                 </S.ContainerPrincipal>
             </S.Main>
-            <Zunne/>
-            {/* <S.BolaLaranja src='/BolaFooterLaranja.svg'/> */}
-            <Footer/>
+            <Zunne2/>
+            <Footer2/>
+            <div style={{width: '100%' , backgroundColor: '#fff', height: '13rem'}}></div>
         </>
     );
 }

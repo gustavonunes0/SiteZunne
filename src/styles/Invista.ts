@@ -152,11 +152,14 @@ export const Emprestimo = styled.img`
   }
 `;
 
-export const BolaLaranja = styled.img`
-  width: 140%;
+export const BolaLaranja = styled.div`
+  width: 100%;  
+  height: 80rem;
+  border-radius: 100%;
   z-index: -5;
-  bottom: -990%;
-  position: absolute;
+  bottom: 0%;
+  background-color: #ff6514;
+  overflow: hidden;
   @media screen and (max-width: 580px) {
     width: 80vw;
   }

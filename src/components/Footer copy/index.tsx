@@ -2,7 +2,7 @@ import * as S from "./styles";
 import Link from "next/link";
 import Image from "next/image";
 
-const Footer = () => {
+const Footer2 = () => {
     return (
         <S.Footer>
             <S.FooterBox>
@@ -80,5 +80,5 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default Footer2;
 

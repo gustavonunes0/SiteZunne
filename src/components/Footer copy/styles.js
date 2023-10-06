@@ -13,7 +13,7 @@ export const Footer = styled.footer`
     padding: 0 0 10rem 0;
   }
   @media screen and (max-width: 550px) {
-    padding: 65rem 0 10rem 0;
+    padding: 80rem 0 10rem 0;
   }
 `;
 
@@ -88,6 +88,7 @@ export const FooterSubmenuSocialMedia = styled.img`
     filter: brightness(2);
   }
 `;
+
 
 export const FooterSubmenuSocialMedia2 = styled.svg`
   width: 1.5rem;

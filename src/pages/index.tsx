@@ -128,7 +128,7 @@ const Home = () => {
                             </div>
                             <S.SpanTextosNegocios>São negócios interessados aqueles que direcionam ou têm intenção de direcionar seus modelos de negócio para a resolução de problemas socioambientais.<br/><br/>
                                 Também nos orientamos pelos Objetivos de Desenvolvimento Sustentável até 2030 da ONU
-                                <a href=''
+                                <a href='https://brasil.un.org/pt-br/sdgs'
                                     style={
                                         {color: '#ff6514', textDecoration: 'none'}
                                 }> (clique aqui para conhecer)</a>.
