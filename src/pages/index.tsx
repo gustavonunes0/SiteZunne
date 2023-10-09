@@ -22,7 +22,7 @@ const Home = () => {
     //     }
     // };
 
-    const adicionarHifens = (texto) => {
+    const adicionarHifens = (texto: string) => {
         return texto.replace(/(\w+)/g, '$1\u200B'); 
     };
     
