@@ -189,7 +189,6 @@ export const BoxVideo = styled.iframe`
   border-radius: 50px;
   background: #d9d9d9;
   border: none;
-
   
   @media screen and (max-width: 850px) {
     width: 100%;
@@ -321,7 +320,8 @@ export const SpanDepoimento = styled.span`
   font-weight: 500;
   position: absolute;
   font-size: 1rem;
-  text-align: center;
+  text-align: justify;
+  word-break: break-all;
   left: 10%;
   width: 40%;
   top: 40%;
@@ -333,7 +333,7 @@ export const SpanDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .39rem;
+    font-size: .35rem;
   }
 `;
 
@@ -538,7 +538,9 @@ export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.7rem;
-  text-align: start;
+  text-align: justify;
+  word-break: break-all;
+
   @media screen and (max-width: 580px) {
     font-size: 1.1rem;    
     width: 100%;

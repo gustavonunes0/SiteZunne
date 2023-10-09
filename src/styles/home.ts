@@ -637,7 +637,9 @@ export const SpanPrimeiroTexto = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: justify;
+  word-break: break-all;
+  hyphens: auto; /* Adicione esta linha para ativar a hifenização automática */
   width: 80%;
   margin-top: 2.5rem;
   
@@ -661,7 +663,8 @@ export const SpanTextoAbelha = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.8rem;
-  text-align: start;
+  text-align: justify;
+  word-break: break-all;
 
   @media screen and (max-width: 1050px) {
     font-size: 1.3rem;
@@ -679,7 +682,8 @@ export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: start;
+  text-align: justify;
+  word-break: break-all;
   @media screen and (max-width: 1050px) {
     font-size: 1.1rem;    
     width: 100%;
@@ -694,7 +698,8 @@ export const SpanTextosNegocios = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.3rem;
-  text-align: start;
+  text-align: justify;
+  word-break: break-all;
 `;
 
 export const SpanOnu = styled.span`
@@ -708,7 +713,8 @@ export const SpanTextosQuadrados = styled.span`
   color: #fff;
   font-weight: 500;
   font-size: 1.3rem;
-  text-align: start;
+  text-align: justify;
+  word-break: break-all;
 
   
   @media screen and (max-width: 1050px) {
@@ -721,7 +727,8 @@ export const SpanTextosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify;
+  word-break: break-all;
   width: 70%;
   margin-top: -2.5rem;
 

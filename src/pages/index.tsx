@@ -66,7 +66,7 @@ const Home = () => {
                     <S.ContainerTriplo>
                         <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'justify', wordBreak: 'break-all'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
                         </div>
                         <div style={
                             {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
@@ -74,7 +74,7 @@ const Home = () => {
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'center'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'justify', wordBreak: 'break-all'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
                         </div>
                     </S.ContainerTriplo>
                     <S.ContainerTriplo2>
@@ -131,7 +131,7 @@ const Home = () => {
                                 <a href='https://brasil.un.org/pt-br/sdgs'
                                     style={
                                         {color: '#ff6514', textDecoration: 'none'}
-                                }> (clique aqui para conhecer)</a>.
+                                }><br/> (clique aqui para conhecer)</a>.
                             </S.SpanTextosNegocios>
                         </S.ContainerDuploImpacto>
                     </S.DivImpacto>
