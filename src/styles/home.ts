@@ -639,7 +639,10 @@ export const SpanPrimeiroTexto = styled.span`
   font-size: 1.6rem;
   text-align: justify;
   word-break: break-all;
-  hyphens: auto; /* Adicione esta linha para ativar a hifenização automática */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   width: 80%;
   margin-top: 2.5rem;
   
