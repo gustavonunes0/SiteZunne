@@ -58,10 +58,11 @@ const Home = () => {
                                 </a>
                             </S.BotaoInvestir>
                     </div>
-                    <S.SpanPrimeiroTexto>{adicionarHifens(O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo
-                                                 liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
-                                                  reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.)}</S.SpanPrimeiroTexto>
-                    <S.ContainerDuplo>
+                        <S.SpanPrimeiroTexto>{adicionarHifens(
+                            "O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo " +
+                            "liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e " +
+                            "reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.")}
+                        <S.ContainerDuplo>
                         <S.ImagemAbelha src='/abelha.svg'/>
                         <S.SpanTextoAbelha>Nossa inspiração vem da conexão com a natureza: as
                             <span style={{color: '#f2ae13'}}> abelhas </span>
