@@ -263,7 +263,7 @@ const Home = () => {
                         </div>
                         <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='tre.png'/>
-                            <S.SpanTextosDosIdealizadores>Viabilizamos investimentos com causa por meio de programas e soluções financeiras que foram desenvolvidos para nutrir negócios que geram impacto positivo e impulsionam transformações <S.SpanTelaPequena style={{color:'#fff'}}>as</S.SpanTelaPequena> socioambientais. Já mobilizamos mais de R$ 15 milhões para 63 negócios com causa, por meio de uma engajada comunidade de +700 investidores!</S.SpanTextosDosIdealizadores>
+                            <S.SpanTextosDosIdealizadores>Viabilizamos investimentos com causa por meio de programas e soluções financeiras que foram desenvolvidos para nutrir negócios que geram impacto positivo e impulsionam transformações socioambientais. Já mobilizamos mais de R$ 15 milhões para 63 negócios com causa, por meio de uma engajada comunidade de +700 investidores!</S.SpanTextosDosIdealizadores>
                             <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
                                 <a href='https://www.linkedin.com/in/marcos-pedote-273177/' target='_blank' style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', textDecoration: 'none'}}>
                                     <img src='/marcos.png' style={{height: '120px', width: '120px'}}/>

@@ -545,7 +545,7 @@ export const SpanTextoInvestimento3 = styled.span`
   @media screen and (max-width: 580px) {
     font-size: .6rem  !important;
     top: 40%;
-    left: 4.5%;
+    left: 5%;
     width: 30% !important;
   }
   `;
@@ -587,7 +587,7 @@ export const SpanTituloInvestimento2 = styled.span`
   z-index: 99;
 
   @media screen and (max-width: 580px) {
-    font-size: .9rem !important;
+    font-size: .8rem !important;
     top: -15%;
   }
 `;
