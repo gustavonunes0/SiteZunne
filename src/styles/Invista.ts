@@ -10,7 +10,7 @@ export const Main = styled.main`
   overflow: hidden;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     margin: 6.5rem 0rem 28.5rem 0rem
   }
   @media screen and (max-width: 580px) {
@@ -44,7 +44,7 @@ export const ContainerInicio = styled.div`
     place-items: center;   
     padding: 5%;
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 1fr;
     place-items: center;  
   text-align: justify; 
@@ -75,7 +75,7 @@ export const ContainerTopicos = styled.div`
   padding-left: 2rem;
   margin-top: 4rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
       gap: 0;
   }
   @media screen and (max-width: 580px) {
@@ -91,7 +91,7 @@ export const ContainerTopicos2 = styled.div`
   align-items: center;
   margin-top: 4rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
       gap: 0;
       padding: 0 15%;
   }
@@ -107,7 +107,7 @@ export const ContainerTopicos2 = styled.div`
 export const Etapa = styled.img`
   width: 6rem;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 5rem;
     
   }
@@ -121,7 +121,7 @@ export const Etapa = styled.img`
 export const Etapa2 = styled.img`
     width: 2rem;
   
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1050px) {
       width: 1.5rem;
     }
     @media screen and (max-width: 580px) {
@@ -180,7 +180,7 @@ export const ImagemFlorMulher = styled.img`
   width: 100%;
   margin-top: -8rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     margin-top: -3rem;
   }
   @media screen and (max-width: 580px) {
@@ -196,7 +196,7 @@ export const BoxVideo = styled.iframe`
   background: #d9d9d9;
   border: none;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 100%;
     height: 34rem;
     border-radius: 30px;
@@ -213,7 +213,7 @@ export const BoxVideo2 = styled.iframe`
   border: none;
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
   }
 `;
 
@@ -257,7 +257,7 @@ export const BoxReferencias = styled.div`
      
     font-size: 1.1rem;
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 45%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
@@ -334,7 +334,7 @@ export const SpanDepoimento = styled.span`
   width: 40%;
   top: 40%;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .69rem;
     left: 9.1%;
     top: 35%;
@@ -368,7 +368,7 @@ export const SpanNomeDepoimento = styled.span`
   width: 40%;
   top: 78%;
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .65rem;
     left: 20.5%;
     top: 90%;
@@ -576,7 +576,7 @@ export const SpanTextos2 = styled.span`
   font-size: 1.2rem;
   text-align: justify !important;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .9rem;    
     width: 100%;
   }
@@ -592,7 +592,7 @@ export const SpanTextos3 = styled.span`
   font-size: .8rem;
   text-align: center !important;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .6rem;   
     height: 2rem;
   }
@@ -616,12 +616,12 @@ export const SpanTextosEmprestimo = styled.span<SpanProps>`
   left: ${props => props.left || '0'};
 
 
-  @media screen and (min-width: 1850px) {
+  @media screen and (min-width: 11050px) {
     top: 45%;
     font-size: 2rem;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     font-size: .9rem !important;    
     top: 40%;
   }
@@ -805,7 +805,7 @@ export const BotaoInvestir3 = styled.button`
   }
 
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     padding: .7rem 1rem;
     width: 11rem;
     border-radius: 20px;
