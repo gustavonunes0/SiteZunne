@@ -109,7 +109,7 @@ const Invista = () => {
                             <S.Etapa src='/Etapa1.svg'/>     
                             <S.SpanTextos3 style={{textAlign: 'center'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%', height: '100%'}}>
                             <S.Etapa2 src='/seta.svg'/>  
                             <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
                         </div>
@@ -117,7 +117,7 @@ const Invista = () => {
                             <S.Etapa src='/Etapa2.svg'/>     
                             <S.SpanTextos3 style={{textAlign: 'center'}}>Escolha a causa, o<br/> negócio e o valor que <br/>deseja investir</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%', height: '100%'}}>
                             <S.Etapa2 src='/seta.svg'/>  
                             <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
                         </div>
@@ -125,7 +125,7 @@ const Invista = () => {
                             <S.Etapa src='/Etapa3.svg'/>     
                             <S.SpanTextos3 style={{textAlign: 'center'}}>Faça uma simulação<br/> do valor que <br/>deseja investir</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%', height: '100%'}}>
                             <S.Etapa2 src='/seta.svg'/>  
                             <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
                         </div>
@@ -133,7 +133,7 @@ const Invista = () => {
                             <S.Etapa src='/Etapa3.svg'/>     
                             <S.SpanTextos3 style={{textAlign: 'center'}}>Transfira o<br/> dinheiro via <br/>boleto ou PIX</S.SpanTextos3>                       
                         </div>
-                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', width: '10%', height: '100%'}}>
                             <S.Etapa2 src='/seta.svg'/>  
                             <S.SpanTextos3 style={{textAlign: 'center', color: '#fff'}}>Clique aqui e<br/> cadastre-se na <br/>plataforma Trê-MOVA</S.SpanTextos3>                          
                         </div>

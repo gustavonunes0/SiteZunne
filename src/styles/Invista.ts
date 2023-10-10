@@ -98,6 +98,7 @@ export const ContainerTopicos2 = styled.div`
   @media screen and (max-width: 580px) {
       text-align: justify !important;
       padding: 0 8%;
+      gap: 0.3rem;
       display: flex;
       flex-wrap: wrap;
   }
@@ -341,6 +342,12 @@ export const SpanDepoimento = styled.span`
   
   @media screen and (max-width: 580px) {
     font-size: .4rem;
+    left: 5%;
+    top: 31%;
+  }
+  
+  @media screen and (max-width: 390px) {
+    font-size: .36rem;
     left: 5%;
     top: 31%;
   }

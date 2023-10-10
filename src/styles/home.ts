@@ -834,6 +834,10 @@ export const Ponto = styled.div<PontoProps>`
     left: calc(${props => props.left || '0'} + 4%);
     top: 1.6rem;
   }
+  @media screen and (max-width: 388px) {
+    left: calc(${props => props.left || '0'} + 2%);
+    top: 1.6rem;
+  }
   @media screen and (min-width: 1750px) {
     left: calc(${props => props.left || '0'} + 6%);
     margin-left: 0rem;
@@ -864,6 +868,10 @@ export const Ponto2 = styled.div<PontoProps>`
     left: calc(${props => props.left || '0'} + 4%);
     top: 1.6rem;
     margin-left: 0rem;
+  }
+  @media screen and (max-width: 388px) {
+    left: calc(${props => props.left || '0'} + 2%);
+    top: 1.6rem;
   }
 `;
 
@@ -902,6 +910,9 @@ export const Data = styled.span`
     font-size: .45rem;
     margin-top: -6rem !important;
   }
+  @media screen and (max-width: 388px) {
+    font-size: .35rem;
+  }
 `;
 
 export const Data2 = styled.span`
@@ -922,6 +933,11 @@ export const Data2 = styled.span`
 
   @media screen and (max-width: 580px) {
     font-size: .4rem;
+    margin-top: 0rem !important;
+  }
+  
+  @media screen and (max-width: 388px) {
+    font-size: .35rem;
     margin-top: 0rem !important;
   }
 `;
