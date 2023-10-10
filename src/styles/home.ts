@@ -650,7 +650,7 @@ export const SpanPrimeiroTexto = styled.span`
     word-spacing: .01rem;
   }
   @media screen and (max-width: 580px) {
-    font-size: 1.1rem;
+    font-size: 1.03rem;
     width: 80%;
     word-spacing: 0.1rem;
   }
@@ -698,6 +698,7 @@ export const SpanTextos = styled.span`
   @media screen and (max-width: 580px) {
     font-size: 1.05rem;    
     width: 80%;
+    word-spacing: -.1rem;
   }
 `;
 
@@ -781,6 +782,14 @@ export const SpanTextosDosIdealizadores = styled.span`
   width: 85%;
   text-align: justify;    
   word-spacing: 0rem;
+ }
+`;
+
+export const SpanTelaPequena = styled.span`
+  display: none;
+
+@media screen and (max-width: 580px) {
+  display: block;
  }
 `;
 
