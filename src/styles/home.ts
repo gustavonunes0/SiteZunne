@@ -586,6 +586,10 @@ export const SpanTituloInvestimento2 = styled.span`
   top: -10%;
   z-index: 99;
 
+  @media screen and (max-width: 1300px) {
+    font-size: 1.2rem !important;
+    top: -5%;
+  }
   @media screen and (max-width: 580px) {
     font-size: .8rem !important;
     top: -15%;
@@ -826,6 +830,10 @@ export const Ponto = styled.div<PontoProps>`
   align-items: center;
   left: calc(${props => props.left || '0'} + 3.5%);
 
+  @media screen and (max-width: 1250px) {
+    left: calc(${props => props.left || '0'} + 2.5%);
+    top: 1.3rem;
+  }
   @media screen and (max-width: 1050px) {
     left: calc(${props => props.left || '0'} + 2.5%);
     top: 1.3rem;
@@ -856,6 +864,11 @@ export const Ponto2 = styled.div<PontoProps>`
 
   @media screen and (min-width: 1750px) {
     left: calc(${props => props.left || '0'} + 7%);
+    margin-left: 0rem;
+    top: 1.3rem;
+  }
+  @media screen and (max-width: 1250px) {
+    left: calc(${props => props.left || '0'} + 2.1%);
     margin-left: 0rem;
     top: 1.3rem;
   }

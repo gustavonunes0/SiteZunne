@@ -204,8 +204,8 @@ export const BoxVideo = styled.iframe`
 `;
 
 export const BoxVideo2 = styled.iframe`
-  width: 37%;
-  height: 100%;
+  width: 77%;
+  height: 60%;
   position: absolute;
   flex-shrink: 0;
   border-radius: 30px;
@@ -214,6 +214,10 @@ export const BoxVideo2 = styled.iframe`
 
   
   @media screen and (max-width: 1050px) {
+  }
+  
+  @media screen and (max-width: 450px) {
+    border-radius: 10px;
   }
 `;
 
@@ -250,10 +254,11 @@ export const BoxReferencias = styled.div`
   box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
 
   
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1250px) {
     width: 35%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
+    word-break: break-all;
      
     font-size: 1.1rem;
   }
@@ -261,22 +266,32 @@ export const BoxReferencias = styled.div`
     width: 45%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-     
+     word-break: normal;
     font-size: 1rem;
   }
   @media screen and (max-width: 750px) {
     width: 75%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-     
-    font-size: 1rem;
+     border-radius: 1.7rem;
+    font-size: 1.3rem;
   }
   @media screen and (max-width: 650px) {
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    font-size: .75rem;
+    font-size: .95rem;
+    border-radius: 1.4rem;
     word-spacing: 0;
     height: 9.5rem;
+  }
+  
+  @media screen and (max-width: 550px) {
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
+    text-align: justify !important;
+    font-size: .75rem;
+    word-spacing: 0;
+    height: 7.5rem;
+     border-radius: 1.1rem;
   }
 `;
 
@@ -334,24 +349,47 @@ export const SpanDepoimento = styled.span`
   width: 40%;
   top: 40%;
   
+  @media screen and (max-width: 1450px) {
+    font-size: .79rem;
+    left: 9.1%;
+    top: 35%;
+  }
   @media screen and (max-width: 1050px) {
-    font-size: .69rem;
+    font-size: .8rem;
+    left: 9.1%;
+    top: 35%;
+  }
+
+  @media screen and (max-width: 1920px) {
+    font-size: .7rem;
+    left: 9.1%;
+    top: 35%;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: .62rem;
     left: 9.1%;
     top: 35%;
   }
   
   @media screen and (max-width: 580px) {
+    font-size: .45rem;
+    left: 5%;
+    top: 31%;
+  }
+  
+  @media screen and (max-width: 470px) {
     font-size: .38rem;
     left: 5%;
     top: 31%;
   }
   
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 420px) {
     font-size: .36rem;
     left: 5%;
     top: 31%;
   }
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 385px) {
     font-size: .31rem;
     left: 5%;
     top: 31%;
@@ -368,9 +406,27 @@ export const SpanNomeDepoimento = styled.span`
   width: 40%;
   top: 78%;
   
+  @media screen and (max-width: 1450px) {
+    font-size: .7rem;
+    left: 40.5%;
+    top: 70%;
+  }
+  
+  @media screen and (max-width: 1350px) {
+    font-size: .7rem;
+    left: 40.5%;
+    top: 80%;
+  }
+
+  @media screen and (max-width: 1250px) {
+    font-size: .7rem;
+    left: 38.5%;
+    top: 85%;
+  }
+
   @media screen and (max-width: 1050px) {
     font-size: .65rem;
-    left: 20.5%;
+    left: 38.5%;
     top: 90%;
   }
   

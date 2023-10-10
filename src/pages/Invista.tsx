@@ -90,7 +90,7 @@ const Invista = () => {
                         <S.SpanTextosEmprestimo left='79.5%' style={{top: '75%'}}>Negócios de Impacto</S.SpanTextosEmprestimo>
                         <S.Emprestimo src='/ProcessoEmprestimo.svg'/>
                     </div>
-                    <div style={{width: '100%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
+                    <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative'}}>
                         <img src='/Flor.svg' style={{width: '70%'}}/>
                         <S.BoxVideo2
                             src='https://www.youtube.com/embed/fNPjoapw-rU'
@@ -98,7 +98,7 @@ const Invista = () => {
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                             allowFullScreen
                         ></S.BoxVideo2>                        
-                        <S.BotaoInvestir3 style={{position: 'absolute', top: '95%'}}>
+                        <S.BotaoInvestir3 style={{position: 'absolute', top: '75%'}}>
                             <a href='https://treinvestimentos.mova.vc/' target="_blank" style={{textDecoration: 'none', color:'#fff'}}>
                                 Quero investir!
                             </a>

@@ -11,6 +11,9 @@ export const HeaderContainer = styled.header`
   margin-top: -45rem;
   gap: 2rem;
 
+  @media screen and (max-width: 1250px) {
+    margin-top: -32rem;
+  }
   @media screen and (max-width: 850px) {
     margin-top: -30rem;
   }
