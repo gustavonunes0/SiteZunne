@@ -860,7 +860,7 @@ export const Ponto2 = styled.div<PontoProps>`
     top: 1.3rem;
   }
   @media screen and (max-width: 1050px) {
-    left: calc(${props => props.left || '0'} + 2%);
+    left: calc(${props => props.left || '0'} + 1.8%);
     margin-left: 0rem;
     top: 1.3rem;
   }
