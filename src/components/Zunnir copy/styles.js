@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
   margin-top: -45rem;
   gap: 2rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     margin-top: -30rem;
   }
   @media screen and (max-width: 550px) {
@@ -46,7 +46,7 @@ export const SpanZunne = styled.span`
   color: #fff;
   text-align: justify;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
 
   }
   @media screen and (max-width: 580px) {
@@ -59,7 +59,7 @@ export const Titulo = styled.span`
   font-size: 3rem;
   color: #fff;
   line-height: 4rem;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
 
   }
   @media screen and (max-width: 580px) {
@@ -73,7 +73,7 @@ export const Span55 = styled.span`
   font-size: 3rem;
   color: #fff;
   line-height: 4rem;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
 
   }
   @media screen and (max-width: 580px) {
@@ -85,11 +85,11 @@ export const Span55 = styled.span`
 export const ImagemZunne = styled.img`
   width: 8%;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 30%;
 
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1050px) {
     width: 20%;
   }
 `;
