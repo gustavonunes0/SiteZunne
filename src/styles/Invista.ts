@@ -98,7 +98,7 @@ export const ContainerTopicos2 = styled.div`
   @media screen and (max-width: 580px) {
       text-align: justify !important;
       padding: 0 8%;
-      gap: 0.3rem;
+      gap: 0.5rem;
       display: flex;
       flex-wrap: wrap;
   }
@@ -351,6 +351,11 @@ export const SpanDepoimento = styled.span`
     left: 5%;
     top: 31%;
   }
+  @media screen and (max-width: 370px) {
+    font-size: .31rem;
+    left: 5%;
+    top: 31%;
+  }
 `;
 
 export const SpanNomeDepoimento = styled.span`
@@ -370,7 +375,7 @@ export const SpanNomeDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .4rem;
+    font-size: .39rem;
     left: 28%;
     top: 92%;
   }

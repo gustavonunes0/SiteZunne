@@ -835,7 +835,7 @@ export const Ponto = styled.div<PontoProps>`
     top: 1.6rem;
   }
   @media screen and (max-width: 388px) {
-    left: calc(${props => props.left || '0'} + 2%);
+    left: calc(${props => props.left || '0'} + 3%);
     top: 1.6rem;
   }
   @media screen and (min-width: 1750px) {
@@ -870,7 +870,7 @@ export const Ponto2 = styled.div<PontoProps>`
     margin-left: 0rem;
   }
   @media screen and (max-width: 388px) {
-    left: calc(${props => props.left || '0'} + 2%);
+    left: calc(${props => props.left || '0'} + 3%);
     top: 1.6rem;
   }
 `;
