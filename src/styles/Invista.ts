@@ -341,12 +341,12 @@ export const SpanDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .4rem;
+    font-size: .38rem;
     left: 5%;
     top: 31%;
   }
   
-  @media screen and (max-width: 385px) {
+  @media screen and (max-width: 390px) {
     font-size: .36rem;
     left: 5%;
     top: 31%;
