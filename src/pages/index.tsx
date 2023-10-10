@@ -295,8 +295,8 @@ const Home = () => {
                         <S.SpanTituloTextoInvestimento>R$ 500mil</S.SpanTituloTextoInvestimento>
                         <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '40%', color: '#ff6514'}}>+</S.SpanTituloTextoInvestimento>
                         <S.SpanTextoInvestimento>apoio técnico às organizações que desenvolvam o programa</S.SpanTextoInvestimento>
-                        <S.SpanTituloTextoInvestimento style={{left: '59%'}}>R$ 1mi</S.SpanTituloTextoInvestimento>
-                        <S.SpanTextoInvestimento style={{left: '60%'}}>fundo garantidor para casos de inadimplência</S.SpanTextoInvestimento>
+                        <S.SpanTituloTextoInvestimento style={{left: '60%'}}>R$ 1mi</S.SpanTituloTextoInvestimento>
+                        <S.SpanTextoInvestimento style={{left: '61%'}}>fundo garantidor para casos de inadimplência</S.SpanTextoInvestimento>
                         <S.SpanTituloInvestimento style={{top: '83%'}}>Total</S.SpanTituloInvestimento>
                         <S.SpanTituloTextoInvestimento style={{left: '32.5%', top: '95%', color: '#ff6514', fontWeight: '500'}}>R$ 1.5mi</S.SpanTituloTextoInvestimento>
                     </S.ContainerInvestimento>     

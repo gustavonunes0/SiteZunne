@@ -543,7 +543,7 @@ export const SpanTextoInvestimento3 = styled.span`
     margin: 0 !important;
   }
   @media screen and (max-width: 580px) {
-    font-size: .6rem  !important;
+    font-size: .5rem  !important;
     top: 40%;
     left: 5%;
     width: 30% !important;
