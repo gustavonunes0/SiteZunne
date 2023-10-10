@@ -295,7 +295,8 @@ export const BoxReferencias = styled.div`
     width: 80%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    word-break: break-all;
+    
+  word-spacing: .1rem;
   }
 `;
 export const DivAsa = styled.div`
@@ -638,18 +639,20 @@ export const SpanPrimeiroTexto = styled.span`
   font-weight: 500;
   font-size: 1.6rem;
   text-align: justify;
-  word-break: break-all;
-  hyphens: auto; /* Adicione esta linha para ativar a hifenização automática */
+  word-spacing: .1rem;
+  hyphens: auto; 
   width: 80%;
   margin-top: 2.5rem;
   
   @media screen and (max-width: 1050px) {
     font-size: 1.3rem;
     width: 60%;
+    word-spacing: .01rem;
   }
   @media screen and (max-width: 580px) {
     font-size: 1.1rem;
-    width: 100%;
+    width: 80%;
+    word-spacing: 0.1rem;
   }
 `;
 
@@ -662,35 +665,39 @@ export const ImagemAbelha = styled.img`
 export const SpanTextoAbelha = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: justify;
-  word-break: break-all;
+  
+  word-spacing: 0rem;
 
   @media screen and (max-width: 1050px) {
-    font-size: 1.3rem;
-    width: 100%;
-    text-align: center;
-  }
-  @media screen and (max-width: 580px) {
     font-size: 1.1rem;
     width: 100%;
-    text-align: center;
+    word-spacing: 0rem;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: 1.05rem;
+    width: 80%;
+    word-spacing: 0rem;
   }
 `;
 
 export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: justify;
-  word-break: break-all;
+  word-spacing: 0rem;
+
   @media screen and (max-width: 1050px) {
     font-size: 1.1rem;    
     width: 100%;
+    text-align: justify !important;
+    word-spacing: -.1rem;
   }
   @media screen and (max-width: 580px) {
-    font-size: 1.1rem;    
-    width: 100%;
+    font-size: 1.05rem;    
+    width: 80%;
   }
 `;
 
@@ -699,7 +706,20 @@ export const SpanTextosNegocios = styled.span`
   font-weight: 500;
   font-size: 1.3rem;
   text-align: justify;
-  word-break: break-all;
+  
+  word-spacing: .1rem;
+
+  
+  @media screen and (max-width: 1050px) {
+    font-size: 1.1rem;    
+    width: 100%;
+    text-align: justify !important;
+    word-spacing: -.1rem;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: 1.13rem;    
+    width: 100%;
+  }
 `;
 
 export const SpanOnu = styled.span`
@@ -714,12 +734,19 @@ export const SpanTextosQuadrados = styled.span`
   font-weight: 500;
   font-size: 1.3rem;
   text-align: justify;
-  word-break: break-all;
+  
+  word-spacing: .1rem;
 
   
   @media screen and (max-width: 1050px) {
     font-size: .9rem;    
     width: 100%;
+    word-spacing: .01rem;
+  }
+  @media screen and (max-width: 580px) {
+    font-size: .73rem;    
+    width: 100%;
+    word-spacing: 0.24rem;
   }
 `;
 
@@ -728,16 +755,17 @@ export const SpanTextosIdealizadores = styled.span`
   font-weight: 500;
   font-size: 1.5rem;
   text-align: justify;
-  word-break: break-all;
+  
+  word-spacing: .1rem;
   width: 70%;
   margin-top: -2.5rem;
 
   @media screen and (max-width: 580px) {
-    font-size: 1.1rem;
-    width: 100%;
-    text-align: justify;
-    word-break: break-all;
-  }
+    font-size: 1rem;
+    width: 85%;
+    text-align: justify;    
+    word-spacing: 0.2rem;
+   }
 `;
 
 export const SpanTextosDosIdealizadores = styled.span`
@@ -745,7 +773,15 @@ export const SpanTextosDosIdealizadores = styled.span`
   font-weight: 500;
   font-size: 1.1rem;
   text-align: justify;
-  word-break: break-all;
+  
+  word-spacing: .1rem;
+
+@media screen and (max-width: 580px) {
+  font-size: 1rem;
+  width: 85%;
+  text-align: justify;    
+  word-spacing: 0rem;
+ }
 `;
 
 export const IconeLinkedin = styled.div`
@@ -851,9 +887,10 @@ export const Data = styled.span`
   @media screen and (max-width: 1050px) {
     font-size: .8rem;
     margin-top: -6rem !important;
+    word-spacing: .01rem;
   }
   @media screen and (max-width: 580px) {
-    font-size: .5rem;
+    font-size: .45rem;
     margin-top: -6rem !important;
   }
 `;

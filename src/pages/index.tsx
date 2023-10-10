@@ -56,17 +56,18 @@ const Home = () => {
                     </div>
                     <S.SpanPrimeiroTexto>O Zunne é um programa de investimento de impacto, que prioriza negócios de impacto positivo
                                                  liderados por mulheres, pessoas negras e/ou indígenas, com o intuito de erradicar a pobreza e
-                                                  reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.</S.SpanPrimeiroTexto>
+                                                  reduzir desigualdades no Norte e Nordeste do Brasil, democratizando o investimento de impacto.
+                    </S.SpanPrimeiroTexto>
                     <S.ContainerDuplo>
                         <S.ImagemAbelha src='/abelha.svg'/>
                         <S.SpanTextoAbelha>Nossa inspiração vem da conexão com a natureza: as
                             <span style={{color: '#f2ae13'}}> abelhas </span>
-                            e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, sabedoria, organização e trabalho.</S.SpanTextoAbelha>
+                            e seu trabalho de polinização que simboliza ideias como: cooperação, lealdade, organização e trabalho.</S.SpanTextoAbelha>
                     </S.ContainerDuplo>
                     <S.ContainerTriplo>
                         <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'justify', wordBreak: 'break-all'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de desenvolvimento humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'justify'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de progresso humano.</S.SpanTextos>
                         </div>
                         <div style={
                             {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
@@ -74,7 +75,7 @@ const Home = () => {
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'justify', wordBreak: 'break-all'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'justify'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
                         </div>
                     </S.ContainerTriplo>
                     <S.ContainerTriplo2>
@@ -222,7 +223,7 @@ const Home = () => {
                     <S.ContainerEmpresa>
                         <div style={{display: 'flex', flexDirection:'column', justifyContent: 'space-between', alignItems: 'center', height: '100%', gap: '2rem'}}>
                             <S.LogosEmpresas src='somos-um.png'/>
-                            <S.SpanTextosDosIdealizadores>Somos uma articuladora de negócios de impacto que busca resolver problemas sociais e ambientais contribuindo para a construção de uma nova economia, mais justa e equilibrada, com pessoas conscientes, atuando em rede. Existimos para reduzir desigualdades e gerar oportunidades por meio dos negócios de impacto.</S.SpanTextosDosIdealizadores>
+                            <S.SpanTextosDosIdealizadores>Somos uma articuladora de negócios de impacto que busca resolver problemas sociais e ambientais contribuindo para a construção de uma nova economia, mais justa e equilibrada, com pessoas conscientes, atuando em rede. Existimos para reduzir diferenças e gerar oportunidades por meio dos negócios de impacto.</S.SpanTextosDosIdealizadores>
                             <div style={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
                                 <a href='https://www.linkedin.com/in/ticiana-rolim-queiroz-42606a18a/' target='_blank' style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', textDecoration: 'none'}}>
                                     <img src='/ticiana.png' style={{height: '120px', width: '120px'}}/>

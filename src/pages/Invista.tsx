@@ -37,7 +37,7 @@ const Invista = () => {
                                     Quero investir!
                                 </a>
                              </S.BotaoInvestir><br/><br/>
-                             <S.SpanTextosNegocios style={{color: '#ff6514'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!</S.SpanTextosNegocios>
+                             <S.SpanTextosNegocios style={{color: '#ff6514'}}>Cadastre-se na plataforma Trê-MOVA e então aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!</S.SpanTextosNegocios>
                         </div>
                         <S.BoxVideo
                             src='https://www.youtube.com/embed/gYJsuIhHmaA'
@@ -51,9 +51,6 @@ const Invista = () => {
                             <S.ImagemFlorHomem src='/FloresHomem.svg'/>
                             <S.SpanDepoimento>Tenho a consciência de que todos os negócios devem, de forma autêntica, gerar impacto em seu ecossistema. Até que esse cenário seja realidade, cabe a todos, dentro de suas possibilidades, fomentar e apoiar iniciativas que se dedicam inteiramente a essa jornada e ao desenvolvimento desse modelo mais sustentável e próspero. O programa Zunne surge pela união de pessoas preparadas, com um desafio claro e um plano consistente. Certamente fará a diferença!</S.SpanDepoimento>
                             <S.SpanNomeDepoimento>Gustavo Assis</S.SpanNomeDepoimento>
-                        </div>
-                        <div style={{position: 'relative', width: '100%'}}>
-                            <S.ImagemFlorMulher src='/FloresMulher.svg'/>
                         </div>
                     </div>
                     <S.ContainerTopicos style={{gap:'2rem'}}>
@@ -80,8 +77,8 @@ const Invista = () => {
                     </S.ContainerTopicos>
                     <div style={{display: 'flex', flexDirection: 'column', gap:'.9rem', padding: '8%'}}>
                         <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.7rem'}}><span style={{fontWeight: '700',color: '#ff6514'}}>Como funciona</span> o investimento?</S.SpanTitulo>
-                        <S.SpanTextos style={{textAlign: 'center'}}>Você poderá investir pela plataforma Trê-MOVA, na modalidade peer-to-peer ou empréstimo direto coletivo na qual vários investidores
-                            podem reunir esforços, em forma de capital para financiar diretamente empréstimos solicitados por empresas.
+                        <S.SpanTextos style={{textAlign: 'center'}}>Você poderá investir pela plataforma Trê-MOVA, na modalidade peer-to-peer ou empréstimo direto coletivo na qual diversos investidores
+                            podem reunir esforços, em forma de capital para financiar de forma direta os empréstimos solicitados por empresas.
                         </S.SpanTextos>
                         <S.SpanTextos style={{textAlign: 'center'}}>As operações não tem custos para os investidores e seu retorno financeiro conta com juros prefixados.
                         Além disso, os investidores podem alocar recursos nos negócios a partir de R$ 10!
@@ -90,7 +87,7 @@ const Invista = () => {
                     <div style={{position: 'relative', padding: '8%'}}>
                         <S.SpanTextosEmprestimo left='-1%' style={{top: '17%'}}>Investidores (PF e PJ)</S.SpanTextosEmprestimo>
                         <S.SpanTextosEmprestimo left='37.5% !important' style={{color: '#fff'}}>Plataforma de empréstimo coletivo Trê-MOVA</S.SpanTextosEmprestimo>
-                        <S.SpanTextosEmprestimo left='75.5%' style={{top: '75%'}}>Negócios de Impacto</S.SpanTextosEmprestimo>
+                        <S.SpanTextosEmprestimo left='79.5%' style={{top: '75%'}}>Negócios de Impacto</S.SpanTextosEmprestimo>
                         <S.Emprestimo src='/ProcessoEmprestimo.svg'/>
                     </div>
                     <div style={{width: '100%', display: 'flex', justifyContent: 'center', position: 'relative'}}>
@@ -155,8 +152,8 @@ const Invista = () => {
                                 Quero investir!
                             </a>
                         </S.BotaoInvestir>
-                        <S.SpanTextos style={{color: '#ff6514', textAlign: 'center'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!
-                        </S.SpanTextos>
+                        <S.SpanTextos2 style={{color: '#ff6514', textAlign: 'center'}}>Cadastre-se na plataforma Trê-MOVA e aguarde o lançamento dos negócios de impacto para fazer sua reserva de investimento!
+                        </S.SpanTextos2>
                     </div>
                 </S.ContainerPrincipal>
             </S.Main>

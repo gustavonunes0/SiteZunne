@@ -46,7 +46,8 @@ export const ContainerInicio = styled.div`
   }
   @media screen and (max-width: 850px) {
     grid-template-columns: 1fr;
-    place-items: center;   
+    place-items: center;  
+  text-align: justify; 
     padding: 15% 8%;
   }
 `;
@@ -168,6 +169,10 @@ export const BolaLaranja = styled.div`
 export const ImagemFlorHomem = styled.img`
   width: 100%;
   
+  @media screen and (max-width: 580px) {
+    width: 130%;
+    margin-left: -2.5rem;
+  }
 `;
 
 export const ImagemFlorMulher = styled.img`
@@ -248,27 +253,28 @@ export const BoxReferencias = styled.div`
     width: 35%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    word-break: break-all;
+     
     font-size: 1.1rem;
   }
   @media screen and (max-width: 850px) {
     width: 45%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    word-break: break-all;
+     
     font-size: 1rem;
   }
   @media screen and (max-width: 750px) {
     width: 75%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    word-break: break-all;
+     
     font-size: 1rem;
   }
   @media screen and (max-width: 650px) {
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
     text-align: justify !important;
-    word-break: break-all;
+    font-size: .75rem;
+    word-spacing: 0;
     height: 9.5rem;
   }
 `;
@@ -306,11 +312,12 @@ export const SpanTitulo = styled.span`
   color: #606060;
   font-weight: 700;
   font-size: 2.5rem;
-  text-align: center;
+  text-align: start !important;
 
   
   @media screen and (max-width: 580px) {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
+    word-spacing: 0rem;
     width: 100%;
   }
 `;
@@ -320,8 +327,8 @@ export const SpanDepoimento = styled.span`
   font-weight: 500;
   position: absolute;
   font-size: 1rem;
-  text-align: justify;
-  word-break: break-all;
+  text-align: justify !important;
+   
   left: 10%;
   width: 40%;
   top: 40%;
@@ -333,7 +340,9 @@ export const SpanDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .35rem;
+    font-size: .4rem;
+    left: 5%;
+    top: 31%;
   }
 `;
 
@@ -342,8 +351,8 @@ export const SpanNomeDepoimento = styled.span`
   font-weight: 500;
   position: absolute;
   font-size: .9rem;
-  text-align: center;
-  left: -3%;
+  text-align: justify !important;
+  left: 10%;
   width: 40%;
   top: 78%;
   
@@ -354,7 +363,9 @@ export const SpanNomeDepoimento = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: .32rem;
+    font-size: .4rem;
+    left: 28%;
+    top: 92%;
   }
 `;
 
@@ -362,7 +373,7 @@ export const SpanTituloPrograma = styled.span`
   color: #606060;
   font-weight: 700;
   font-size: 2.8rem;
-  text-align: center;
+  text-align: justify !important;
 
   
   @media screen and (max-width: 580px) {
@@ -375,7 +386,7 @@ export const SpanTituloInvestimento = styled.span`
   color: #606060;
   font-weight: 500;
   font-size: 2rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: -5%;
   z-index: 99;
@@ -389,7 +400,7 @@ export const SpanTituloInvestimento2 = styled.span`
   width: 40%;
   font-weight: 500;
   font-size: 1.7rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: -10%;
   z-index: 99;
@@ -404,7 +415,7 @@ export const SpanTituloTextoInvestimento = styled.span`
   color: #fff;
   font-weight: 700;
   font-size: 2.2rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: 25%;
   width: 35%;
@@ -420,7 +431,7 @@ export const SpanTituloTextoInvestimento2 = styled.span`
   color: #fff;
   font-weight: 700;
   font-size: 2.2rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: 25%;
   width: 35%;
@@ -437,7 +448,7 @@ export const SpanTextoInvestimento = styled.span`
   color: #fff;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: 40%;
   width: 35%;
@@ -453,7 +464,7 @@ export const SpanTextoInvestimento2 = styled.span`
   color: #606060;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: 40%;
   width: 35%;
@@ -470,7 +481,7 @@ export const SpanTextoInvestimento3 = styled.span`
   color: #ff6514;
   font-weight: 500;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: justify !important;
   position: absolute;
   top: 50%;
   width: 35%;
@@ -493,7 +504,7 @@ export const SpanTituloLaranja = styled.span`
   color: #ff6514;
   font-weight: 700;
   font-size: 1.9rem;
-  text-align: center;
+  text-align: justify !important;
 
   @media screen and (max-width: 580px) {
     font-size: 1.3rem;    
@@ -505,7 +516,7 @@ export const SpanPrimeiroTexto = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: justify !important;
   width: 80%;
   margin-top: 2.5rem;
   
@@ -525,7 +536,7 @@ export const SpanTextoAbelha = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.8rem;
-  text-align: start;
+  text-align: justify !important;
 
   @media screen and (max-width: 580px) {
     font-size: 1.1rem;
@@ -538,19 +549,20 @@ export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.7rem;
-  text-align: justify;
-  word-break: break-all;
+  text-align: justify !important;
+   
 
   @media screen and (max-width: 580px) {
-    font-size: 1.1rem;    
+    font-size: .97rem;    
     width: 100%;
+    word-spacing: .27rem;
   }
 `;
 export const SpanTextos2 = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.2rem;
-  text-align: start;
+  text-align: justify !important;
 
   @media screen and (max-width: 850px) {
     font-size: .9rem;    
@@ -566,7 +578,7 @@ export const SpanTextos3 = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: .8rem;
-  text-align: start;
+  text-align: center !important;
 
   @media screen and (max-width: 850px) {
     font-size: .6rem;   
@@ -588,7 +600,7 @@ export const SpanTextosEmprestimo = styled.span<SpanProps>`
   font-weight: 500;
   font-size: 1.4rem;
   top: 40%;
-  text-align: center;
+  text-align: center !important;
   left: ${props => props.left || '0'};
 
 
@@ -613,36 +625,41 @@ export const SpanTextosNegocios = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.3rem;
-  text-align: start;
+  text-align: justify !important;
+  
+  @media screen and (max-width: 580px) {
+    font-size: 1rem !important;
+    word-spacing: .12rem;
+  }
 `;
 
 export const SpanOnu = styled.span`
   color: #fff;
   font-weight: 500;
   font-size: 0.9rem;
-  text-align: start;
+  text-align: justify !important;
 `;
 
 export const SpanTextosQuadrados = styled.span`
   color: #fff;
   font-weight: 500;
   font-size: 1.3rem;
-  text-align: start;
+  text-align: justify !important;
 `;
 
 export const SpanTextosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify !important;
   width: 70%;
   margin-top: -2.5rem;
 
   @media screen and (max-width: 580px) {
     font-size: 1.1rem;
     width: 100%;
-    text-align: justify;
-    word-break: break-all;
+    text-align: justify !important;
+     
   }
 `;
 
@@ -650,8 +667,8 @@ export const SpanTextosDosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.1rem;
-  text-align: justify;
-  word-break: break-all;
+  text-align: justify !important;
+   
 `;
 
 export const IconeLinkedin = styled.div`
