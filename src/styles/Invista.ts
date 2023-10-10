@@ -171,8 +171,8 @@ export const ImagemFlorHomem = styled.img`
   width: 100%;
   
   @media screen and (max-width: 580px) {
-    width: 130%;
-    margin-left: -2.5rem;
+    width: 120%;
+    margin-left: -1.5rem;
   }
 `;
 
@@ -346,7 +346,7 @@ export const SpanDepoimento = styled.span`
     top: 31%;
   }
   
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 385px) {
     font-size: .36rem;
     left: 5%;
     top: 31%;
@@ -377,7 +377,7 @@ export const SpanNomeDepoimento = styled.span`
   @media screen and (max-width: 580px) {
     font-size: .39rem;
     left: 28%;
-    top: 92%;
+    top: 90%;
   }
 `;
 
