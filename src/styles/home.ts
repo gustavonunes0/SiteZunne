@@ -39,7 +39,7 @@ export const ContainerDuplo = styled.div`
   gap: 5rem;
 
   @media screen and (max-width: 1050px) {
-    gap: 1rem;  
+    gap: 5rem;  
   }
   @media screen and (max-width: 580px) {
     gap: 0rem;  
@@ -76,12 +76,12 @@ export const ContainerTriplo = styled.div`
   grid-template-columns: 30% 10% 30%;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width: 1050px) {
     grid-template-columns: 30% 5% 30%;
   }
   @media screen and (max-width: 580px) {
     grid-template-columns: 1fr;
+    gap: 3rem;
   }
 `;
 
@@ -92,7 +92,7 @@ export const ContainerEmpresa = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 780px) {
     grid-template-columns: 100%;
     margin-bottom: 5rem;
   }
@@ -104,7 +104,8 @@ export const ContainerTriplo2 = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding-left: 2rem;
+  margin-top: 4rem;
+  
 
   @media screen and (max-width: 1050px) {
     grid-template-columns: 35% 35%;
@@ -187,14 +188,14 @@ export const DivCirculoCinza = styled.div`
 `;
 
 export const DivImpacto = styled.div`
-    width: 90%;
+    width: 80%;
     border: 1px solid #ff6514;
     display: flex;
     gap: 4rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     border-radius: 4rem;
 
     @media screen and (max-width: 1050px) {
@@ -208,8 +209,8 @@ export const DivImpacto = styled.div`
 `;
 
 export const BoxVideo = styled.iframe`
-  width: 58.5rem;
-  height: 33rem;
+  width: 50.5rem;
+  height: 25rem;
   flex-shrink: 0;
   border-radius: 50px;
   background: #000;
@@ -283,7 +284,7 @@ export const BoxReferencias = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: start;
+  justify-content: space-between;
   padding: 1rem;
   background-color: #ff6514;
   border: 7px solid #f2ae13;
@@ -315,7 +316,7 @@ export const ImagemBoxLaranja = styled.img`
 `;
 
 export const ImagemMulher = styled.img`
-  width: 45%;
+  width: 35%;
 
   
   @media screen and (max-width: 580px) {
@@ -376,7 +377,7 @@ export const SpanTitulo5 = styled.span`
 export const SpanTituloImpacto = styled.span`
   color: #606060;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   text-align: center;
 
   
@@ -641,26 +642,28 @@ export const SpanTituloLaranja = styled.span`
 export const SpanPrimeiroTexto = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.6rem;
-  text-align: justify;
-  word-spacing: .1rem;
+  font-size: 1.15rem;
+  text-align: center;
   hyphens: auto; 
-  width: 80%;
+  width: 70%;
   margin-top: 2.5rem;
   
   @media screen and (max-width: 1050px) {
     font-size: 1.3rem;
     width: 60%;
-    word-spacing: .01rem;
   }
   @media screen and (max-width: 580px) {
     font-size: 1.03rem;
     width: 80%;
-    word-spacing: 0.1rem;
   }
 `;
 
 export const ImagemAbelha = styled.img`
+    width: 25rem;
+
+  @media screen and (max-width: 850px) {
+    width: 20rem;
+  }
   @media screen and (max-width: 580px) {
     width: 15rem;
   }
@@ -669,60 +672,52 @@ export const ImagemAbelha = styled.img`
 export const SpanTextoAbelha = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.6rem;
-  text-align: justify;
+  font-size: 1.15rem;
+  text-align: start;
   
-  word-spacing: 0rem;
 
   @media screen and (max-width: 1050px) {
     font-size: 1.1rem;
     width: 100%;
-    word-spacing: 0rem;
   }
   @media screen and (max-width: 580px) {
     font-size: 1.05rem;
     width: 80%;
-    word-spacing: 0rem;
+    text-align: center;
   }
 `;
 
 export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.4rem;
-  text-align: justify;
+  font-size: 1.15rem;
+  text-align: center;
   word-spacing: 0rem;
 
   @media screen and (max-width: 1050px) {
     font-size: 1.1rem;    
     width: 100%;
-    text-align: justify !important;
-    word-spacing: -.1rem;
   }
   @media screen and (max-width: 580px) {
     font-size: 1.05rem;    
     width: 80%;
-    word-spacing: -.1rem;
+    text-align: center !important;
   }
 `;
 
 export const SpanTextosNegocios = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.3rem;
-  text-align: justify;
-  
-  word-spacing: .1rem;
+  font-size: 1.15rem;
+  text-align: start;
 
   
   @media screen and (max-width: 1050px) {
     font-size: 1.1rem;    
     width: 100%;
-    text-align: justify !important;
-    word-spacing: -.1rem;
   }
   @media screen and (max-width: 580px) {
-    font-size: 1.13rem;    
+    font-size: 1.03rem;    
     width: 100%;
   }
 `;
@@ -737,10 +732,8 @@ export const SpanOnu = styled.span`
 export const SpanTextosQuadrados = styled.span`
   color: #fff;
   font-weight: 500;
-  font-size: 1.3rem;
-  text-align: justify;
-  
-  word-spacing: .1rem;
+  font-size: 1.05rem;
+  text-align: start;
 
   
   @media screen and (max-width: 1050px) {
@@ -758,34 +751,27 @@ export const SpanTextosQuadrados = styled.span`
 export const SpanTextosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.5rem;
-  text-align: justify;
-  
-  word-spacing: .1rem;
+  font-size: 1.15rem;
+  text-align: center;
   width: 70%;
   margin-top: -2.5rem;
 
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 780px) {
     font-size: 1rem;
-    width: 85%;
-    text-align: justify;    
-    word-spacing: 0.2rem;
+    width: 80%;
    }
 `;
 
 export const SpanTextosDosIdealizadores = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: 1.1rem;
-  text-align: justify;
+  font-size: 1rem;
+  text-align: center;
   
-  word-spacing: .1rem;
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 780px) {
   font-size: 1rem;
   width: 85%;
-  text-align: justify;    
-  word-spacing: 0rem;
  }
 `;
 
@@ -969,11 +955,11 @@ export const SpanFonte = styled.span`
 `;
 
 export const BotaoInvestir = styled.button`
-  padding: 1.1rem 2.2rem;
-  width: 20rem;
+  padding: .7rem 2.2rem;
+  width: 18rem;
   border: none;
   color: #fff;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   font-weight: 700;
   border-radius: 50px;
   background: #ff6514;

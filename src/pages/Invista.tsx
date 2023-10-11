@@ -76,7 +76,7 @@ const Invista = () => {
                         </S.BoxReferencias>
                     </S.ContainerTopicos>
                     <div style={{display: 'flex', flexDirection: 'column', gap:'.9rem', padding: '8%'}}>
-                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.7rem'}}><span style={{fontWeight: '700',color: '#ff6514'}}>Como funciona</span> o investimento?</S.SpanTitulo>
+                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.7rem', textAlign: 'center'}}><span style={{fontWeight: '700',color: '#ff6514'}}>Como funciona</span> o investimento?</S.SpanTitulo>
                         <S.SpanTextos style={{textAlign: 'center'}}>Você poderá investir pela plataforma Trê-MOVA, na modalidade peer-to-peer ou empréstimo direto coletivo na qual diversos investidores
                             podem reunir esforços, em forma de capital para financiar de forma direta os empréstimos solicitados por empresas.
                         </S.SpanTextos>
@@ -143,7 +143,7 @@ const Invista = () => {
                         </div>
                     </S.ContainerTopicos2>
                     <div style={{display: 'flex', flexDirection: 'column', gap:'1.8rem', alignItems: 'center', padding: '8%'}}>
-                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.6rem'}}>Seja protagonista da próxima economia!</S.SpanTitulo>
+                        <S.SpanTitulo style={{fontWeight: '700', fontSize: '2.6rem', textAlign: 'center'}}>Seja protagonista da próxima economia!</S.SpanTitulo>
                         <S.SpanTextos style={{textAlign: 'center'}}>Você pode fazer parte do programa Zunne, direcionando recursos para negócios de impacto nas regiões
                         Norte e Nordeste do Brasil. Invista nessa causa e venha polinizar impacto com a gente!
                         </S.SpanTextos>

@@ -67,7 +67,7 @@ const Home = () => {
                     <S.ContainerTriplo>
                         <div style={{display: 'flex',flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Problema</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'justify'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de progresso humano.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center'}}>A desigualdade social afeta grande parte da população brasileira, mas o Norte e o Nordeste são as regiões que apresentam os piores índices de progresso humano.</S.SpanTextos>
                         </div>
                         <div style={
                             {display: 'flex',justifyContent: 'center',alignItems: 'center',width: '100%',height: '100%'}}>
@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'start', alignItems: 'center'}}>
                             <S.SpanTituloLaranja>O Contexto</S.SpanTituloLaranja>
-                            <S.SpanTextos style={{textAlign: 'justify'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
+                            <S.SpanTextos style={{textAlign: 'center'}}>Segundo a Pipe Social, apenas 21% dos negócios de impacto estão na região Nordeste e Norte, e grande parte dos fundos de impact investing estão sediados na região Sudeste do país.</S.SpanTextos>
                         </div>
                     </S.ContainerTriplo>
                     <S.ContainerTriplo2>

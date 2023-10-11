@@ -47,7 +47,6 @@ export const ContainerInicio = styled.div`
   @media screen and (max-width: 1050px) {
     grid-template-columns: 1fr;
     place-items: center;  
-  text-align: justify; 
     padding: 15% 8%;
   }
 `;
@@ -105,7 +104,7 @@ export const ContainerTopicos2 = styled.div`
 `;
 
 export const Etapa = styled.img`
-  width: 6rem;
+  width: 7rem;
   
   @media screen and (max-width: 1050px) {
     width: 5rem;
@@ -257,16 +256,12 @@ export const BoxReferencias = styled.div`
   @media screen and (max-width: 1250px) {
     width: 35%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
-    text-align: justify !important;
-    word-break: break-all;
      
     font-size: 1.1rem;
   }
   @media screen and (max-width: 1050px) {
     width: 45%;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);    
-    text-align: justify !important;
-     word-break: normal;
     font-size: 1rem;
   }
   @media screen and (max-width: 750px) {
@@ -328,12 +323,11 @@ export const SpanTitulo = styled.span`
   color: #606060;
   font-weight: 700;
   font-size: 2.5rem;
-  text-align: start !important;
+  text-align: start;
 
   
   @media screen and (max-width: 580px) {
     font-size: 1.3rem !important;
-    word-spacing: 0rem;
     width: 100%;
   }
 `;
@@ -374,6 +368,11 @@ export const SpanDepoimento = styled.span`
   
   @media screen and (max-width: 580px) {
     font-size: .45rem;
+    left: 5%;
+    top: 31%;
+  }
+  @media screen and (max-width: 510px) {
+    font-size: .41rem;
     left: 5%;
     top: 31%;
   }
@@ -430,6 +429,14 @@ export const SpanNomeDepoimento = styled.span`
     top: 90%;
   }
   
+  @media screen and (max-width: 950px) {
+    left: 37%;
+  }
+
+  @media screen and (max-width: 750px) {
+    left: 36%;
+  }
+
   @media screen and (max-width: 580px) {
     font-size: .39rem;
     left: 28%;
@@ -617,7 +624,7 @@ export const SpanTextos = styled.span`
   color: #57575a;
   font-weight: 500;
   font-size: 1.7rem;
-  text-align: justify !important;
+  text-align: center !important;
    
 
   @media screen and (max-width: 580px) {
@@ -645,8 +652,9 @@ export const SpanTextos2 = styled.span`
 export const SpanTextos3 = styled.span`
   color: #57575a;
   font-weight: 500;
-  font-size: .8rem;
+  font-size: .7rem;
   text-align: center !important;
+  height: 3rem;
 
   @media screen and (max-width: 1050px) {
     font-size: .6rem;   

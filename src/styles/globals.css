@@ -3,8 +3,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  -webkit-hyphens: auto;
+  /* -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto; */
 }
