@@ -9,15 +9,23 @@ export const HeaderContainer = styled.header`
   text-align: center;
   position: relative;
   padding: 5%;
-  margin-top: -45rem;
+  margin-top: -5rem;
   gap: 2rem;
+  height: 35rem;
+  overflow: hidden;
 
   @media screen and (max-width: 1050px) {
-    margin-top: -30rem;
+    margin-top: 0rem;
+    height: 45rem;
+  }
+  @media screen and (max-width: 650px) {
+    margin-top: 0rem;
+    height: 55rem;
   }
   @media screen and (max-width: 550px) {
     position: absolute;
-    margin-top: -20rem;
+    margin-top: 0rem;
+    height: 65rem;
   }
   `;
 
@@ -41,8 +49,8 @@ export const BolaLaranja = styled.div`
 `;
 
 export const SpanZunne = styled.span`
-  width: 80%;
-  font-size: .8rem;
+  width: 75%;
+  font-size: .6rem;
   color: #fff;
   text-align: justify;
 
@@ -56,9 +64,9 @@ export const SpanZunne = styled.span`
 
 export const Titulo = styled.span`
   width: 80%;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
-  line-height: 4rem;
+  line-height: 2rem;
   @media screen and (max-width: 1050px) {
 
   }
@@ -70,7 +78,7 @@ export const Titulo = styled.span`
 
 export const Span55 = styled.span`
   width: 80%;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
   line-height: 4rem;
   @media screen and (max-width: 1050px) {

@@ -8,24 +8,24 @@ export const HeaderContainer = styled.header`
   align-items: center;
   text-align: center;
   padding: 5%;
-  margin-top: -45rem;
+  position: absolute;
   gap: 2rem;
 
   @media screen and (max-width: 1250px) {
-    margin-top: -32rem;
+    margin-top: -2rem;
   }
   @media screen and (max-width: 850px) {
-    margin-top: -30rem;
+    margin-top: 0rem;
   }
   @media screen and (max-width: 550px) {
     position: absolute;
-    margin-top: -20rem;
+    margin-top: -2rem;
   }
   `;
 
 export const SpanZunne = styled.span`
-  width: 100%;
-  font-size: .8rem;
+  width: 90%;
+  font-size: .6rem;
   color: #C4C4C4;
   text-align: justify;
 
@@ -39,9 +39,9 @@ export const SpanZunne = styled.span`
 
 export const Titulo = styled.span`
   width: 80%;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #606060;
-  line-height: 4rem;
+  line-height: 2rem;
   @media screen and (max-width: 850px) {
 
   }

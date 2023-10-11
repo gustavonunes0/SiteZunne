@@ -8,12 +8,18 @@ export const Footer = styled.footer`
   justify-content: center;
   place-items: center;
   background-color: #fff;
+  margin-top: -40rem;
+
+  @media screen and (max-width: 1050px) {
+    margin-top: -25rem;
+  }
   @media screen and (max-width: 850px) {
     height: auto;
     padding: 0 0 10rem 0;
+
   }
   @media screen and (max-width: 550px) {
-    padding: 80rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
   }
 `;
 

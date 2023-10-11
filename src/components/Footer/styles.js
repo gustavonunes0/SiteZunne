@@ -4,6 +4,7 @@ export const Footer = styled.footer`
   width: 100%;
   display: grid;
   height: 29rem;
+  margin-top: -25rem;
   grid-template-columns: 100%;
   justify-content: center;
   place-items: center;
@@ -13,7 +14,7 @@ export const Footer = styled.footer`
     padding: 0 0 10rem 0;
   }
   @media screen and (max-width: 550px) {
-    padding: 65rem 0 10rem 0;
+    padding: 5rem 0 10rem 0;
   }
 `;
 

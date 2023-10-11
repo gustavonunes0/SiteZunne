@@ -329,7 +329,7 @@ const Home = () => {
                         <S.AsaLaranja src='/AsaLaranja.svg'/>
                         <S.SpanTituloPrograma style={{position: 'absolute', color: '#fff', top: '15%'}}>Quer investir no programa?<br/>Clique aqui e entenda como!</S.SpanTituloPrograma>         
                         <S.BotaoInvestir2Programa>
-                                <a href='/Investir' style={{textDecoration: 'none', color:'#ff6514'}}>
+                                <a href='/Invista' style={{textDecoration: 'none', color:'#ff6514'}}>
                                     Quero investir!
                                 </a>
                         </S.BotaoInvestir2Programa>                        
@@ -371,8 +371,8 @@ const Home = () => {
                     </S.DivAsa>
                 </S.ContainerPrincipal>
             </S.Main>
-            <Zunne/>
             <Footer/>
+            <Zunne/>
         </>
     );
 }

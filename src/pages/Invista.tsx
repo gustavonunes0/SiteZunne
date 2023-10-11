@@ -157,9 +157,8 @@ const Invista = () => {
                     </div>
                 </S.ContainerPrincipal>
             </S.Main>
-            <Zunne2/>
             <Footer2/>
-            <div style={{width: '100%' , backgroundColor: '#fff', height: '13rem'}}></div>
+            <Zunne2/>
         </>
     );
 }
