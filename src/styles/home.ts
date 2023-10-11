@@ -341,7 +341,7 @@ export const AsaLaranja = styled.img`
 export const SpanTitulo = styled.span`
   color: #606060;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   text-align: center;
 
    
@@ -351,7 +351,7 @@ export const SpanTitulo = styled.span`
   }
   
   @media screen and (max-width: 580px) {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 100% !important;
   }
 `;
@@ -644,7 +644,6 @@ export const SpanPrimeiroTexto = styled.span`
   font-weight: 500;
   font-size: 1.15rem;
   text-align: center;
-  hyphens: auto; 
   width: 70%;
   margin-top: 2.5rem;
   
